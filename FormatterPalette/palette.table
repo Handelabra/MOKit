@@ -1,0 +1,49 @@
+// palette.table
+// MOKit
+// MOFormatterPalette
+//
+// Copyright © 1996-2005, Mike Ferris.  All rights reserved.
+// See bottom of file for license and disclaimer.
+
+{
+    /* a subclass of IBPalette */
+    Class = MOFormatterPalette;
+    
+    /* a nib file name */
+    NibFile = MOFormatterPalette;
+    
+    /* an image file name */
+    Icon = MOFormatterPalette;
+    
+    /* a list of class names */
+    /* These classes are defined in the MOFormatterPalette.nib in the normal way (ie by dragging their header files into the nib window).  This key tells the palette export these classes so that they will show up as system-defined classes in all new nib files when the palette is present.  What this means is that developers will not have to drag MOExtendedOutlineView.h or MOViewController.h, etc... into their nib files, it will just be there by default.  */
+    ExportClasses = (
+        MOExtendedOutlineView, 
+        MOExtentedTableView, 
+        MOExtendedMenu, 
+        MOExtendedMenuItem, 
+        MORESyntaxFormatter,
+        MORegexFormatter, 
+        MORegularExpression, 
+        MOTabView, 
+        MOViewListView, 
+        MOViewListLabelView, 
+        MOViewListViewItem, 
+        MOViewController, 
+        MOSplitViewController, 
+        MOTabViewController, 
+        MOViewListViewController, 
+    );
+    
+    /* (a list of icon names) */
+    /* ExportImages = (); */
+    
+    /* (a list of sound names) */
+    /* ExportSounds = (); */
+}
+
+/*
+ This file contains Original Code and/or Modifications of Original Code as defined in and that are subject to the Ferris Public Source License Version 1.2 (the 'License'). You may not use this file except in compliance with the License. Please obtain a copy of the License at http://mokit.sourceforge.net/License.html and read it before using this file.
+
+ The Original Code and all software distributed under the License are distributed on an 'AS IS' basis, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, AND MIKE FERRIS HEREBY DISCLAIMS ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT OR NON-INFRINGEMENT. Please see the License for the specific language governing rights and limitations under the License.
+ */
