@@ -1,0 +1,109 @@
+
+RootController
+    NSView(root) - fkv, lkv
+        ControlbarController
+            NSView(control)
+                NSButton1 - fkv
+                NSButton2
+                NSButton3
+                NSButton4 - lkv
+        SplitviewController
+            NSSplitView - fkv, lkv
+                CanvasController
+                    Canvas view - fkv, lkv
+                TabviewController
+                    NSTabView - fkv, lkv
+                        Form1Controller
+                            NSView(form1)
+                                NSTextField1 - fkv
+                                NSTextField2
+                                NSTextField3 - lkv
+                        Form2Controller
+                            NSView(form2)
+                                NSTableView - fkv
+                                NSTextField4
+                                NSMatrix - lkv
+
+
+- hierarchy created
+
+- CanvasController installed
+    insert CanvasController key loop after SplitviewController key loop
+        lastKeyView of SplitviewController is NSSplitView
+        nextKeyView of lastKeyView is nil (implicit NSSplitView)
+        firstKeyView of CanvasController is Canvas view
+        previousKeyView of firstKeyView is nil (implicit Canvas view)
+        [lastKeyView setNextKeyView:firstKeyView]
+        [(previousKeyView of firstKeyView) setNextKeyView:(nextKeyView of lastKeyView)]
+        
+        NSSplitView->Canvas view->NSSplitView
+
+- splitView installed
+    insert SplitviewController key loop after RootController key loop
+        lastKeyView of RootController is NSView(root)
+        nextKeyView of lastKeyView is nil (implicit NSView(root))
+        firstKeyView of SplitviewController is NSSplitView
+        previousKeyView of firstKeyView is Canvas view
+        [lastKeyView setNextKeyView:firstKeyView]
+        [(previousKeyView of firstKeyView) setNextKeyView:(nextKeyView of lastKeyView)]
+
+        NSView(root)->NSSplitView->Canvas view->NSView(root)
+        
+- controlbar installed
+    insert ControlbarController key loop after RootController key loop
+        lastKeyView of RootController is NSView(root)
+        nextKeyView of lastKeyView is NSSplitView
+        firstKeyView of ControlbarController is NSButton1
+        previousKeyView of firstKeyView is NSButton4
+        [lastKeyView setNextKeyView:firstKeyView]
+        [(previousKeyView of firstKeyView) setNextKeyView:(nextKeyView of lastKeyView)]
+
+        NSView(root)->NSButton1->NSButton2->NSButton3->NSButton4->NSSplitView->Canvas view->NSView(root)
+
+- tabview installed
+    insert TabviewController key loop after CanvasController key loop
+        lastKeyView of CanvasController is Canvas view
+        nextKeyView of lastKeyView is NSView(root)
+        firstKeyView of TabviewController is NSTabView
+        previousKeyView of firstKeyView is NSTabView
+        [lastKeyView setNextKeyView:firstKeyView]
+        [(previousKeyView of firstKeyView) setNextKeyView:(nextKeyView of lastKeyView)]
+
+        NSView(root)->NSButton1->NSButton2->NSButton3->NSButton4->NSSplitView->Canvas view->NSTabView->NSView(root)
+
+- Form1Controller installed
+    insert Form1Controller key loop after TabviewController key loop
+        lastKeyView of TabviewController is NSTabView
+        nextKeyView of lastKeyView is NSView(root)
+        firstKeyView of Form1Controller is NSTextField1
+        previousKeyView of firstKeyView is NSTextField3
+        [lastKeyView setNextKeyView:firstKeyView]
+        [(previousKeyView of firstKeyView) setNextKeyView:(nextKeyView of lastKeyView)]
+
+        NSView(root)->NSButton1->NSButton2->NSButton3->NSButton4->NSSplitView->Canvas view->NSTabView->NSTextField1->NSTextField2->NSTextField3->NSView(root)
+
+
+- Form1Controller uninstalled
+    remove Form1Controller key loop
+        firstKeyView of Form1Controller is NSTextField1
+        previousKeyView of firstKeyView is NSTabView
+        lastKeyView of Form1Controller is NSTextField3
+        nextKeyView of lastKeyView is NSView(root)
+        [(previousKeyView of firstKeyView) setNextKeyView:(nextKeyView of lastKeyView)]
+        [lastKeyView setNextKeyView:firstKeyView]
+
+        NSView(root)->NSButton1->NSButton2->NSButton3->NSButton4->NSSplitView->Canvas view->NSTabView->NSView(root)
+
+- Form2Controller installed
+    insert Form2Controller key loop after TabviewController key loop
+        lastKeyView of TabviewController is NSTabView
+        nextKeyView of lastKeyView is NSView(root)
+        firstKeyView of Form2Controller is NSTableView
+        previousKeyView of firstKeyView is NSMatrix
+        [lastKeyView setNextKeyView:firstKeyView]
+        [(previousKeyView of firstKeyView) setNextKeyView:(nextKeyView of lastKeyView)]
+
+        NSView(root)->NSButton1->NSButton2->NSButton3->NSButton4->NSSplitView->Canvas view->NSTabView->NSTableView->NSTextField4->NSMatrix->NSView(root)
+
+
+
