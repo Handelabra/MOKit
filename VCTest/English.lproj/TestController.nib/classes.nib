@@ -1,0 +1,32 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MODisclosableStackView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {copy = id; createNewItem = id; cut = id; delete = id; paste = id; }; 
+            CLASS = MOExtendedOutlineView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSOutlineView; 
+        }, 
+        {
+            ACTIONS = {copy = id; createNewRow = id; cut = id; delete = id; paste = id; }; 
+            CLASS = MOExtendedTableView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTableView; 
+        }, 
+        {
+            CLASS = MOViewController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {contentView = NSView; firstKeyView = NSView; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {
+            CLASS = TestController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {form = NSForm; }; 
+            SUPERCLASS = MOViewController; 
+        }
+    ); 
+    IBVersion = 1; 
+}
