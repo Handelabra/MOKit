@@ -1,0 +1,40 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MODisclosableStackView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {copy = id; createNewItem = id; cut = id; delete = id; paste = id; }; 
+            CLASS = MOExtendedOutlineView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSOutlineView; 
+        }, 
+        {
+            ACTIONS = {copy = id; createNewRow = id; cut = id; delete = id; paste = id; }; 
+            CLASS = MOExtendedTableView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTableView; 
+        }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {
+            ACTIONS = {
+                draggingCheckboxAction = id; 
+                endEditingCheckboxAction = id; 
+                fontPopupAction = id; 
+                minRowHeightTextFieldAction = id; 
+            }; 
+            CLASS = TestController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                contextMenu = NSMenu; 
+                draggingCheckbox = NSButton; 
+                endEditingCheckbox = NSButton; 
+                fontPopup = NSPopUpButton; 
+                minRowHeightTextField = NSTextField; 
+                outlineView = MOExtendedOutlineView; 
+                tableView = MOExtendedTableView; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}
