@@ -1,0 +1,55 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MOExtendedMenu; LANGUAGE = ObjC; SUPERCLASS = NSMenu; }, 
+        {CLASS = MOExtendedMenuItem; LANGUAGE = ObjC; SUPERCLASS = NSMenuItem; }, 
+        {
+            ACTIONS = {copy = id; createNewItem = id; cut = id; delete = id; paste = id; }; 
+            CLASS = MOExtendedOutlineView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSOutlineView; 
+        }, 
+        {
+            ACTIONS = {copy = id; createNewRow = id; cut = id; delete = id; paste = id; }; 
+            CLASS = MOExtendedTableView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTableView; 
+        }, 
+        {
+            CLASS = MOFormatterPalette; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {imageView = id; }; 
+            SUPERCLASS = IBPalette; 
+        }, 
+        {CLASS = MORESyntaxFormatter; LANGUAGE = ObjC; SUPERCLASS = NSFormatter; }, 
+        {CLASS = MORegexFormatter; LANGUAGE = ObjC; SUPERCLASS = NSFormatter; }, 
+        {CLASS = MORegularExpression; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = MOSplitViewController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = MOViewController; 
+        }, 
+        {CLASS = MOTabView; LANGUAGE = ObjC; SUPERCLASS = NSTabView; }, 
+        {CLASS = MOTabViewController; LANGUAGE = ObjC; SUPERCLASS = MOViewController; }, 
+        {
+            CLASS = MOViewController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {contentView = NSView; firstKeyView = NSView; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = MOViewListLabelView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            CLASS = MOViewListView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {delegate = id; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {
+            CLASS = MOViewListViewController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = MOViewController; 
+        }, 
+        {CLASS = MOViewListViewItem; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}
