@@ -1,0 +1,3811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		014C9C5AFF2A198DC02AAC07 = {
+			explicitFileType = "compiled.mach-o.executable";
+			isa = PBXFileReference;
+			path = RegexTest;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		014C9C5CFF2A198DC02AAC07 = {
+			explicitFileType = wrapper.framework;
+			isa = PBXFileReference;
+			path = MOKit.framework;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		014C9C5DFF2A198DC02AAC07 = {
+			fileRef = 014C9C5CFF2A198DC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		014C9C5EFF2A198DC02AAC07 = {
+			fileRef = 014C9C5CFF2A198DC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		014C9C5FFF2A198DC02AAC07 = {
+			fileRef = 014C9C5AFF2A198DC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		018D34C100388976C02AAC07 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.rtf;
+			path = ReleaseNotes.rtf;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//010
+//011
+//012
+//013
+//014
+//020
+//021
+//022
+//023
+//024
+		0237CCEAFF559947C02AAC07 = {
+			children = (
+				0237CCEBFF559947C02AAC07,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0237CCEBFF559947C02AAC07 = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
+			name = English;
+			path = English.lproj/InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0237CCECFF559947C02AAC07 = {
+			fileRef = 0237CCEAFF559947C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0237CCEDFF559A80C02AAC07 = {
+			children = (
+				0237CCEEFF559A80C02AAC07,
+				B1579B1D051291A6003D99BE,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0237CCEEFF559A80C02AAC07 = {
+			children = (
+				0237CCEFFF559A80C02AAC07,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0237CCEFFF559A80C02AAC07 = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
+			name = English;
+			path = English.lproj/InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0237CCF0FF559A80C02AAC07 = {
+			fileRef = 0237CCEEFF559A80C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0237CCF8FF559DCAC02AAC07 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreFoundation.framework;
+			path = /System/Library/Frameworks/CoreFoundation.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+//020
+//021
+//022
+//023
+//024
+//060
+//061
+//062
+//063
+//064
+		062AED46FFF2E76111CA2CE8 = {
+			explicitFileType = wrapper.cfbundle;
+			isa = PBXFileReference;
+			path = MOFormatterPalette.palette;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		062AED47FFF2E76111CA2CE8 = {
+			fileRef = 062AED46FFF2E76111CA2CE8;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		062AED48FFF2E76111CA2CE8 = {
+			buildSettings = {
+				BUILD_VARIANTS = normal;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GENERATE_HEADERDOC = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS_normal_ASSERT_FLAGS = "";
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		062AED49FFF2E76111CA2CE8 = {
+			buildSettings = {
+				BINARY_DISTRIBUTION_ROOT = "/tmp/$(DISTRIBUTION_NAME)";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DISTRIBUTION_NAME = MOKit_2.8;
+				DSTROOT = "$(BINARY_DISTRIBUTION_ROOT)";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				SOURCE_DISTRIBUTION_ROOT = "/tmp/$(DISTRIBUTION_NAME)_Source";
+				SYMROOT = /tmp/MOKit.sym;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//060
+//061
+//062
+//063
+//064
+//0C0
+//0C1
+//0C2
+//0C3
+//0C4
+		0C7A9F46FEF17203C02AAC07 = {
+			buildSettings = {
+			};
+			buildStyles = (
+				062AED48FFF2E76111CA2CE8,
+				27B43A4C038A22DE0000F544,
+				062AED49FFF2E76111CA2CE8,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 0C7A9F47FEF17203C02AAC07;
+			productRefGroup = 0C7A9F92FEF17203C02AAC07;
+			projectDirPath = "";
+			targets = (
+				0C7A9F9EFEF17203C02AAC07,
+				0C7A9FA0FEF17203C02AAC07,
+				0C7A9FC0FEF17203C02AAC07,
+				0C7A9FD6FEF17203C02AAC07,
+				274B9C31037D2E1D00D60C3E,
+				27A4C9B80384F5A3005D0CAC,
+				27FAA677038253A3004E7C91,
+				27D8BCC1039C4C5C007BF0EA,
+				272B724C03DB570C00F04E48,
+				2791719803AC0F0B002AAC07,
+			);
+		};
+		0C7A9F47FEF17203C02AAC07 = {
+			children = (
+				0C7A9F49FEF17203C02AAC07,
+				0C7A9F6FFEF17203C02AAC07,
+				0C7A9F88FEF17203C02AAC07,
+				274B9C2B037D2AF600D60C3E,
+				27A4C9B20384F54F005D0CAC,
+				27FAA66C038252E4004E7C91,
+				27D8BCB9039C4BF0007BF0EA,
+				272B723703DB551C00F04E48,
+				27700FAC038BD1E400B54A31,
+				2799D870039686F600DFA016,
+				27F9A86E039EBF4D004E36D4,
+				0C7A9F9AFEF17203C02AAC07,
+				0C7A9F92FEF17203C02AAC07,
+			);
+			isa = PBXGroup;
+			name = MOKit_2;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F49FEF17203C02AAC07 = {
+			children = (
+				0C7A9F54FEF17203C02AAC07,
+				27B5FD4A036D1CEB002849E7,
+				0C7A9F53FEF17203C02AAC07,
+				27678706041BC22900E49ED7,
+				2799D866039684A200DFA016,
+				2799D867039684C500DFA016,
+				27678704041BC1FC00E49ED7,
+				27678705041BC20E00E49ED7,
+				0237CCEDFF559A80C02AAC07,
+				0C7A9F63FEF17203C02AAC07,
+			);
+			isa = PBXGroup;
+			path = MOKit;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F4BFEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MORegexFormatter.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F4CFEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MORegularExpression.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F4DFEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MORESyntaxFormatter.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F4EFEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MOCompletionManager.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F4FFEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MOCompletionStrategy.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F50FEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MOFileCompletionStrategy.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F51FEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MOFoundationExtras.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F53FEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MOKitDefines.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F54FEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MOKit.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F55FEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MORegexFormatter.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F56FEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MORegularExpression.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F57FEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MORegularExpression_Private.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F58FEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MORESyntaxFormatter.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F59FEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MOCompletionManager.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F5AFEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MOCompletionStrategy.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F5BFEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MOFileCompletionStrategy.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F5CFEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MOFoundationExtras.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F5DFEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MORuntimeUtilities.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F60FEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MORegularExpression_Private.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F61FEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MORuntimeUtilities.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F63FEF17203C02AAC07 = {
+			children = (
+				0C7A9F65FEF17203C02AAC07,
+				0C7A9F6DFEF17203C02AAC07,
+				0C7A9F6EFEF17203C02AAC07,
+				018D34C100388976C02AAC07,
+				27B5FD38036D1766002849E7,
+			);
+			isa = PBXGroup;
+			name = "Readmes and Notes";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F65FEF17203C02AAC07 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.rtf;
+			path = README.rtf;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F6DFEF17203C02AAC07 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.rtf;
+			path = README_Installing.rtf;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F6EFEF17203C02AAC07 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.rtf;
+			path = FrameworkIssues.rtf;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F6FFEF17203C02AAC07 = {
+			children = (
+				0C7A9F75FEF17203C02AAC07,
+				0C7A9F71FEF17203C02AAC07,
+				0C7A9F76FEF17203C02AAC07,
+				0C7A9F72FEF17203C02AAC07,
+				0C7A9F77FEF17203C02AAC07,
+				0C7A9F73FEF17203C02AAC07,
+				0C7A9F78FEF17203C02AAC07,
+			);
+			isa = PBXGroup;
+			name = MOFormatterPalette;
+			path = FormatterPalette;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F71FEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MOFormatterPalette.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F72FEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MORegexFormatter_IBCategory.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F73FEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MORegexFormatterInspector.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F75FEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MOFormatterPalette.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F76FEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MORegexFormatter_IBCategory.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F77FEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MORegexFormatterInspector.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F78FEF17203C02AAC07 = {
+			children = (
+				0237CCEAFF559947C02AAC07,
+				0C7A9F79FEF17203C02AAC07,
+				0C7A9F7BFEF17203C02AAC07,
+				0C7A9F7EFEF17203C02AAC07,
+				0C7A9F7FFEF17203C02AAC07,
+				0C7A9F81FEF17203C02AAC07,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F79FEF17203C02AAC07 = {
+			children = (
+				0C7A9F7AFEF17203C02AAC07,
+			);
+			isa = PBXVariantGroup;
+			name = MOFormatterPalette.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F7AFEF17203C02AAC07 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			name = English;
+			path = English.lproj/MOFormatterPalette.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F7BFEF17203C02AAC07 = {
+			children = (
+				0C7A9F7CFEF17203C02AAC07,
+			);
+			isa = PBXVariantGroup;
+			name = MORegexFormatterInspector.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F7CFEF17203C02AAC07 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			name = English;
+			path = English.lproj/MORegexFormatterInspector.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F7EFEF17203C02AAC07 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.tiff;
+			path = MOFormatterPalette.tiff;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F7FFEF17203C02AAC07 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.tiff;
+			path = MORegexFormatter.tiff;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F81FEF17203C02AAC07 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = palette.table;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F88FEF17203C02AAC07 = {
+			children = (
+				0C7A9F8AFEF17203C02AAC07,
+				0C7A9F91FEF17203C02AAC07,
+			);
+			isa = PBXGroup;
+			path = RegexTest;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F8AFEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = RegexTest_main.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F91FEF17203C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist;
+			path = RegexTestData.plist;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F92FEF17203C02AAC07 = {
+			children = (
+				014C9C5CFF2A198DC02AAC07,
+				062AED46FFF2E76111CA2CE8,
+				014C9C5AFF2A198DC02AAC07,
+				274B9C32037D2E1D00D60C3E,
+				27A4C9B90384F5A3005D0CAC,
+				27FAA678038253A3004E7C91,
+				27D8BCCF039C4C5C007BF0EA,
+				272B724D03DB570C00F04E48,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F9AFEF17203C02AAC07 = {
+			children = (
+				272B725A03DB583D00F04E48,
+				0237CCF8FF559DCAC02AAC07,
+				0C7A9F9BFEF17203C02AAC07,
+				0C7A9F9CFEF17203C02AAC07,
+				0C7A9F9DFEF17203C02AAC07,
+			);
+			isa = PBXGroup;
+			name = "Frameworks and Libraries";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0C7A9F9BFEF17203C02AAC07 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Foundation.framework;
+			path = /System/Library/Frameworks/Foundation.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		0C7A9F9CFEF17203C02AAC07 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = AppKit.framework;
+			path = /System/Library/Frameworks/AppKit.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		0C7A9F9DFEF17203C02AAC07 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = InterfaceBuilder.framework;
+			path = /System/Library/Frameworks/InterfaceBuilder.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		0C7A9F9EFEF17203C02AAC07 = {
+			buildPhases = (
+				0C7A9FDEFEF17203C02AAC07,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "\"$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Libraries/CIncludes\"";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MOKit_2;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+			};
+			dependencies = (
+				0C7A9F9FFEF17203C02AAC07,
+				0C7A9FBFFEF17203C02AAC07,
+				0C7A9FD5FEF17203C02AAC07,
+				275695CB038114E700A65898,
+				27A4C9BC0384F5AC005D0CAC,
+				27FAA67B038253B0004E7C91,
+				27D8BCD1039C4C77007BF0EA,
+				272B725003DB571B00F04E48,
+			);
+			isa = PBXAggregateTarget;
+			name = "MOKit_2 All";
+			productName = MOKit_2;
+		};
+		0C7A9F9FFEF17203C02AAC07 = {
+			isa = PBXTargetDependency;
+			target = 0C7A9FA0FEF17203C02AAC07;
+			targetProxy = 1C5E1743051A3813009B1EB1;
+		};
+		0C7A9FA0FEF17203C02AAC07 = {
+			buildPhases = (
+				0C7A9FA1FEF17203C02AAC07,
+				0C7A9FAEFEF17203C02AAC07,
+				0C7A9FB0FEF17203C02AAC07,
+				0C7A9FBBFEF17203C02AAC07,
+				270D2ED6037FF1B100F9D40E,
+				275695CE0381168F00A65898,
+				0C7A9FE6FEF17C88C02AAC07,
+			);
+			buildSettings = {
+				BUILD_VARIANTS = "normal profile debug";
+				CURRENT_PROJECT_VERSION = 203;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 203;
+				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_VERSION = A;
+				GENERATE_HEADERDOC = YES;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(MOKIT_FRAMEWORK_INSTALL_PATH)";
+				LIBRARY_SEARCH_PATHS = "";
+				MOKIT_FRAMEWORK_INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				OTHER_CFLAGS = "$(OTHER_CFLAGS_common) $(OTHER_CFLAGS_normal_ASSERT_FLAGS)";
+				OTHER_CFLAGS_common = "";
+				OTHER_CFLAGS_debug = "$(OTHER_CFLAGS_common) -DMO_DEBUG -UMO_BLOCK_ASSERTS";
+				OTHER_CFLAGS_normal_ASSERT_FLAGS = "";
+				OTHER_CFLAGS_profile = "$(OTHER_CFLAGS_common) -pg";
+				OTHER_LDFLAGS = "-headerpad_max_install_names";
+				PFE_FILE_C_DIALECTS = "objective-c c";
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = MOKit/MOKitPrefix.h;
+				PRODUCT_NAME = MOKit;
+				SECTORDER_FLAGS = "";
+				USE_GCC3_PFE_SUPPORT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = MO;
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = framework;
+			};
+			dependencies = (
+			);
+			isa = PBXFrameworkTarget;
+			name = MOKit;
+			productInstallPath = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+			productName = MOKit;
+			productReference = 014C9C5CFF2A198DC02AAC07;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>MOKit</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.lorax.MOKit.MOKit</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>FMWK</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.8</string>
+	<key>CFBundleSignature</key>
+	<string>M0kt</string>
+	<key>CFBundleVersion</key>
+	<string>203</string>
+</dict>
+</plist>
+";
+		};
+		0C7A9FA1FEF17203C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				B1B844EC063EBB2200D206DA,
+				274B9C09037D1AD000D60C3E,
+				0C7A9FA8FEF17203C02AAC07,
+				0C7A9FA9FEF17203C02AAC07,
+				27B8F7680396891B00EB9EF2,
+				27B8F7640396890B00EB9EF2,
+				0C7A9FAAFEF17203C02AAC07,
+				0C7A9FABFEF17203C02AAC07,
+				0C7A9FA3FEF17203C02AAC07,
+				0C7A9FA2FEF17203C02AAC07,
+				27B5FD4B036D1CEB002849E7,
+				0C7A9FA7FEF17203C02AAC07,
+				0C7A9FA4FEF17203C02AAC07,
+				1CB15E980034EC82C02AAC07,
+				0C7A9FA5FEF17203C02AAC07,
+				0C7A9FA6FEF17203C02AAC07,
+				0C7A9FACFEF17203C02AAC07,
+				274B9BA7037D12DE00D60C3E,
+				2791778F03A528F80079D182,
+				27B43A51038A30E40000F544,
+				1CB15E960034EC82C02AAC07,
+				1CB15E970034EC82C02AAC07,
+				2791779203A52A6B0079D182,
+				272B723303DB54BA00F04E48,
+				272B723503DB54BA00F04E48,
+				272AC783041989A100164AC5,
+				272AC78F041995F800164AC5,
+				272AC796041A658D00164AC5,
+				27678711041BC2B100E49ED7,
+				2728DC610449DCD9002AAC07,
+				2728DC650449DCE2002AAC07,
+				B157731D04472E2E00FEE151,
+				B1EF9BA70468580B00FED98A,
+				1C74509C052395A600C67446,
+				B1BB899F060B983A00F403BA,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7A9FA2FEF17203C02AAC07 = {
+			fileRef = 0C7A9F53FEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		0C7A9FA3FEF17203C02AAC07 = {
+			fileRef = 0C7A9F54FEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		0C7A9FA4FEF17203C02AAC07 = {
+			fileRef = 0C7A9F55FEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		0C7A9FA5FEF17203C02AAC07 = {
+			fileRef = 0C7A9F56FEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		0C7A9FA6FEF17203C02AAC07 = {
+			fileRef = 0C7A9F57FEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0C7A9FA7FEF17203C02AAC07 = {
+			fileRef = 0C7A9F58FEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		0C7A9FA8FEF17203C02AAC07 = {
+			fileRef = 0C7A9F59FEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		0C7A9FA9FEF17203C02AAC07 = {
+			fileRef = 0C7A9F5AFEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		0C7A9FAAFEF17203C02AAC07 = {
+			fileRef = 0C7A9F5BFEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		0C7A9FABFEF17203C02AAC07 = {
+			fileRef = 0C7A9F5CFEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		0C7A9FACFEF17203C02AAC07 = {
+			fileRef = 0C7A9F5DFEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		0C7A9FAEFEF17203C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				0237CCF0FF559A80C02AAC07,
+				275695CC0381166400A65898,
+				275695CD0381167100A65898,
+				2791719703AC0E6A002AAC07,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7A9FB0FEF17203C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				274B9C0A037D1AD000D60C3E,
+				0C7A9FB4FEF17203C02AAC07,
+				0C7A9FB5FEF17203C02AAC07,
+				27B8F7690396891B00EB9EF2,
+				27B8F7650396890B00EB9EF2,
+				0C7A9FB6FEF17203C02AAC07,
+				0C7A9FB7FEF17203C02AAC07,
+				0C7A9FB3FEF17203C02AAC07,
+				0C7A9FB1FEF17203C02AAC07,
+				1CB15E9D0034EC82C02AAC07,
+				0C7A9FB2FEF17203C02AAC07,
+				0C7A9FB8FEF17203C02AAC07,
+				0C7A9FB9FEF17203C02AAC07,
+				274B9BA8037D12DE00D60C3E,
+				2791779003A528F80079D182,
+				27B43A52038A30E50000F544,
+				1CB15E9E0034F4DEC02AAC07,
+				1CB15E9A0034EC82C02AAC07,
+				1CB15E9B0034EC82C02AAC07,
+				1CB15E990034EC82C02AAC07,
+				272B723403DB54BA00F04E48,
+				272B723603DB54BA00F04E48,
+				272AC784041989A100164AC5,
+				272AC7910419961C00164AC5,
+				272AC797041A658D00164AC5,
+				27678712041BC2B100E49ED7,
+				2728DC620449DCD9002AAC07,
+				2728DC660449DCE2002AAC07,
+				B157731E04472E2E00FEE151,
+				B1EF9BA80468580B00FED98A,
+				1C74509D052395A600C67446,
+				B1BB89A0060B984000F403BA,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7A9FB1FEF17203C02AAC07 = {
+			fileRef = 0C7A9F4BFEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Optimize,
+				);
+			};
+		};
+		0C7A9FB2FEF17203C02AAC07 = {
+			fileRef = 0C7A9F4CFEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Optimize,
+				);
+			};
+		};
+		0C7A9FB3FEF17203C02AAC07 = {
+			fileRef = 0C7A9F4DFEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Optimize,
+				);
+			};
+		};
+		0C7A9FB4FEF17203C02AAC07 = {
+			fileRef = 0C7A9F4EFEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Optimize,
+				);
+			};
+		};
+		0C7A9FB5FEF17203C02AAC07 = {
+			fileRef = 0C7A9F4FFEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Optimize,
+				);
+			};
+		};
+		0C7A9FB6FEF17203C02AAC07 = {
+			fileRef = 0C7A9F50FEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Optimize,
+				);
+			};
+		};
+		0C7A9FB7FEF17203C02AAC07 = {
+			fileRef = 0C7A9F51FEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Optimize,
+				);
+			};
+		};
+		0C7A9FB8FEF17203C02AAC07 = {
+			fileRef = 0C7A9F60FEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Optimize,
+				);
+			};
+		};
+		0C7A9FB9FEF17203C02AAC07 = {
+			fileRef = 0C7A9F61FEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Optimize,
+				);
+			};
+		};
+		0C7A9FBBFEF17203C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				272B726C03DB584C00F04E48,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7A9FBFFEF17203C02AAC07 = {
+			isa = PBXTargetDependency;
+			target = 0C7A9FC0FEF17203C02AAC07;
+			targetProxy = 1C5E1742051A3813009B1EB1;
+		};
+		0C7A9FC0FEF17203C02AAC07 = {
+			buildPhases = (
+				0C7A9FC1FEF17203C02AAC07,
+				0C7A9FC5FEF17203C02AAC07,
+				0C7A9FCBFEF17203C02AAC07,
+				0C7A9FCFFEF17203C02AAC07,
+				0C7A9FE7FEF17E26C02AAC07,
+			);
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 203;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Palettes";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-headerpad_max_install_names";
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = MOKit/MOKitPrefix.h;
+				PRODUCT_NAME = MOFormatterPalette;
+				SECTORDER_FLAGS = "";
+				USE_GCC3_PFE_SUPPORT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = MO;
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = palette;
+			};
+			dependencies = (
+				0C7A9FECFEF17F8FC02AAC07,
+			);
+			isa = PBXBundleTarget;
+			name = MOFormatterPalette;
+			productInstallPath = "$(LOCAL_DEVELOPER_DIR)/Palettes";
+			productName = MOFormatterPalette;
+			productReference = 062AED46FFF2E76111CA2CE8;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>MOFormatterPalette</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.lorax.MOKit.MOFormatterPalette</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.8</string>
+	<key>CFBundleSignature</key>
+	<string>M0fp</string>
+	<key>CFBundleVersion</key>
+	<string>203</string>
+</dict>
+</plist>
+";
+		};
+		0C7A9FC1FEF17203C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				0C7A9FC2FEF17203C02AAC07,
+				0C7A9FC3FEF17203C02AAC07,
+				0C7A9FC4FEF17203C02AAC07,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7A9FC2FEF17203C02AAC07 = {
+			fileRef = 0C7A9F75FEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0C7A9FC3FEF17203C02AAC07 = {
+			fileRef = 0C7A9F76FEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0C7A9FC4FEF17203C02AAC07 = {
+			fileRef = 0C7A9F77FEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0C7A9FC5FEF17203C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				0C7A9FC6FEF17203C02AAC07,
+				0C7A9FC7FEF17203C02AAC07,
+				0C7A9FC8FEF17203C02AAC07,
+				0C7A9FC9FEF17203C02AAC07,
+				0C7A9FCAFEF17203C02AAC07,
+				0237CCECFF559947C02AAC07,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7A9FC6FEF17203C02AAC07 = {
+			fileRef = 0C7A9F79FEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0C7A9FC7FEF17203C02AAC07 = {
+			fileRef = 0C7A9F7BFEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0C7A9FC8FEF17203C02AAC07 = {
+			fileRef = 0C7A9F7EFEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0C7A9FC9FEF17203C02AAC07 = {
+			fileRef = 0C7A9F7FFEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0C7A9FCAFEF17203C02AAC07 = {
+			fileRef = 0C7A9F81FEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0C7A9FCBFEF17203C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				0C7A9FCCFEF17203C02AAC07,
+				0C7A9FCDFEF17203C02AAC07,
+				0C7A9FCEFEF17203C02AAC07,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7A9FCCFEF17203C02AAC07 = {
+			fileRef = 0C7A9F71FEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Optimize,
+				);
+			};
+		};
+		0C7A9FCDFEF17203C02AAC07 = {
+			fileRef = 0C7A9F72FEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Optimize,
+				);
+			};
+		};
+		0C7A9FCEFEF17203C02AAC07 = {
+			fileRef = 0C7A9F73FEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Optimize,
+				);
+			};
+		};
+		0C7A9FCFFEF17203C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				272B726D03DB586800F04E48,
+				0C7A9FD2FEF17203C02AAC07,
+				014C9C5DFF2A198DC02AAC07,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7A9FD2FEF17203C02AAC07 = {
+			fileRef = 0C7A9F9DFEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0C7A9FD5FEF17203C02AAC07 = {
+			isa = PBXTargetDependency;
+			target = 0C7A9FD6FEF17203C02AAC07;
+			targetProxy = 1C5E1756051A3813009B1EB1;
+		};
+		0C7A9FD6FEF17203C02AAC07 = {
+			buildPhases = (
+				0C7A9FD7FEF17203C02AAC07,
+				0C7A9FD8FEF17203C02AAC07,
+				0C7A9FDAFEF17203C02AAC07,
+				27B5FD4C036D1E81002849E7,
+				0C7A9FEAFEF17F44C02AAC07,
+			);
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 203;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-headerpad_max_install_names";
+				PREBINDING = NO;
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = MOKit/MOKitPrefix.h;
+				PRODUCT_NAME = RegexTest;
+				SECTORDER_FLAGS = "";
+				USE_GCC3_PFE_SUPPORT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = MO;
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+			};
+			dependencies = (
+				0C7A9FEDFEF17F8FC02AAC07,
+			);
+			isa = PBXToolTarget;
+			name = RegexTest;
+			productInstallPath = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+			productName = RegexTest;
+			productReference = 014C9C5AFF2A198DC02AAC07;
+		};
+		0C7A9FD7FEF17203C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7A9FD8FEF17203C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				0C7A9FD9FEF17203C02AAC07,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7A9FD9FEF17203C02AAC07 = {
+			fileRef = 0C7A9F8AFEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Optimize,
+				);
+			};
+		};
+		0C7A9FDAFEF17203C02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+				272B726E03DB587600F04E48,
+				014C9C5EFF2A198DC02AAC07,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7A9FDEFEF17203C02AAC07 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				014C9C5FFF2A198DC02AAC07,
+				062AED47FFF2E76111CA2CE8,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7A9FE6FEF17C88C02AAC07 = {
+			buildActionMask = 8;
+			files = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Auto-generate English strings files for MOKit framework\n\necho -n \"Generating strings file...\"\nmkdir -p \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.${WRAPPER_EXTENSION}/Versions/${FRAMEWORK_VERSION}/Resources/English.lproj\"\nPROJ_DIR=`pwd`\ncd \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.${WRAPPER_EXTENSION}/Versions/${FRAMEWORK_VERSION}/Resources/English.lproj\"\ngenstrings \"${PROJ_DIR}/MOKit\"/*.[hm]\necho \"Done.\"\n";
+		};
+		0C7A9FE7FEF17E26C02AAC07 = {
+			buildActionMask = 8;
+			files = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Auto-generate English strings files for MOFormatterPalette\n\necho -n \"Generating strings file...\"\nmkdir -p \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.${WRAPPER_EXTENSION}/Contents/Resources/English.lproj\"\nPROJ_DIR=`pwd`\ncd \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.${WRAPPER_EXTENSION}/Contents/Resources/English.lproj\"\ngenstrings \"${PROJ_DIR}/FormatterPalette\"/*.[hm]\necho \"Done.\"\n";
+		};
+		0C7A9FEAFEF17F44C02AAC07 = {
+			buildActionMask = 8;
+			dstPath = "$(INSTALL_PATH)";
+			dstSubfolderSpec = 0;
+			files = (
+				0C7A9FEBFEF17F44C02AAC07,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0C7A9FEBFEF17F44C02AAC07 = {
+			fileRef = 0C7A9F91FEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0C7A9FECFEF17F8FC02AAC07 = {
+			isa = PBXTargetDependency;
+			target = 0C7A9FA0FEF17203C02AAC07;
+			targetProxy = 1C5E1757051A3813009B1EB1;
+		};
+		0C7A9FEDFEF17F8FC02AAC07 = {
+			isa = PBXTargetDependency;
+			target = 0C7A9FA0FEF17203C02AAC07;
+			targetProxy = 1C5E1744051A3813009B1EB1;
+		};
+//0C0
+//0C1
+//0C2
+//0C3
+//0C4
+//1C0
+//1C1
+//1C2
+//1C3
+//1C4
+		1C5E1742051A3813009B1EB1 = {
+			containerPortal = 0C7A9F46FEF17203C02AAC07;
+			isa = PBXContainerItemProxy;
+			proxyType = 1;
+			remoteGlobalIDString = 0C7A9FC0FEF17203C02AAC07;
+			remoteInfo = MOFormatterPalette;
+		};
+		1C5E1743051A3813009B1EB1 = {
+			containerPortal = 0C7A9F46FEF17203C02AAC07;
+			isa = PBXContainerItemProxy;
+			proxyType = 1;
+			remoteGlobalIDString = 0C7A9FA0FEF17203C02AAC07;
+			remoteInfo = MOKit;
+		};
+		1C5E1744051A3813009B1EB1 = {
+			containerPortal = 0C7A9F46FEF17203C02AAC07;
+			isa = PBXContainerItemProxy;
+			proxyType = 1;
+			remoteGlobalIDString = 0C7A9FA0FEF17203C02AAC07;
+			remoteInfo = MOKit;
+		};
+		1C5E1746051A3813009B1EB1 = {
+			containerPortal = 0C7A9F46FEF17203C02AAC07;
+			isa = PBXContainerItemProxy;
+			proxyType = 1;
+			remoteGlobalIDString = 274B9C31037D2E1D00D60C3E;
+			remoteInfo = AssertTest;
+		};
+		1C5E1747051A3813009B1EB1 = {
+			containerPortal = 0C7A9F46FEF17203C02AAC07;
+			isa = PBXContainerItemProxy;
+			proxyType = 1;
+			remoteGlobalIDString = 0C7A9FA0FEF17203C02AAC07;
+			remoteInfo = MOKit;
+		};
+		1C5E1748051A3813009B1EB1 = {
+			containerPortal = 0C7A9F46FEF17203C02AAC07;
+			isa = PBXContainerItemProxy;
+			proxyType = 1;
+			remoteGlobalIDString = 0C7A9FA0FEF17203C02AAC07;
+			remoteInfo = MOKit;
+		};
+		1C5E174A051A3813009B1EB1 = {
+			containerPortal = 0C7A9F46FEF17203C02AAC07;
+			isa = PBXContainerItemProxy;
+			proxyType = 1;
+			remoteGlobalIDString = 0C7A9FA0FEF17203C02AAC07;
+			remoteInfo = MOKit;
+		};
+		1C5E174C051A3813009B1EB1 = {
+			containerPortal = 0C7A9F46FEF17203C02AAC07;
+			isa = PBXContainerItemProxy;
+			proxyType = 1;
+			remoteGlobalIDString = 0C7A9FA0FEF17203C02AAC07;
+			remoteInfo = MOKit;
+		};
+		1C5E174E051A3813009B1EB1 = {
+			containerPortal = 0C7A9F46FEF17203C02AAC07;
+			isa = PBXContainerItemProxy;
+			proxyType = 1;
+			remoteGlobalIDString = 27FAA677038253A3004E7C91;
+			remoteInfo = VLVTest;
+		};
+		1C5E174F051A3813009B1EB1 = {
+			containerPortal = 0C7A9F46FEF17203C02AAC07;
+			isa = PBXContainerItemProxy;
+			proxyType = 1;
+			remoteGlobalIDString = 0C7A9F9EFEF17203C02AAC07;
+			remoteInfo = "MOKit_2 All";
+		};
+		1C5E1750051A3813009B1EB1 = {
+			containerPortal = 0C7A9F46FEF17203C02AAC07;
+			isa = PBXContainerItemProxy;
+			proxyType = 1;
+			remoteGlobalIDString = 0C7A9FA0FEF17203C02AAC07;
+			remoteInfo = MOKit;
+		};
+		1C5E1753051A3813009B1EB1 = {
+			containerPortal = 0C7A9F46FEF17203C02AAC07;
+			isa = PBXContainerItemProxy;
+			proxyType = 1;
+			remoteGlobalIDString = 272B724C03DB570C00F04E48;
+			remoteInfo = VCTest;
+		};
+		1C5E1754051A3813009B1EB1 = {
+			containerPortal = 0C7A9F46FEF17203C02AAC07;
+			isa = PBXContainerItemProxy;
+			proxyType = 1;
+			remoteGlobalIDString = 27D8BCC1039C4C5C007BF0EA;
+			remoteInfo = TableOutlineTest;
+		};
+		1C5E1755051A3813009B1EB1 = {
+			containerPortal = 0C7A9F46FEF17203C02AAC07;
+			isa = PBXContainerItemProxy;
+			proxyType = 1;
+			remoteGlobalIDString = 27A4C9B80384F5A3005D0CAC;
+			remoteInfo = RuntimeTest;
+		};
+		1C5E1756051A3813009B1EB1 = {
+			containerPortal = 0C7A9F46FEF17203C02AAC07;
+			isa = PBXContainerItemProxy;
+			proxyType = 1;
+			remoteGlobalIDString = 0C7A9FD6FEF17203C02AAC07;
+			remoteInfo = RegexTest;
+		};
+		1C5E1757051A3813009B1EB1 = {
+			containerPortal = 0C7A9F46FEF17203C02AAC07;
+			isa = PBXContainerItemProxy;
+			proxyType = 1;
+			remoteGlobalIDString = 0C7A9FA0FEF17203C02AAC07;
+			remoteInfo = MOKit;
+		};
+		1C74509A052395A600C67446 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MOViewControllerView.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1C74509B052395A600C67446 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MOViewControllerView.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1C74509C052395A600C67446 = {
+			fileRef = 1C74509A052395A600C67446;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Private,
+				);
+			};
+		};
+		1C74509D052395A600C67446 = {
+			fileRef = 1C74509B052395A600C67446;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1CB15E840034DD68C02AAC07 = {
+			children = (
+				1CB15EA000374F04C02AAC07,
+				2E57CA7F00375BC0C02AAC07,
+				1CB15E940034E14CC02AAC07,
+				1CB15E950034E14CC02AAC07,
+				1CB15E850034DECFC02AAC07,
+				1CB15E8C0034DECFC02AAC07,
+				1CB15E930034DECFC02AAC07,
+				1CB15E8B0034DECFC02AAC07,
+				1CB15E860034DECFC02AAC07,
+				1CB15E870034DECFC02AAC07,
+				1CB15E880034DECFC02AAC07,
+				1CB15E890034DECFC02AAC07,
+				1CB15E8A0034DECFC02AAC07,
+				1CB15E900034DECFC02AAC07,
+				1CB15E8D0034DECFC02AAC07,
+				1CB15E8F0034DECFC02AAC07,
+				1CB15E8E0034DECFC02AAC07,
+				1CB15E910034DECFC02AAC07,
+			);
+			comments = "This is a slightly modified version of the Henry Spencer's unicode-capable regexp package.  The unmodified code is in the HSRegexp folder.\n";
+			isa = PBXGroup;
+			path = MORegexp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1CB15E850034DECFC02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = regex.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1CB15E860034DECFC02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = regc_color.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1CB15E870034DECFC02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = regc_cvec.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1CB15E880034DECFC02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = regc_lex.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1CB15E890034DECFC02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = regc_locale.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1CB15E8A0034DECFC02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = regc_nfa.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1CB15E8B0034DECFC02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = regcomp.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1CB15E8C0034DECFC02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = regcustom.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1CB15E8D0034DECFC02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = rege_dfa.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1CB15E8E0034DECFC02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = regerror.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1CB15E8F0034DECFC02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = regerrs.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1CB15E900034DECFC02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = regexec.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1CB15E910034DECFC02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = regfree.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1CB15E930034DECFC02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = regguts.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1CB15E940034E14CC02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MORegexpHelpers.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1CB15E950034E14CC02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MORegexpHelpers.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1CB15E960034EC82C02AAC07 = {
+			fileRef = 1CB15E8C0034DECFC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1CB15E970034EC82C02AAC07 = {
+			fileRef = 1CB15E850034DECFC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1CB15E980034EC82C02AAC07 = {
+			fileRef = 1CB15E940034E14CC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1CB15E990034EC82C02AAC07 = {
+			fileRef = 1CB15E910034DECFC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1CB15E9A0034EC82C02AAC07 = {
+			fileRef = 1CB15E8E0034DECFC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1CB15E9B0034EC82C02AAC07 = {
+			fileRef = 1CB15E900034DECFC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1CB15E9D0034EC82C02AAC07 = {
+			fileRef = 1CB15E950034E14CC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1CB15E9E0034F4DEC02AAC07 = {
+			fileRef = 1CB15E8B0034DECFC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1CB15EA000374F04C02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = README;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//1C0
+//1C1
+//1C2
+//1C3
+//1C4
+//270
+//271
+//272
+//273
+//274
+		270D2ED6037FF1B100F9D40E = {
+			buildActionMask = 2147483647;
+			dstPath = DocumentationResources;
+			dstSubfolderSpec = 7;
+			files = (
+				270D2ED7037FF1CC00F9D40E,
+				B1579B29051292B1003D99BE,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270D2ED7037FF1CC00F9D40E = {
+			fileRef = 2E57CA7F00375BC0C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2728DC5F0449DCD9002AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MOExtendedMenuItem.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2728DC600449DCD9002AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MOExtendedMenuItem.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2728DC610449DCD9002AAC07 = {
+			fileRef = 2728DC5F0449DCD9002AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		2728DC620449DCD9002AAC07 = {
+			fileRef = 2728DC600449DCD9002AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2728DC630449DCE2002AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MOExtendedMenu.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2728DC640449DCE2002AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MOExtendedMenu.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2728DC650449DCE2002AAC07 = {
+			fileRef = 2728DC630449DCE2002AAC07;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		2728DC660449DCE2002AAC07 = {
+			fileRef = 2728DC640449DCE2002AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		272AC781041989A100164AC5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MOTabViewController.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		272AC782041989A100164AC5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MOTabViewController.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		272AC783041989A100164AC5 = {
+			fileRef = 272AC781041989A100164AC5;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		272AC784041989A100164AC5 = {
+			fileRef = 272AC782041989A100164AC5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		272AC78A0419908400164AC5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = AppDelegate.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		272AC78B0419908400164AC5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = AppDelegate.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		272AC78C0419908400164AC5 = {
+			fileRef = 272AC78A0419908400164AC5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		272AC78D0419908400164AC5 = {
+			fileRef = 272AC78B0419908400164AC5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		272AC78E041995F800164AC5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MODebug.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		272AC78F041995F800164AC5 = {
+			fileRef = 272AC78E041995F800164AC5;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		272AC7900419961C00164AC5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MODebug.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		272AC7910419961C00164AC5 = {
+			fileRef = 272AC7900419961C00164AC5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		272AC794041A658D00164AC5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MOSplitViewController.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		272AC795041A658D00164AC5 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MOSplitViewController.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		272AC796041A658D00164AC5 = {
+			fileRef = 272AC794041A658D00164AC5;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		272AC797041A658D00164AC5 = {
+			fileRef = 272AC795041A658D00164AC5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		272B722F03DB54BA00F04E48 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = _MO_WindowController.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		272B723003DB54BA00F04E48 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = _MO_WindowController.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		272B723103DB54BA00F04E48 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MOViewController.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		272B723203DB54BA00F04E48 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MOViewController.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		272B723303DB54BA00F04E48 = {
+			fileRef = 272B722F03DB54BA00F04E48;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		272B723403DB54BA00F04E48 = {
+			fileRef = 272B723003DB54BA00F04E48;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		272B723503DB54BA00F04E48 = {
+			fileRef = 272B723103DB54BA00F04E48;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		272B723603DB54BA00F04E48 = {
+			fileRef = 272B723203DB54BA00F04E48;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		272B723703DB551C00F04E48 = {
+			children = (
+				272B723803DB551C00F04E48,
+				272B723A03DB551C00F04E48,
+				272B723C03DB551C00F04E48,
+				272B723E03DB551C00F04E48,
+				272B723F03DB551C00F04E48,
+				272B724003DB551C00F04E48,
+				272AC78A0419908400164AC5,
+				272AC78B0419908400164AC5,
+			);
+			isa = PBXGroup;
+			path = VCTest;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		272B723803DB551C00F04E48 = {
+			children = (
+				272B723903DB551C00F04E48,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		272B723903DB551C00F04E48 = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
+			name = English;
+			path = English.lproj/InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		272B723A03DB551C00F04E48 = {
+			children = (
+				272B723B03DB551C00F04E48,
+			);
+			isa = PBXVariantGroup;
+			name = main.nib;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		272B723B03DB551C00F04E48 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			name = English;
+			path = English.lproj/main.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		272B723C03DB551C00F04E48 = {
+			children = (
+				272B723D03DB551C00F04E48,
+			);
+			isa = PBXVariantGroup;
+			name = TestController.nib;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		272B723D03DB551C00F04E48 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			name = English;
+			path = English.lproj/TestController.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		272B723E03DB551C00F04E48 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = main.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		272B723F03DB551C00F04E48 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = TestController.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		272B724003DB551C00F04E48 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = TestController.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		272B724703DB570C00F04E48 = {
+			buildActionMask = 2147483647;
+			files = (
+				272B725503DB57E800F04E48,
+				272AC78C0419908400164AC5,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272B724803DB570C00F04E48 = {
+			buildActionMask = 2147483647;
+			files = (
+				272B725103DB57E400F04E48,
+				272B725203DB57E500F04E48,
+				272B725303DB57E500F04E48,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272B724903DB570C00F04E48 = {
+			buildActionMask = 2147483647;
+			files = (
+				272B725403DB57E700F04E48,
+				272B725603DB57E800F04E48,
+				272AC78D0419908400164AC5,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272B724A03DB570C00F04E48 = {
+			buildActionMask = 2147483647;
+			files = (
+				272B727303DB58C100F04E48,
+				272B725703DB57FF00F04E48,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		272B724C03DB570C00F04E48 = {
+			buildPhases = (
+				272B724703DB570C00F04E48,
+				272B724803DB570C00F04E48,
+				272B724903DB570C00F04E48,
+				272B724A03DB570C00F04E48,
+			);
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 203;
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-headerpad_max_install_names";
+				PREBINDING = NO;
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = MOKit/MOKitPrefix.h;
+				PRODUCT_NAME = VCTest;
+				SECTORDER_FLAGS = "";
+				USE_GCC3_PFE_SUPPORT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = MO;
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+				272B724F03DB571700F04E48,
+			);
+			isa = PBXApplicationTarget;
+			name = VCTest;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = VCTest;
+			productReference = 272B724D03DB570C00F04E48;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>VCTest</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.lorax.MOKit.Tests.VCTest</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.8</string>
+	<key>CFBundleSignature</key>
+	<string>MOvc</string>
+	<key>CFBundleVersion</key>
+	<string>203</string>
+	<key>NSMainNibFile</key>
+	<string>main.nib</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>
+";
+		};
+		272B724D03DB570C00F04E48 = {
+			explicitFileType = wrapper.application;
+			isa = PBXFileReference;
+			path = VCTest.app;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		272B724F03DB571700F04E48 = {
+			isa = PBXTargetDependency;
+			target = 0C7A9FA0FEF17203C02AAC07;
+			targetProxy = 1C5E174C051A3813009B1EB1;
+		};
+		272B725003DB571B00F04E48 = {
+			isa = PBXTargetDependency;
+			target = 272B724C03DB570C00F04E48;
+			targetProxy = 1C5E1753051A3813009B1EB1;
+		};
+		272B725103DB57E400F04E48 = {
+			fileRef = 272B723803DB551C00F04E48;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		272B725203DB57E500F04E48 = {
+			fileRef = 272B723A03DB551C00F04E48;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		272B725303DB57E500F04E48 = {
+			fileRef = 272B723C03DB551C00F04E48;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		272B725403DB57E700F04E48 = {
+			fileRef = 272B723E03DB551C00F04E48;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		272B725503DB57E800F04E48 = {
+			fileRef = 272B723F03DB551C00F04E48;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		272B725603DB57E800F04E48 = {
+			fileRef = 272B724003DB551C00F04E48;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		272B725703DB57FF00F04E48 = {
+			fileRef = 014C9C5CFF2A198DC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		272B725A03DB583D00F04E48 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Cocoa.framework;
+			path = /System/Library/Frameworks/Cocoa.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		272B726C03DB584C00F04E48 = {
+			fileRef = 272B725A03DB583D00F04E48;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		272B726D03DB586800F04E48 = {
+			fileRef = 272B725A03DB583D00F04E48;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		272B726E03DB587600F04E48 = {
+			fileRef = 272B725A03DB583D00F04E48;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		272B726F03DB588500F04E48 = {
+			fileRef = 272B725A03DB583D00F04E48;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		272B727003DB589300F04E48 = {
+			fileRef = 272B725A03DB583D00F04E48;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		272B727103DB58A400F04E48 = {
+			fileRef = 272B725A03DB583D00F04E48;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		272B727203DB58B200F04E48 = {
+			fileRef = 272B725A03DB583D00F04E48;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		272B727303DB58C100F04E48 = {
+			fileRef = 272B725A03DB583D00F04E48;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		274B9BA5037D12DE00D60C3E = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MOViewListView.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		274B9BA6037D12DE00D60C3E = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MOViewListView.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		274B9BA7037D12DE00D60C3E = {
+			fileRef = 274B9BA5037D12DE00D60C3E;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		274B9BA8037D12DE00D60C3E = {
+			fileRef = 274B9BA6037D12DE00D60C3E;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		274B9C07037D1AD000D60C3E = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MOAssertions.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		274B9C08037D1AD000D60C3E = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MOAssertions.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		274B9C09037D1AD000D60C3E = {
+			fileRef = 274B9C07037D1AD000D60C3E;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		274B9C0A037D1AD000D60C3E = {
+			fileRef = 274B9C08037D1AD000D60C3E;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		274B9C2B037D2AF600D60C3E = {
+			children = (
+				274B9C2C037D2B1600D60C3E,
+			);
+			isa = PBXGroup;
+			path = AssertTest;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		274B9C2C037D2B1600D60C3E = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MOAssertionTest.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		274B9C2D037D2E1D00D60C3E = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274B9C2E037D2E1D00D60C3E = {
+			buildActionMask = 2147483647;
+			files = (
+				274B9C36037D2E3500D60C3E,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274B9C2F037D2E1D00D60C3E = {
+			buildActionMask = 2147483647;
+			files = (
+				272B726F03DB588500F04E48,
+				274B9C37037D2E3700D60C3E,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274B9C31037D2E1D00D60C3E = {
+			buildPhases = (
+				274B9C2D037D2E1D00D60C3E,
+				274B9C2E037D2E1D00D60C3E,
+				274B9C2F037D2E1D00D60C3E,
+			);
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 203;
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-headerpad_max_install_names";
+				PREBINDING = NO;
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = MOKit/MOKitPrefix.h;
+				PRODUCT_NAME = AssertTest;
+				SECTORDER_FLAGS = "";
+				USE_GCC3_PFE_SUPPORT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = MO;
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+			};
+			dependencies = (
+				274B9C38037D2E5300D60C3E,
+			);
+			isa = PBXToolTarget;
+			name = AssertTest;
+			productInstallPath = /usr/local/bin;
+			productName = AssertTest;
+			productReference = 274B9C32037D2E1D00D60C3E;
+		};
+		274B9C32037D2E1D00D60C3E = {
+			explicitFileType = "compiled.mach-o.executable";
+			isa = PBXFileReference;
+			path = AssertTest;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		274B9C36037D2E3500D60C3E = {
+			fileRef = 274B9C2C037D2B1600D60C3E;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		274B9C37037D2E3700D60C3E = {
+			fileRef = 014C9C5CFF2A198DC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		274B9C38037D2E5300D60C3E = {
+			isa = PBXTargetDependency;
+			target = 0C7A9FA0FEF17203C02AAC07;
+			targetProxy = 1C5E1747051A3813009B1EB1;
+		};
+		275695CB038114E700A65898 = {
+			isa = PBXTargetDependency;
+			target = 274B9C31037D2E1D00D60C3E;
+			targetProxy = 1C5E1746051A3813009B1EB1;
+		};
+		275695CC0381166400A65898 = {
+			fileRef = 0C7A9F65FEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		275695CD0381167100A65898 = {
+			fileRef = 018D34C100388976C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		275695CE0381168F00A65898 = {
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 0;
+			files = (
+				27700FB7038BD5BD00B54A31,
+				27700FB8038BD5BD00B54A31,
+				275695D0038116A800A65898,
+				275695D1038116A800A65898,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		275695D0038116A800A65898 = {
+			fileRef = 0C7A9F6DFEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		275695D1038116A800A65898 = {
+			fileRef = 0C7A9F6EFEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2763BD6C039EC67700A8C62B = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = ToDo;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27678704041BC1FC00E49ED7 = {
+			children = (
+				27B43A4F038A30E40000F544,
+				27B43A50038A30E40000F544,
+				274B9BA5037D12DE00D60C3E,
+				274B9BA6037D12DE00D60C3E,
+				2791778D03A528F80079D182,
+				2791779103A52A6B0079D182,
+				2791778E03A528F80079D182,
+				B1EF9BA50468580B00FED98A,
+				B1EF9BA60468580B00FED98A,
+				27B8F7620396890B00EB9EF2,
+				27B8F7630396890B00EB9EF2,
+				27B8F7660396891B00EB9EF2,
+				27B8F7670396891B00EB9EF2,
+				2728DC5F0449DCD9002AAC07,
+				2728DC600449DCD9002AAC07,
+				2728DC630449DCE2002AAC07,
+				2728DC640449DCE2002AAC07,
+				B157731B04472E2E00FEE151,
+				B157731C04472E2E00FEE151,
+			);
+			isa = PBXGroup;
+			name = "Views & Widgets";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27678705041BC20E00E49ED7 = {
+			children = (
+				272B722F03DB54BA00F04E48,
+				272B723003DB54BA00F04E48,
+				1C74509A052395A600C67446,
+				1C74509B052395A600C67446,
+				272B723103DB54BA00F04E48,
+				272B723203DB54BA00F04E48,
+				272AC781041989A100164AC5,
+				272AC782041989A100164AC5,
+				272AC794041A658D00164AC5,
+				272AC795041A658D00164AC5,
+				2767870F041BC2B100E49ED7,
+				27678710041BC2B100E49ED7,
+			);
+			isa = PBXGroup;
+			name = ViewControllers;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27678706041BC22900E49ED7 = {
+			children = (
+				274B9C07037D1AD000D60C3E,
+				274B9C08037D1AD000D60C3E,
+				272AC78E041995F800164AC5,
+				B1B84388063EB7D600D206DA,
+				272AC7900419961C00164AC5,
+				0C7A9F5CFEF17203C02AAC07,
+				0C7A9F51FEF17203C02AAC07,
+				0C7A9F5DFEF17203C02AAC07,
+				0C7A9F61FEF17203C02AAC07,
+				B1BB8910060B971800F403BA,
+				B1BB8911060B971800F403BA,
+			);
+			isa = PBXGroup;
+			name = Utilities;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2767870F041BC2B100E49ED7 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MOViewListViewController.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27678710041BC2B100E49ED7 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MOViewListViewController.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27678711041BC2B100E49ED7 = {
+			fileRef = 2767870F041BC2B100E49ED7;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		27678712041BC2B100E49ED7 = {
+			fileRef = 27678710041BC2B100E49ED7;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27700FAC038BD1E400B54A31 = {
+			children = (
+				27700FAD038BD1FF00B54A31,
+				2791719603AC0E6A002AAC07,
+			);
+			isa = PBXGroup;
+			name = "Development Scripts";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27700FAD038BD1FF00B54A31 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = text.script.sh;
+			path = imageFromFolder.sh;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27700FB7038BD5BD00B54A31 = {
+			fileRef = 0C7A9F65FEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27700FB8038BD5BD00B54A31 = {
+			fileRef = 018D34C100388976C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2791719603AC0E6A002AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = text.script.sh;
+			path = DistributionImages.sh;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2791719703AC0E6A002AAC07 = {
+			fileRef = 2791719603AC0E6A002AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2791719803AC0F0B002AAC07 = {
+			buildArgumentsString = "DistributionImages.sh \"${DSTROOT}\" \"${SOURCE_DISTRIBUTION_ROOT}\" \"${DISTRIBUTION_NAME}\"";
+			buildPhases = (
+			);
+			buildSettings = {
+				PRODUCT_NAME = DistributionImages;
+			};
+			buildToolPath = /bin/sh;
+			dependencies = (
+				2791719C03AC1873002AAC07,
+			);
+			isa = PBXLegacyTarget;
+			name = DistributionImages;
+			passBuildSettingsInEnvironment = 1;
+			productName = DistributionImages;
+		};
+		2791719C03AC1873002AAC07 = {
+			isa = PBXTargetDependency;
+			target = 0C7A9F9EFEF17203C02AAC07;
+			targetProxy = 1C5E174F051A3813009B1EB1;
+		};
+		2791778D03A528F80079D182 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MOViewListViewItem.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2791778E03A528F80079D182 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MOViewListViewItem.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2791778F03A528F80079D182 = {
+			fileRef = 2791778D03A528F80079D182;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		2791779003A528F80079D182 = {
+			fileRef = 2791778E03A528F80079D182;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2791779103A52A6B0079D182 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MOViewListViewItem_Private.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2791779203A52A6B0079D182 = {
+			fileRef = 2791779103A52A6B0079D182;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2796FC1C03A51EE2007815C8 = {
+			children = (
+				2796FC1D03A51EE2007815C8,
+			);
+			isa = PBXVariantGroup;
+			name = TestController.nib;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2796FC1D03A51EE2007815C8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			name = English;
+			path = English.lproj/TestController.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2796FC1E03A51EE2007815C8 = {
+			fileRef = 2796FC1C03A51EE2007815C8;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2799D866039684A200DFA016 = {
+			children = (
+				0C7A9F56FEF17203C02AAC07,
+				0C7A9F4CFEF17203C02AAC07,
+				0C7A9F57FEF17203C02AAC07,
+				0C7A9F60FEF17203C02AAC07,
+				1CB15E840034DD68C02AAC07,
+				0C7A9F55FEF17203C02AAC07,
+				0C7A9F4BFEF17203C02AAC07,
+				0C7A9F58FEF17203C02AAC07,
+				0C7A9F4DFEF17203C02AAC07,
+			);
+			isa = PBXGroup;
+			name = "Regular Expressions";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2799D867039684C500DFA016 = {
+			children = (
+				0C7A9F59FEF17203C02AAC07,
+				0C7A9F4EFEF17203C02AAC07,
+				0C7A9F5AFEF17203C02AAC07,
+				0C7A9F4FFEF17203C02AAC07,
+				0C7A9F5BFEF17203C02AAC07,
+				0C7A9F50FEF17203C02AAC07,
+			);
+			isa = PBXGroup;
+			name = Completion;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2799D870039686F600DFA016 = {
+			children = (
+				2799D8720396873300DFA016,
+			);
+			isa = PBXGroup;
+			path = PBTemplates;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		2799D8720396873300DFA016 = {
+			includeInIndex = 1;
+			isa = PBXFileReference;
+			lastKnownFileType = folder;
+			path = "MOKit Class.pbfiletemplate";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27A4C9B20384F54F005D0CAC = {
+			children = (
+				27A4C9B30384F565005D0CAC,
+			);
+			isa = PBXGroup;
+			path = RuntimeTest;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27A4C9B30384F565005D0CAC = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MORuntimeTest.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27A4C9B40384F5A3005D0CAC = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27A4C9B50384F5A3005D0CAC = {
+			buildActionMask = 2147483647;
+			files = (
+				27A4C9BD0384F5C7005D0CAC,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27A4C9B60384F5A3005D0CAC = {
+			buildActionMask = 2147483647;
+			files = (
+				272B727003DB589300F04E48,
+				27A4C9C60384F5DD005D0CAC,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27A4C9B80384F5A3005D0CAC = {
+			buildPhases = (
+				27A4C9B40384F5A3005D0CAC,
+				27A4C9B50384F5A3005D0CAC,
+				27A4C9B60384F5A3005D0CAC,
+			);
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 203;
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-headerpad_max_install_names";
+				PREBINDING = NO;
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = MOKit/MOKitPrefix.h;
+				PRODUCT_NAME = RuntimeTest;
+				SECTORDER_FLAGS = "";
+				USE_GCC3_PFE_SUPPORT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = MO;
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+			};
+			dependencies = (
+				27A4C9BB0384F5AA005D0CAC,
+			);
+			isa = PBXToolTarget;
+			name = RuntimeTest;
+			productInstallPath = /usr/local/bin;
+			productName = RuntimeTest;
+			productReference = 27A4C9B90384F5A3005D0CAC;
+		};
+		27A4C9B90384F5A3005D0CAC = {
+			explicitFileType = "compiled.mach-o.executable";
+			isa = PBXFileReference;
+			path = RuntimeTest;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		27A4C9BB0384F5AA005D0CAC = {
+			isa = PBXTargetDependency;
+			target = 0C7A9FA0FEF17203C02AAC07;
+			targetProxy = 1C5E1750051A3813009B1EB1;
+		};
+		27A4C9BC0384F5AC005D0CAC = {
+			isa = PBXTargetDependency;
+			target = 27A4C9B80384F5A3005D0CAC;
+			targetProxy = 1C5E1755051A3813009B1EB1;
+		};
+		27A4C9BD0384F5C7005D0CAC = {
+			fileRef = 27A4C9B30384F565005D0CAC;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27A4C9C60384F5DD005D0CAC = {
+			fileRef = 014C9C5CFF2A198DC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27B43A4C038A22DE0000F544 = {
+			buildSettings = {
+				BUILD_VARIANTS = normal;
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS_normal_ASSERT_FLAGS = "";
+			};
+			isa = PBXBuildStyle;
+			name = "Development with headerdoc";
+		};
+		27B43A4F038A30E40000F544 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = NSView_MOSizing.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27B43A50038A30E40000F544 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = NSView_MOSizing.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27B43A51038A30E40000F544 = {
+			fileRef = 27B43A4F038A30E40000F544;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		27B43A52038A30E50000F544 = {
+			fileRef = 27B43A50038A30E40000F544;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27B5FD38036D1766002849E7 = {
+			children = (
+				27B5FD39036D1766002849E7,
+				27B5FD3A036D1767002849E7,
+				27B5FD3B036D1767002849E7,
+				27B5FD3C036D1767002849E7,
+				27B5FD3D036D1767002849E7,
+				27B5FD3E036D1767002849E7,
+				27B5FD3F036D1767002849E7,
+				27B5FD40036D1767002849E7,
+				27B5FD41036D1767002849E7,
+				27B5FD42036D1767002849E7,
+				27B5FD43036D1767002849E7,
+				27B5FD44036D1767002849E7,
+				27B5FD45036D1767002849E7,
+				27B5FD46036D1767002849E7,
+				27B5FD47036D1767002849E7,
+				27B5FD48036D1767002849E7,
+			);
+			comments = "This group contains the original, unmodified version of the regexp code that MOKit uses in modified form.";
+			isa = PBXGroup;
+			path = HSRegexp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27B5FD39036D1766002849E7 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = README;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27B5FD3A036D1767002849E7 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = regc_color.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27B5FD3B036D1767002849E7 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = regc_cvec.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27B5FD3C036D1767002849E7 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = regc_lex.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27B5FD3D036D1767002849E7 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = regc_locale.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27B5FD3E036D1767002849E7 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = regc_nfa.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27B5FD3F036D1767002849E7 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = regcomp.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27B5FD40036D1767002849E7 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = regcustom.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27B5FD41036D1767002849E7 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = rege_dfa.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27B5FD42036D1767002849E7 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = regerror.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27B5FD43036D1767002849E7 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = regerrs.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27B5FD44036D1767002849E7 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = regex.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27B5FD45036D1767002849E7 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = regexec.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27B5FD46036D1767002849E7 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = regfree.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27B5FD47036D1767002849E7 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = regfronts.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27B5FD48036D1767002849E7 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = regguts.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27B5FD4A036D1CEB002849E7 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MOKitPrefix.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27B5FD4B036D1CEB002849E7 = {
+			fileRef = 27B5FD4A036D1CEB002849E7;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27B5FD4C036D1E81002849E7 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				27B5FD4D036D1E98002849E7,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27B5FD4D036D1E98002849E7 = {
+			fileRef = 0C7A9F91FEF17203C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27B8F7620396890B00EB9EF2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MOExtendedTableView.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27B8F7630396890B00EB9EF2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MOExtendedTableView.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27B8F7640396890B00EB9EF2 = {
+			fileRef = 27B8F7620396890B00EB9EF2;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		27B8F7650396890B00EB9EF2 = {
+			fileRef = 27B8F7630396890B00EB9EF2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27B8F7660396891B00EB9EF2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MOExtendedOutlineView.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27B8F7670396891B00EB9EF2 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MOExtendedOutlineView.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27B8F7680396891B00EB9EF2 = {
+			fileRef = 27B8F7660396891B00EB9EF2;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		27B8F7690396891B00EB9EF2 = {
+			fileRef = 27B8F7670396891B00EB9EF2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27D8BCB9039C4BF0007BF0EA = {
+			children = (
+				27D8BCBF039C4BF0007BF0EA,
+				27D8BCC0039C4BF0007BF0EA,
+				27D8BCBE039C4BF0007BF0EA,
+				27D8BCBA039C4BF0007BF0EA,
+				27D8BCBC039C4BF0007BF0EA,
+				27D8BCDA039C4E5B007BF0EA,
+			);
+			isa = PBXGroup;
+			path = TableOutlineTest;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27D8BCBA039C4BF0007BF0EA = {
+			children = (
+				27D8BCBB039C4BF0007BF0EA,
+			);
+			isa = PBXVariantGroup;
+			name = main.nib;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27D8BCBB039C4BF0007BF0EA = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			name = English;
+			path = English.lproj/main.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27D8BCBC039C4BF0007BF0EA = {
+			children = (
+				27D8BCBD039C4BF0007BF0EA,
+			);
+			isa = PBXVariantGroup;
+			name = TestController.nib;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27D8BCBD039C4BF0007BF0EA = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			name = English;
+			path = English.lproj/TestController.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27D8BCBE039C4BF0007BF0EA = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = main.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27D8BCBF039C4BF0007BF0EA = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = TestController.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27D8BCC0039C4BF0007BF0EA = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = TestController.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27D8BCC1039C4C5C007BF0EA = {
+			buildPhases = (
+				27D8BCC3039C4C5C007BF0EA,
+				27D8BCC5039C4C5C007BF0EA,
+				27D8BCC8039C4C5C007BF0EA,
+				27D8BCCB039C4C5C007BF0EA,
+			);
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 203;
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-headerpad_max_install_names";
+				PREBINDING = NO;
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = MOKit/MOKitPrefix.h;
+				PRODUCT_NAME = TableOutlineTest;
+				SECTORDER_FLAGS = "";
+				USE_GCC3_PFE_SUPPORT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = MO;
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+				27D8BCC2039C4C5C007BF0EA,
+			);
+			isa = PBXApplicationTarget;
+			name = TableOutlineTest;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = DSVTest;
+			productReference = 27D8BCCF039C4C5C007BF0EA;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>TableOutlineTest</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.lorax.MOKit.Tests.TableOutlineTest</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.8</string>
+	<key>CFBundleSignature</key>
+	<string>M0to</string>
+	<key>CFBundleVersion</key>
+	<string>203</string>
+	<key>NSMainNibFile</key>
+	<string>main.nib</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>
+";
+		};
+		27D8BCC2039C4C5C007BF0EA = {
+			isa = PBXTargetDependency;
+			target = 0C7A9FA0FEF17203C02AAC07;
+			targetProxy = 1C5E174A051A3813009B1EB1;
+		};
+		27D8BCC3039C4C5C007BF0EA = {
+			buildActionMask = 2147483647;
+			files = (
+				27D8BCD2039C4CCA007BF0EA,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D8BCC5039C4C5C007BF0EA = {
+			buildActionMask = 2147483647;
+			files = (
+				27D8BCD5039C4CCD007BF0EA,
+				27D8BCD6039C4CCD007BF0EA,
+				27D8BCDC039C4E5B007BF0EA,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D8BCC8039C4C5C007BF0EA = {
+			buildActionMask = 2147483647;
+			files = (
+				27D8BCD3039C4CCB007BF0EA,
+				27D8BCD4039C4CCC007BF0EA,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D8BCCB039C4C5C007BF0EA = {
+			buildActionMask = 2147483647;
+			files = (
+				272B727203DB58B200F04E48,
+				27D8BCCE039C4C5C007BF0EA,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D8BCCE039C4C5C007BF0EA = {
+			fileRef = 014C9C5CFF2A198DC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27D8BCCF039C4C5C007BF0EA = {
+			explicitFileType = wrapper.application;
+			isa = PBXFileReference;
+			path = TableOutlineTest.app;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		27D8BCD1039C4C77007BF0EA = {
+			isa = PBXTargetDependency;
+			target = 27D8BCC1039C4C5C007BF0EA;
+			targetProxy = 1C5E1754051A3813009B1EB1;
+		};
+		27D8BCD2039C4CCA007BF0EA = {
+			fileRef = 27D8BCBF039C4BF0007BF0EA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27D8BCD3039C4CCB007BF0EA = {
+			fileRef = 27D8BCC0039C4BF0007BF0EA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27D8BCD4039C4CCC007BF0EA = {
+			fileRef = 27D8BCBE039C4BF0007BF0EA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27D8BCD5039C4CCD007BF0EA = {
+			fileRef = 27D8BCBA039C4BF0007BF0EA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27D8BCD6039C4CCD007BF0EA = {
+			fileRef = 27D8BCBC039C4BF0007BF0EA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27D8BCD7039C4E44007BF0EA = {
+			children = (
+				27D8BCD8039C4E44007BF0EA,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27D8BCD8039C4E44007BF0EA = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
+			name = English;
+			path = English.lproj/InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27D8BCD9039C4E44007BF0EA = {
+			fileRef = 27D8BCD7039C4E44007BF0EA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27D8BCDA039C4E5B007BF0EA = {
+			children = (
+				27D8BCDB039C4E5B007BF0EA,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27D8BCDB039C4E5B007BF0EA = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
+			name = English;
+			path = English.lproj/InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27D8BCDC039C4E5B007BF0EA = {
+			fileRef = 27D8BCDA039C4E5B007BF0EA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27F9A86D039EBF49004E36D4 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = LICENSE;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27F9A86E039EBF4D004E36D4 = {
+			children = (
+				27F9A86D039EBF49004E36D4,
+				2763BD6C039EC67700A8C62B,
+			);
+			isa = PBXGroup;
+			name = Notes;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27FAA66C038252E4004E7C91 = {
+			children = (
+				27FAA66D03825310004E7C91,
+				27FAA66E03825310004E7C91,
+				27FAA66F0382536E004E7C91,
+				27FAA68803825890004E7C91,
+				2796FC1C03A51EE2007815C8,
+				27D8BCD7039C4E44007BF0EA,
+			);
+			isa = PBXGroup;
+			path = VLVTest;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27FAA66D03825310004E7C91 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = TestController.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27FAA66E03825310004E7C91 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = TestController.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27FAA66F0382536E004E7C91 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = main.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27FAA672038253A3004E7C91 = {
+			buildActionMask = 2147483647;
+			files = (
+				27FAA67C038253B5004E7C91,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FAA673038253A3004E7C91 = {
+			buildActionMask = 2147483647;
+			files = (
+				27FAA68A03825890004E7C91,
+				27D8BCD9039C4E44007BF0EA,
+				2796FC1E03A51EE2007815C8,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FAA674038253A3004E7C91 = {
+			buildActionMask = 2147483647;
+			files = (
+				27FAA67D038253B6004E7C91,
+				27FAA67E038253B7004E7C91,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FAA675038253A3004E7C91 = {
+			buildActionMask = 2147483647;
+			files = (
+				272B727103DB58A400F04E48,
+				27FAA681038253C8004E7C91,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FAA677038253A3004E7C91 = {
+			buildPhases = (
+				27FAA672038253A3004E7C91,
+				27FAA673038253A3004E7C91,
+				27FAA674038253A3004E7C91,
+				27FAA675038253A3004E7C91,
+			);
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 203;
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-headerpad_max_install_names";
+				PREBINDING = NO;
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = MOKit/MOKitPrefix.h;
+				PRODUCT_NAME = VLVTest;
+				SECTORDER_FLAGS = "";
+				USE_GCC3_PFE_SUPPORT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = MO;
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+				27FAA67A038253AE004E7C91,
+			);
+			isa = PBXApplicationTarget;
+			name = VLVTest;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = DSVTest;
+			productReference = 27FAA678038253A3004E7C91;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>VLVTest</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.lorax.MOKit.Tests.VLVTest</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.8</string>
+	<key>CFBundleSignature</key>
+	<string>M0vl</string>
+	<key>CFBundleVersion</key>
+	<string>203</string>
+	<key>NSMainNibFile</key>
+	<string>main.nib</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>
+";
+		};
+		27FAA678038253A3004E7C91 = {
+			explicitFileType = wrapper.application;
+			isa = PBXFileReference;
+			path = VLVTest.app;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		27FAA67A038253AE004E7C91 = {
+			isa = PBXTargetDependency;
+			target = 0C7A9FA0FEF17203C02AAC07;
+			targetProxy = 1C5E1748051A3813009B1EB1;
+		};
+		27FAA67B038253B0004E7C91 = {
+			isa = PBXTargetDependency;
+			target = 27FAA677038253A3004E7C91;
+			targetProxy = 1C5E174E051A3813009B1EB1;
+		};
+		27FAA67C038253B5004E7C91 = {
+			fileRef = 27FAA66D03825310004E7C91;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27FAA67D038253B6004E7C91 = {
+			fileRef = 27FAA66E03825310004E7C91;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27FAA67E038253B7004E7C91 = {
+			fileRef = 27FAA66F0382536E004E7C91;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27FAA681038253C8004E7C91 = {
+			fileRef = 014C9C5CFF2A198DC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		27FAA68803825890004E7C91 = {
+			children = (
+				27FAA68903825890004E7C91,
+			);
+			isa = PBXVariantGroup;
+			name = main.nib;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27FAA68903825890004E7C91 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			name = English;
+			path = English.lproj/main.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		27FAA68A03825890004E7C91 = {
+			fileRef = 27FAA68803825890004E7C91;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//270
+//271
+//272
+//273
+//274
+//2E0
+//2E1
+//2E2
+//2E3
+//2E4
+		2E57CA7F00375BC0C02AAC07 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.rtf;
+			path = RESyntax.rtf;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//2E0
+//2E1
+//2E2
+//2E3
+//2E4
+//B10
+//B11
+//B12
+//B13
+//B14
+		B157731B04472E2E00FEE151 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MOTabView.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B157731C04472E2E00FEE151 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MOTabView.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B157731D04472E2E00FEE151 = {
+			fileRef = B157731B04472E2E00FEE151;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		B157731E04472E2E00FEE151 = {
+			fileRef = B157731C04472E2E00FEE151;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B1579B1D051291A6003D99BE = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.tiff;
+			path = MOViewController_example1.tiff;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B1579B29051292B1003D99BE = {
+			fileRef = B1579B1D051291A6003D99BE;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B1B84388063EB7D600D206DA = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MODebug_Private.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B1B844EC063EBB2200D206DA = {
+			fileRef = B1B84388063EB7D600D206DA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B1BB8910060B971800F403BA = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = NSEvent_MOLocationAdditions.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B1BB8911060B971800F403BA = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = NSEvent_MOLocationAdditions.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B1BB899F060B983A00F403BA = {
+			fileRef = B1BB8910060B971800F403BA;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		B1BB89A0060B984000F403BA = {
+			fileRef = B1BB8911060B971800F403BA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B1EF9BA50468580B00FED98A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MOViewListLabelView.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B1EF9BA60468580B00FED98A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = MOViewListLabelView.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		B1EF9BA70468580B00FED98A = {
+			fileRef = B1EF9BA50468580B00FED98A;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		B1EF9BA80468580B00FED98A = {
+			fileRef = B1EF9BA60468580B00FED98A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 0C7A9F46FEF17203C02AAC07;
+}
