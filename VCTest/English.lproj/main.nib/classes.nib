@@ -1,0 +1,24 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                testSplitController = id; 
+                testTabController = id; 
+                testViewListController = id; 
+            }; 
+            CLASS = AppDelegate; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {showWindow = id; }; 
+            CLASS = MOViewController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {view = NSView; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = TestController; LANGUAGE = ObjC; SUPERCLASS = MOViewController; }
+    ); 
+    IBVersion = 1; 
+}
