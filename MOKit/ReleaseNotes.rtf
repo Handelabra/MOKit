@@ -1,0 +1,707 @@
+{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl\f0\froman\fcharset77 Times-Roman;\f1\fswiss\fcharset77 Helvetica-Bold;\f2\froman\fcharset77 Times-Bold;
+\f3\fswiss\fcharset77 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li1623\fi-1623\ql\qnatural
+
+\f0\fs24 \cf0 \CocoaLigature0 Copyright \'a91996-2005 by Mike Ferris.  All Rights Reserved.\
+\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li3642\fi-3642\ql\qnatural
+
+\f1\b\fs52 \cf0 MOKit 2.8 Release Notes\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li5605\fi-5605\ql\qnatural
+
+\fs80 \cf0 \
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li1961\fi-1961\ql\qnatural
+
+\fs28 \cf0 Overview\
+
+\fs14 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 This file details major changes between different releases of MOKit.\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li1893\fi-1893\ql\qnatural
+
+\fs56 \cf0 \
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li1961\fi-1961\ql\qnatural
+
+\f1\b\fs28 \cf0 MOKit 2.8\
+
+\fs14 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 This release is mostly about MOViewController.  There are a number of other interesting additions, though.  Read on...\
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\fs56 \cf0 \CocoaLigature1 \
+\pard\li1200\fi-660\ql\qnatural
+
+\f1\b\fs24 \cf0 Features\
+\pard\li1200\fi-1020\ql\qnatural
+
+\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f2\fs28 \cf0 MOViewController:
+\f0\b0 \
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	A new class and several useful subclasses have been added.  MOViewController is a subclass of NSWindowController.  Like an NSWindowController controls windows, an NSViewController controls views.  It usually loads them from nib files.  MOViewControllers form a hierarchy and the idea is that you can use them to build more extensive UIs without winding up with bloated NSWindowControllers.  Each distinct part of the UI can have a dedicated controller.  The subclasses that are provided with MOKit are mostly "container" view controllers.  They include: MOTabViewController, MOSplitViewController, and MOViewListViewController.  In all cases these container view controllers automatically manage the views of their subcontrollers.  For example, a MOTabViewController creates a tab for each subcontroller and uses that subcontroller's view for the content view of the tab.  See the class documentation for a lot more information.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f2\fs28 \cf0 MOTabView:
+\f0\b0 \
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	A new subclass of NSTabView that allows for drag and drop of tabs.  See the class documentation for a lot more information.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f2\fs28 \cf0 MOViewListView:
+\f0\b0 \
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	Support has been added for drag & drop of the views in a view list view.  MOViewListView also now uses subviews for its labels.  This allows for the possibility of adding controls the the labels more easily.  See the class documentation for a lot more information.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f2\fs28 \cf0 MOExtendedMenuItem & MOExtendedMenu:
+\f0\b0 \
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	New subclasses of NSMenuItem & NSMenu that handle reverting menu items to default state (title, etc...) when there's no target for them.  See the class documentation for a lot more information.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f2\fs28 \cf0 MODebug.h:
+\f0\b0 \
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	This new header contains a few useful utilities for debugging.  MOLog is like NSLog except it does not ever do system logging (always just logs to stdout) and it does not put a date stamp and process number prefix on every output.  It can be useful for temporary debug messages.  A -MO_shortDescription method is provided as a category on NSObject that returns the short-form NSObject-style description even for classes that have more verbose -description methods.  A couple NSApplication category methods -MO_dumpResponderChain: and -MO_dumpKeyLoops: will log the responder chains or key loops of the key and main window.  Finally, METHOD_TRACE_IN and METHOD_TRACE_OUT macros provide a relatively easy way to instrument code to trace calling patterns with indented call chain logging.\
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\fs56 \cf0 \
+\pard\li1200\fi-660\ql\qnatural
+
+\f1\b\fs24 \cf0 Minor extensions\
+\pard\li1200\fi-1020\ql\qnatural
+
+\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	MOFormatterPalette now exports all the MOKit classes that are commonly used in nib files.  This means that if you load the palette, the MOKit classes will appear as system classes in your own nib files and you will not need to explicitly drag MOKit headers into IB to parse their definitions.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	MOExtendedOutlineView and MOExtendedTableView cover more of the dragging protocol, exposing it through delegate messages.  Especially dragging source stuff.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	A category has been added to NSEvent that has the method MO_locationInView:.  This returns the events mouse location in the bounds coordinates of the given view (even if the view is in a different window than the event was generated for).\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	MOAssertions.h has a couple new macros:  MOError and MOWarning.  Both take a format string and additional format arguments.  Both are unconditional.  MOError("blah") is equivalent to MOAssert(0, "blah").  MOWarning is similar except it will log the assertion failure message without actually raising an exception.  MOWarning can be appropriate for use in -init methods where it's not a good idea to raise (releasing self and returning nil is usually a safer error response in -init methods...)\
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\fs56 \cf0 \
+\pard\li1200\fi-660\ql\qnatural
+
+\f1\b\fs24 \cf0 Notable bug fixes\
+\pard\li1200\fi-1020\ql\qnatural
+
+\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	All header files are now C++ safe (they are wrapped with extern "C" contructs)  They also include header guard macros in case someone includes them with #include instead of #import (those wacky C++ developers...).  Both of these things make the files a bit uglier, unfortunately.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	Fixed MOAbstractClassError to assert only if self is an instance of the abstract class (or the class object itself).  So it will no longer raise if self is a subclass.  This basically moves the test inside the assertion macro where it belongs.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	Fixed a Panther-specific problem with the method replacement API in MORuntimeUtilities.h.\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li1893\fi-1893\ql\qnatural
+
+\fs56 \cf0 \CocoaLigature0 \
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li1961\fi-1961\ql\qnatural
+
+\f1\b\fs28 \cf0 MOKit 2.7\
+
+\fs14 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 This release marks the biggest changes to MOKit in quite a while. The release notes are split into a section for bigger new features, a section for minor enhancements, and one for bug fixes.\
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\fs56 \cf0 \CocoaLigature1 \
+\pard\li1200\fi-660\ql\qnatural
+
+\f1\b\fs24 \cf0 Features\
+\pard\li1200\fi-1020\ql\qnatural
+
+\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f2\fs28 \cf0 Complete HeaderDoc documentation:
+\f0\b0 \
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 MOKit now uses HeaderDoc to document its public API.  For more information on the new API or any of the previously existing API of the kit, refer to the documentation within the framework in the binary distribution.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 If you build MOKit from source, note that the default Development build style does not generate HeaderDoc since it is somewhat time-consuming and not incremental (in other words, the complete documentation is regenerated on every build even if most or all of the headers did not change).  The Deployment build style will generate HeaderDoc (as will the "Development with HeaderDoc" build style).\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f2\fs28 \cf0 Automatic distribution packaging:
+\f0\b0 \
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 MOKit now has a DistributionImages target.  With this target active and the Deployment build style active, building will produce ready-to-release disk images for the binary and source distributions of MOKit into /tmp.  The new target relies on a reusable script (imageFromFolder.sh).  You can use the script in your own projects using the DistributionImages target and the Deployment build style from MOKit as examples of how to use it.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f2\fs28 \cf0 General NSView extensions for enforcing minimum and maximum sizes:
+\f0\b0 \
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 MOKit adds a new category called MOSizing to NSView that includes methods for setting minimum and maximum sizes for any view as well as specific support for a view to gets its minimum size from its superview if that superview is an NSClipView.  If none of the set methods are called for a particular NSView it will behave exactly like NSViews normally behave without MOKit, but if you use these methods to set special sizing behavior it will be enforced any time the frame size of the view is changed.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 This feature makes use of the new support for replacing methods in MORuntimeUtilities (see below for more info).\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f2\fs28 \cf0 MOViewListView:
+\f0\b0 \
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 This NSView subclass implements a disclosable stack or list of subviews similar to those seen in the Jaguar Finder's Info dialog, Project Builder's target editor, and other apps such as Okita Composer.  Basically, the view's "stack views" are automatically tiled into a vertical stack.  Above each view is a label bar and the label bar has a disclosure control on it.  The disclosure control can be used to "collapse" any one of the views so that all that shows is its label bar (and of course, the view can later be "expanded" back again).  It is like a one-level outline for arbitrary subviews.  The view has full configurability for its color scheme and has a convenience API for setting up color schemes to match the appearance of Finder's Get Info window and Project Builder's target editor as well as other presets.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f2\fs28 \cf0 MOExtendedTableView and MOExtendedOutlineView:
+\f0\b0 \
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 These are subclasses of NSTableView and NSOutlineView respectively.  They provide similar extensions in both subclasses including control over keyboard navigation when editing ends in a cell, unified dataSource protocols for drag & drop, copy/paste and Services support, easy dataSource API for handling row addition and deletion, delegate API for intercepting and handling Return or Delete keystrokes, dataCell and delegate API for handling per-cell context menus, and other extensions that many clients of these classes often wind up implementing themselves.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f2\fs28 \cf0 Lots of additions to MORuntimeUtilities:
+\f0\b0 \
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 In previous versions of MOKit the MORuntimeUtilities consisted of the single MOFullMethodName function.  These utilities have been greatly expanded in this version.  There's an NSObject category that has several factory methods that implement the following functionality:\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	Returning an array of all subclasses of a given class (deep or shallow).\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	Methods for replacing one method of a class with another.  These methods, if used properly can be used to replace a method with another method but still allow the replacement to invoke the original implementation.  In other words it provides a way of properly overriding a method from a category and being able to call "super".\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 There is an NSBundle category that implements a method to return an array of all the classes from a given bundle.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 There is a Protocol category that implements a method to return an array of all the classes conforming to a given protocol.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 Finally there are a variety of new functions that implement things like:\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	Returning an array of all classes known to the runtime.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	Returning an array of all classes that implement a given instance or factory selector.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	Controlling whether MOKit itself enables features that depend on method replacement.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f2\fs28 \cf0 MOAssertions macros:
+\f0\b0 \
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 MOKit now provides a replacement for the NSAssert* macros declared in NSException.h.  There are several reasons for the replacement:\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	There's a single primitive varargs macro (MOAssert) instead of multiple macros like NSAssert0, NSAssert1, NSAssert2, etc...).  This can be done since starting with Jaguar both preprocessors supported by Apple's gcc compiler support vararg macros.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	There's a single funnel point function in between the macros and the assertion handler that can be used to set breakpoints if you want to stop at the source of any assertion failure in gdb.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	MOAssertionHandler (which is a class analogous to NSAssertionHandler) has public API to set the current assertion handler instance which NSAssertionHandler lacks.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 In addition to addressing these limitations of the NSAssert mechanism, MOAssertions includes additional macros that allow easier testing of common assertions like asserting that an object is of a particular class.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f2\fs28 \cf0 Project Builder File Template:
+\f0\b0 \
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 A Project Builder File Template has been included that is suitable for use when adding new classes to MOKit itself.  It comes pre-configured with the standard content used in MOKit source.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f2\fs28 \cf0 Additional test programs:
+\f0\b0 \
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 Previous versions of MOKit had the RegexTest test tool for verifying correct behavior of MORegularExpression.  This version of MOKit includes test tools for MOAssertions and MORuntimeUtilities functionality as well as a test application for the MOViewListView and a test application for MOExtendedTableView and MOExtendedOutlineView.\
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\fs56 \cf0 \
+\pard\li1200\fi-660\ql\qnatural
+
+\f1\b\fs24 \cf0 Minor extensions\
+\pard\li1200\fi-1020\ql\qnatural
+
+\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	MORegularExpression has a new -ignoreCase method to query the property that gets set when initializing an instance.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	MORegexFormatter now uses nil as the default -formatPattern.  A -formatPattern of "%0" which used to be the default, now properly means the zero-th subexpression (ie the substring that matched the entire expression). Also, the syntax for the -formatPattern has been extended to allow for more than 10 subexpressions.  The previous syntax of "%#" where # was a single digit is still supported.  Now, "%\{##\}" is also supported where ## is any positive integer (but it must refer to a valid subexpression index for proper functioning.)\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	MOCompletionManager now has API to set whether completions are based on word-parsing or on all the text back to the beginning of the text object.  Previously it always used word-parsing.  This was not particularly appropriate for NSTextFields intended to contain a single path and using the MOFileCompletionStrategy.  In these cases, using the new -setCompleteWords:NO, you can make the completion work properly in this case even for paths with spaces in them.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	The MOKit classes which conform to NSCoding (MORegularExpression and MORegexFormatter) have been updated to be aware of and take advantage of the new NSKeyedArchiver support in Foundation.  Because MORegularExpression had a bug in its -initWithCoder: in the previous release which prevented any proper decoding of MORegularExpression (and indirectly of MORegexFormatter), no care has been taken to support reading NSKeyedArchiver archives containing MOKit objects from MOKit 2.6.  However, MOKit 2.7 has fixed this bug and will be able to read NSArchiver archives created with earlier versions of MOKit.  In this release, archiving works properly with both types of archiver.  In future releases of MOKit, any additional objects that implement NSCoding and any additional features to MORegularExpression and MORegexFormatter that require additional info to be encoded will only use NSKeyedArchiver and old-style NSArchiver archives will not be able to take advantage of the new features (this is basically the same policy that has been adopted by Cocoa itself).\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	All classes in MOKit now use the new MOAssertions macros.  The debug variant of MOKit (which is built by default by Deployment / install builds) has assertions enabled for the MOKit implementation, and if you run against it (using the Dynamic Library Runtime Variant popup in Project Builder's Executable editor) MOKit will perform extra checking of its arguments and internal consistency.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	MOCompletionStrategy now enforces the fact that it is an abstract class and will raise an assertion if you attempt to alloc an instance directly.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	All targets that produce Mach-o binaries (the framework and the test tools and apps) have been modified to direct the linker to pad the Mach-o header to allow for use of install_name_tool to rewrite any install_names.  This provides more flexibility in general, and specifically it allows for an alternative method of embedding the MOKit framework inside another app without having to make changes to the MOKit project and rebuild it.  See the FrameworkIssues document for more details.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	RegexTest has been extended to take into account the fact that 8 of the tests fail (see the readme in the MORegexp folder of the source for details on this).  These failures are accounted for as expected now and do not cause the test suite itself to appear to have failed.  It has also been extended to test MORegexFormatter as well.\
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\fs56 \cf0 \
+\pard\li1200\fi-660\ql\qnatural
+
+\f1\b\fs24 \cf0 Notable bug fixes\
+\pard\li1200\fi-1020\ql\qnatural
+
+\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	Copying a MORegularExpression now preserves the ignoreCase setting in the copy.  Similarly, -isEqual: now checks whether the ignoreCase setting is equal in addition to the expression string when comparing expressions.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	MORegularExpression had a leak that caused memory to be leaked on every comparison.  This has been fixed, and thank you to all the users who reported it as well as the the PB team who were the first ones to find it in their own copy of MORegularExpression.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	A bug with extracting subexpression ranges in MORegularExpression has been fixed.  Under Jaguar (with Foundation's more strict NSString range checking), this bug was causing the test suite to fail (and could cause other problems in practice as well).  Thanks to Wang Sooyong for calling attention to this bug and proposing the fix.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	MORegexFormatter now treats empty strings completely separately.  Whether an empty string is valid or not is now controlled solely through the -allowsEmptyString API and empty strings are never compared against the formatter's regular expressions.  There are various ways one could go with this, but this seems like a straight-forward and easy to explain choice.  Also, responsibility for dealing with the empty string case has been moved into validateString:matchedExpressionIndex: where it belongs (and where subclasses can more easily change the behavior if desired).\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	MORegexFormatter had a bug with format patterns.  When using backslash to escape a literal %, the backslash would be left in the resulting string.  This has been fixed.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	The MORegexFormatterPalette was broken.  I am not sure how it broke, but it must have been due to a subtle change in IB.  This has been fixed and, in addition, the inspector UI has been updated to Aqua guidelines and is now resizable as well.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	MOKit's Project Builder project has been modernized.  The Deployment build style can be used to do an install-style build from within the IDE.  Profile and debug variants of the framework are built when the Deployment build style is used.  HeaderDoc is generated when the Deployment build style is used.  A new DistributionImages target is provided that, when used with the Deployment build style will produce ready-to-release disk images for both the source and binary distributions of the project.  Various other target and build style cleanup has been done.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	General code cleanup and consistency enhancements have been made.  For example, -dealloc methods now always nil out instance variables as they release them.  Another example is that implementation files in MOKit now import individual MOKit headers only as needed instead of using the convenience header.  Other such cleanup and consistency improvements were also made.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	Important comments now have standardized prefixes: <typeMarker>:<username>:<date>.  <typeMarker> is either "***" for informational comments, "!!!" for comments marking problems that should be addressed or improvements that should be made, and "???" for comments marking areas of suspect code or code that may have implications that are not fully understood.  <date> is the date the comment was added (or empty for old comments where the date is unknown or in informational comments where the date is irrelevant).  This format allows easy searching for some stuff.  You can search for "---:", "!!!:", or "???:" to find a particular type of formal comment.  Or you can search for a ":<username>:" (for example ":mferris:") for all formal comments written by a certain person.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	All Windows-specific code has been removed.\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li1893\fi-1893\ql\qnatural
+
+\fs56 \cf0 \CocoaLigature0 \
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li1961\fi-1961\ql\qnatural
+
+\f1\b\fs28 \cf0 MOKit 2.6\
+
+\fs14 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 The biggest change in this version is the new backing implementation for MORegularExpression. Henry Spencer, the author of the original regular expression code used by previous versions of MOKit has rewritten his package to support Unicode directly. He has also greatly expanded the supported syntax for regular expressions to support, among other things, most of the extensions from Perl5. I have upgraded MORegularExpression to use this new package (which I obtained from the tcl 8.3.2 distribution.) I believe all the syntax additions that had been added to the old implementation by Vivian Girel are now present in the new base-line implementation.\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li980\fi-980\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 The only other significant change from 2.5 is that MOKit is now a (new) Project Builder project. Another minor change is that all MOKit source code is now stored in UTF-8 format. In this release, the only place that this is noticeable as being different from ASCII is in the file header comments where the copyright symbol is used. The project is set up such that all source files have UTF-8 set as their explicit file encodings, so handling should be completely automatic under Project Builder. Opening the source files in TextEdit or other editors may cause the copyright symbols to become corrupted if you do not explicitly open the files as UTF-8 encoding.\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li980\fi-980\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 Sadly, this is the first version of MOKit that does not support Windows. MOKit 2.6 is for Mac OS X only.\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li980\fi-980\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 As usual, the latest TextExtras (1.6) requires the latest MOKit (2.6).
+\f3\fs24 \
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li1893\fi-1893\ql\qnatural
+
+\f0\fs56 \cf0 \
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li1961\fi-1961\ql\qnatural
+
+\f1\b\fs28 \cf0 MOKit 2.5\
+
+\fs14 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 The only changes in this version are a couple bug fixes and a big speed boost for standardizing line endings. TextExtras 1.5 requires this version of MOKit.\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li1893\fi-1893\ql\qnatural
+
+\fs56 \cf0 \
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li1961\fi-1961\ql\qnatural
+
+\f1\b\fs28 \cf0 MOKit 2.4\
+
+\fs14 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 There are two main changes in 2.4.\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li980\fi-980\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	MOController is dead. Long live NSWindowController. MOController has been removed from the framework. If you depend on MOController, you may want to avoid upgrading until you get a chance to convert your code to use NSWindowController. The conversion is simple. I converted all the controllers in TextExtras to NSWindowController in a half hour. There are a couple main areas where you may have to watch out during the conversion. The way that you associate a controller with its nib is different. An NSWindowController is not automatically made its window's delegate. NSWindowController automatically takes ownership of (and responsibility for releasing) all top level objects in its nib so you shouldn't release them in your subclass' dealloc. You might want to look at the differences between TextExtras 1.3 and TextExtras 1.4 to see what sorts of things have to change in order to switch from MOController to NSWindowController.\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li980\fi-980\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx1800\tx3600\tx3980\tx4340\li1800\fi-300\ql\qnatural
+
+\f0\b0\fs28 \cf0 \'a5	MORegularExpression changes: The compiled regular expression for each MORegularExpression is now cached. This increases memory usage a bit, but it makes doing many matches against the same regular expression loads faster. Also, Vivian Girel has contributed some extensions to the Henry Spencer regular expression package that MOKit uses which add some extended features from perl 5's regular expression matching syntax. See the regexp_stuff.h header in the framework for details on the new features.\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li980\fi-980\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 MOKit 2.4 is built to run on Rhapsody/YellowBox For Windows Developer Release 2.\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li1893\fi-1893\ql\qnatural
+
+\fs56 \cf0 \
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li1961\fi-1961\ql\qnatural
+
+\f1\b\fs28 \cf0 MOKit 2.3\
+
+\fs14 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 MOKit 2.3 is pretty similar to 2.2. However, starting with version 2.3, MOKit is a Rhapsody/YellowBox framework. This doesn't mean much in terms of changes, but it does alter the binary distributions.\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li980\fi-980\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 MOKit 2.3 is built to run on Rhapsody/YellowBox For Windows Developer Release 1.\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li980\fi-980\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 There have been a couple tweaks here and there, but nothing really new.\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li1893\fi-1893\ql\qnatural
+
+\fs56 \cf0 \
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li1961\fi-1961\ql\qnatural
+
+\f1\b\fs28 \cf0 MOKit 2.2\
+
+\fs14 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 MOKit 2.2 has a few new classes, and removes one class.\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li980\fi-980\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 I realized MOClassVariable is merely an NSDictionary with different API. Back in the old days of 3.x, having a MOClassVariable class made more sense since there was no NSDictionary and I never did like the old Hashtable APIs. I ported the class to OPENSTEP without really thinking. Well, I have thought about it now and the class is totally unnecessary. MOController now uses an NSDictionary directly. You should too, if you used to use MOClassVariable.\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li980\fi-980\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 MOCompletionManager and MOCompletionStrategy provide a basic framework for implementing many different kinds of escape completion. These classes are useful for types of completion where there will be one or multiple possible completions and all the possible completions can be discovered quickly. The architecture kind of requires that all matches be discovered at once, so this is not really applicable where there might be multiple matches but it is either not possible or too expensive to figure them all out at once. One concrete strategy, MOFileCompletionStrategy, is provided which does regular file/path completion.\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li980\fi-980\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 These classes are the result of some work I did on a Shell. I wanted to be able to have multiple types of completion that could all work at the same time. In addition to file completion, an advanced Shell usually wants to offer other types of completion such as wildcard completion, history completion, command completion, etc... Using this architecture it is possible to do this in a fairly clean way and to add new types of completion easily as they are implemented.\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li980\fi-980\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 Finally, I have added some semi-useful category methods on various Foundation classes.\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li1893\fi-1893\ql\qnatural
+
+\fs56 \cf0 \
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li1961\fi-1961\ql\qnatural
+
+\f1\b\fs28 \cf0 MOKit 2.1\
+
+\fs14 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 MOKit 2.1 addresses a couple minor problems with MOKit 2.0. PLEASE NOTE: This version of MOKit will only build on OPENSTEP for Mach or Windows version 4.1! The compiled versions may or may not work on 4.0.\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li980\fi-980\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 There is a workaround in MOController for an OPENSTEP for Mach bug affecting the way MOController finds nib files. The workaround is not that great. Basically, if you have MOController nib files that won't load on Mach, you can write a special default for each such nib file to help MOController find it. See the code for details.\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li980\fi-980\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 The MORegularExpression class has a couple new methods also, and there is an additional subproject which contains a test tool for MORegularExpression based on the test suite provided in the regex code on which MORegularExpression is based.\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li1893\fi-1893\ql\qnatural
+
+\fs56 \cf0 \
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li1961\fi-1961\ql\qnatural
+
+\f1\b\fs28 \cf0 MOKit 2.0\
+
+\fs14 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 MOKit 2.0 is based on OPENSTEP. It will compile and run on both Windows and Mach. It does not include as many objects as 1.0, but they're better. They are also totally unsupported.\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li980\fi-980\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 This version is packaged as a framework project. It builds into a shared library. There are few issues with this on Mach (see the ReadMe in the project).\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li980\fi-980\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 Only a few classes are present. MOClassVariable implements a class variable that you can define once in a superclass, but which can take on different values for any subclasses. This class usually comes into its own when you are designing other reusable classes. Especially those that are meant to be subclassed. For instance, MOController uses this class internally.\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li980\fi-980\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 MOController is a simple nib file controller object. It basically keeps track of loading a nib file and managing a window that comes out of it. It really must be subclassed to be useful, but it is good for either document situations or single instance situations. As simplistic as it is, I find this class one of the most useful. This functionality can be needed over and over again in different contexts even in a single application.\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li980\fi-980\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 MORegularExpression encapsulates regular expression matching. The class is really a thin wrapper on top of Henry Spencer's implementation of the regex library routines. Instances represent immutable regular expressions that can be matched with strings and report on subexpression matches. This is a refinement from the MOKit 1.0 regular expression support. The expression itself is an object. Then the UI aspects are implemented separately in MORegexFormatter.\
+\pard\tx960\tx1920\tx2880\tx3840\tx4800\tx5760\tx6720\tx7680\tx8640\tx9600\tx10560\tx11520\tx12480\tx13440\tx14400\tx15360\tx16320\tx17280\tx18240\tx19203\tx20163\tx21123\tx22083\tx23043\tx24003\tx24963\tx25923\tx26883\tx27843\tx28803\tx29763\tx30725\tx31685\tx32645\tx33605\tx34565\tx35525\tx36485\tx37446\tx38406\tx39366\tx40326\tx41286\tx42246\tx43207\tx44167\tx45127\tx46087\tx47047\tx48007\tx48967\tx49927\tx50887\tx51847\tx52807\tx53767\tx54727\tx55687\tx56647\tx57607\tx58567\tx59527\tx60487\tx61450\tx62410\tx63370\tx64330\tx65290\tx66250\tx67210\tx68171\tx69131\tx70091\tx71051\tx72011\tx72971\tx73932\tx74892\tx75852\tx76812\tx77772\tx78732\tx79692\tx80652\tx81612\tx82572\tx83532\tx84492\tx85452\tx86414\tx87374\tx88334\tx89294\tx90254\tx91214\tx92175\tx93135\tx94095\tx95055\tx96015\li980\fi-980\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 MORegexFormatter is an NSFormatter subclass which does validation and formatting based on regular expression matching. NSFormatters are cool. They can be used by any NSCell, or anybody else for that matter, to restrict and canonicalize text entry. This kind of formatter uses a set of regular expressions \CocoaLigature1 to validate input. The proposed value must match one of the expressions. There is a format string which can be used to reformat the value using the subexpression matches from the expression.\
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 MOKit 2.0 also includes an InterfaceBuilder palette with a MORegexFormatter object on it. You can drop these onto NSTextFieldCells and NSFormCells in IB and a custom inspector lets you configure the regular expressions used for validating and the format string used for formatting.\
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\fs56 \cf0 \
+\pard\li1200\fi-1020\ql\qnatural
+
+\f1\b\fs28 \cf0 MOKit 1.x\
+\pard\li1200\fi-1020\ql\qnatural
+
+\fs14 \cf0 \
+\pard\tx3600\tx3980\tx4340\li1500\ql\qnatural
+
+\f0\b0\fs28 \cf0 MOKit 1.0 and earlier versions are based on the NEXTSTEP 3.x API. These versions have little in common with MOKit 2.0 and later.\
+}
