@@ -1,0 +1,110 @@
+============================================================
+Later
+============================================================
+
+- = needs to be done
++ = done
+* = done, but untested
+
+Remove or redo tablecontainerview
+
+MOViewListView:
+    - Implement maybe one image-composited style of bar, like MSOffice...
+    - Implement optional vertical resizing of subviews through a split grip
+    - Tearing off and docking?
+        * Basic drag & drop support for vlv
+    - Add firstKeyView support for items
+    - Support showing/hiding labels on per-item basis
+    - Support auto-sizing windows (automatic when vlv is content view?)
+    - Editable labels
+        
+MORegexFormatter:  
+    - Should support a list of format patterns to go with the list of expressions.
+    - Should support a separate list of regular expressions to use for partial entry validation.
+
+MOExtendedTableView/MOExtendedOutlineView
+    - Preserve selection by item across reloads (outline-only)
+    - Auto-width sizing to fit content
+    - Long name tooltips
+    - Button bar?
+    - Mac-style editing?
+    - default-based setting of table fonts with auto-updating
+    
+MOTabView
+    - Editable labels
+
+MOViewController
+    - Basic class
+        + Init methods and nib loading, integration with NSWindowController
+        + Controller hierarchy management
+        + View install management
+        + Standalone controller windows
+            - Should MOViewController be in charge of creating its window when it owns it (like it does now)?  Currently the mechanism is a bit against the principle that a controller should not know about its parent sinbce it is expected to know what sort of window it should live in.  It should own and manage since that is convenient, but maybe it should require that the window be given to it from outside?
+            - Provide option for releaseWhenClosed-type behavior?
+        + Controller labels, icons, representedFilenames
+        - Geometry/content configuration support
+            + Base class saves frame for geom, saves class name for both
+                - Need to make the class key public...?
+            + Base class optionally saves subcontroller config
+            - Save own window state (auto-frame-save info from window)
+                - frame is actually saved, but we'd get the richer screen-aware frame saving of NSWindow by doing this...
+            + Save label
+        * Controller updating mechanism
+        - Keyboard UI support
+            * firstKeyView attribute
+            * Can MOViewController provide any default behavior for using the firstKeyView?
+                - What if MOViewController did this:
+                    - At viewWasInstalled for a subcontroller, hook the view into the tab loop using subcontroller order and whether each controller is installed
+                    - At viewWillBeRemoved, undo this
+                - This would work fine for split view and would be fine for tab and view list as well (if those classes did not use the facilities of their view item classes).
+                - Would need a way to override this behavior easily... 
+        - Toolbar support?
+        - Hotkey support?
+        - View size control support?
+        - Should the message recurse for "willbe" be in reverse order (from "was" recurse)
+            - This will be a bit of work... is it worth it?
+        * Drag & drop of controllers, infrastructure
+        
+    - _MO_WindowController
+        + Root controller
+        + View installation
+        + Use root controller label/representedFilename for window
+        * Updating mechanism
+        - Keyboard UI support
+            * Use firstKeyView of root controller.
+        - Toolbar support?
+        - Enforcing root view size constraints
+
+    - MOTabViewController
+        + Basics
+        + Use subcontroller labels as tab labels
+        * Use firstKeyView of subcontrollers
+        + Geometry/content configuration support
+            + Saves selected tab optionally as geom or content
+        + Cover font, tabViewType, allowsTrunc, drawsBackground, controlTint, controlSize
+            + Save as geometry config
+        + Support drag & drop of subcontrollers
+        - Forward (all) view delegations
+        
+    - MOSplitViewController
+        + Basics
+        - Use firstKeyView of subcontrollers
+        + Cover vertical, paneSplitter
+            + Save as geometry config
+        - Forward (all) view delegations
+        - Support drag and drop of subcontrollers
+        
+    - MOViewListViewController
+        + Basics
+        + Use subcontroller labels as list labels
+        - Use firstKeyView of subcontrollers
+        + Geometry/content configuration support
+            + Saves expanded items optionally as geom or content
+        + Cover controlSize, labelAppearance, backgroundColor
+            + Save as geometry config
+        - Forward (all) view delegations
+        - Support drag & drop of subcontrollers
+
+Misc:
+    - Automatic providing of KVC accessors through runtime trickery?
+    - Timing and tracing utilities
