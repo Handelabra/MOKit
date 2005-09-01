@@ -1,0 +1,2250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B17F4E5808AA9D8700B00329 /* MOKit_2 All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B17F4E6C08AA9D8700B00329 /* Build configuration list for PBXAggregateTarget "MOKit_2 All" */;
+			buildPhases = (
+			);
+			buildSettings = {
+			};
+			dependencies = (
+				B17F4FC308AA9D8900B00329 /* PBXTargetDependency */,
+				B17F4FC508AA9D8900B00329 /* PBXTargetDependency */,
+				B17F4FC708AA9D8900B00329 /* PBXTargetDependency */,
+				B17F4FC908AA9D8900B00329 /* PBXTargetDependency */,
+				B17F4FCB08AA9D8900B00329 /* PBXTargetDependency */,
+				B17F4FCD08AA9D8900B00329 /* PBXTargetDependency */,
+				B17F4FCF08AA9D8900B00329 /* PBXTargetDependency */,
+				B17F4FD108AA9D8900B00329 /* PBXTargetDependency */,
+			);
+			name = "MOKit_2 All";
+			productName = MOKit_2;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		B17F4E7C08AA9D8800B00329 /* MODebug_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B1B84388063EB7D600D206DA /* MODebug_Private.h */; };
+		B17F4E7D08AA9D8800B00329 /* MOAssertions.h in Headers */ = {isa = PBXBuildFile; fileRef = 274B9C07037D1AD000D60C3E /* MOAssertions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F4E7E08AA9D8800B00329 /* MOCompletionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7A9F59FEF17203C02AAC07 /* MOCompletionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F4E7F08AA9D8800B00329 /* MOCompletionStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7A9F5AFEF17203C02AAC07 /* MOCompletionStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F4E8008AA9D8800B00329 /* MOExtendedOutlineView.h in Headers */ = {isa = PBXBuildFile; fileRef = 27B8F7660396891B00EB9EF2 /* MOExtendedOutlineView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F4E8108AA9D8800B00329 /* MOExtendedTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 27B8F7620396890B00EB9EF2 /* MOExtendedTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F4E8208AA9D8800B00329 /* MOFileCompletionStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7A9F5BFEF17203C02AAC07 /* MOFileCompletionStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F4E8308AA9D8800B00329 /* MOFoundationExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7A9F5CFEF17203C02AAC07 /* MOFoundationExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F4E8408AA9D8800B00329 /* MOKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7A9F54FEF17203C02AAC07 /* MOKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F4E8508AA9D8800B00329 /* MOKitDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7A9F53FEF17203C02AAC07 /* MOKitDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F4E8608AA9D8800B00329 /* MOKitPrefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 27B5FD4A036D1CEB002849E7 /* MOKitPrefix.h */; };
+		B17F4E8708AA9D8800B00329 /* MORESyntaxFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7A9F58FEF17203C02AAC07 /* MORESyntaxFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F4E8808AA9D8800B00329 /* MORegexFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7A9F55FEF17203C02AAC07 /* MORegexFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F4E8908AA9D8800B00329 /* MORegexpHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB15E940034E14CC02AAC07 /* MORegexpHelpers.h */; };
+		B17F4E8A08AA9D8800B00329 /* MORegularExpression.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7A9F56FEF17203C02AAC07 /* MORegularExpression.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F4E8B08AA9D8800B00329 /* MORegularExpression_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7A9F57FEF17203C02AAC07 /* MORegularExpression_Private.h */; };
+		B17F4E8C08AA9D8800B00329 /* MORuntimeUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7A9F5DFEF17203C02AAC07 /* MORuntimeUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F4E8D08AA9D8800B00329 /* MOViewListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 274B9BA5037D12DE00D60C3E /* MOViewListView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F4E8E08AA9D8800B00329 /* MOViewListViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2791778D03A528F80079D182 /* MOViewListViewItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F4E8F08AA9D8800B00329 /* NSView_MOSizing.h in Headers */ = {isa = PBXBuildFile; fileRef = 27B43A4F038A30E40000F544 /* NSView_MOSizing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F4E9008AA9D8800B00329 /* regcustom.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB15E8C0034DECFC02AAC07 /* regcustom.h */; };
+		B17F4E9108AA9D8800B00329 /* regex.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB15E850034DECFC02AAC07 /* regex.h */; };
+		B17F4E9208AA9D8800B00329 /* MOViewListViewItem_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2791779103A52A6B0079D182 /* MOViewListViewItem_Private.h */; };
+		B17F4E9308AA9D8800B00329 /* _MO_WindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = 272B722F03DB54BA00F04E48 /* _MO_WindowController.h */; };
+		B17F4E9408AA9D8800B00329 /* MOViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 272B723103DB54BA00F04E48 /* MOViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F4E9508AA9D8800B00329 /* MOTabViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 272AC781041989A100164AC5 /* MOTabViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F4E9608AA9D8800B00329 /* MODebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 272AC78E041995F800164AC5 /* MODebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F4E9708AA9D8800B00329 /* MOSplitViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 272AC794041A658D00164AC5 /* MOSplitViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F4E9808AA9D8800B00329 /* MOViewListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2767870F041BC2B100E49ED7 /* MOViewListViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F4E9908AA9D8800B00329 /* MOExtendedMenuItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2728DC5F0449DCD9002AAC07 /* MOExtendedMenuItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F4E9A08AA9D8800B00329 /* MOExtendedMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 2728DC630449DCE2002AAC07 /* MOExtendedMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F4E9B08AA9D8800B00329 /* MOTabView.h in Headers */ = {isa = PBXBuildFile; fileRef = B157731B04472E2E00FEE151 /* MOTabView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F4E9C08AA9D8800B00329 /* MOViewListLabelView.h in Headers */ = {isa = PBXBuildFile; fileRef = B1EF9BA50468580B00FED98A /* MOViewListLabelView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F4E9D08AA9D8800B00329 /* MOViewControllerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C74509A052395A600C67446 /* MOViewControllerView.h */; settings = {ATTRIBUTES = (); }; };
+		B17F4E9E08AA9D8800B00329 /* NSEvent_MOLocationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B1BB8910060B971800F403BA /* NSEvent_MOLocationAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F4EA008AA9D8800B00329 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0237CCEEFF559A80C02AAC07 /* InfoPlist.strings */; };
+		B17F4EA108AA9D8800B00329 /* README.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0C7A9F65FEF17203C02AAC07 /* README.rtf */; };
+		B17F4EA208AA9D8800B00329 /* ReleaseNotes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 018D34C100388976C02AAC07 /* ReleaseNotes.rtf */; };
+		B17F4EA308AA9D8800B00329 /* DistributionImages.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2791719603AC0E6A002AAC07 /* DistributionImages.sh */; };
+		B17F4EA508AA9D8800B00329 /* MOAssertions.m in Sources */ = {isa = PBXBuildFile; fileRef = 274B9C08037D1AD000D60C3E /* MOAssertions.m */; };
+		B17F4EA608AA9D8800B00329 /* MOCompletionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A9F4EFEF17203C02AAC07 /* MOCompletionManager.m */; settings = {ATTRIBUTES = (Optimize, ); }; };
+		B17F4EA708AA9D8800B00329 /* MOCompletionStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A9F4FFEF17203C02AAC07 /* MOCompletionStrategy.m */; settings = {ATTRIBUTES = (Optimize, ); }; };
+		B17F4EA808AA9D8800B00329 /* MOExtendedOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B8F7670396891B00EB9EF2 /* MOExtendedOutlineView.m */; };
+		B17F4EA908AA9D8800B00329 /* MOExtendedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B8F7630396890B00EB9EF2 /* MOExtendedTableView.m */; };
+		B17F4EAA08AA9D8800B00329 /* MOFileCompletionStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A9F50FEF17203C02AAC07 /* MOFileCompletionStrategy.m */; settings = {ATTRIBUTES = (Optimize, ); }; };
+		B17F4EAB08AA9D8800B00329 /* MOFoundationExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A9F51FEF17203C02AAC07 /* MOFoundationExtras.m */; settings = {ATTRIBUTES = (Optimize, ); }; };
+		B17F4EAC08AA9D8800B00329 /* MORESyntaxFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A9F4DFEF17203C02AAC07 /* MORESyntaxFormatter.m */; settings = {ATTRIBUTES = (Optimize, ); }; };
+		B17F4EAD08AA9D8800B00329 /* MORegexFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A9F4BFEF17203C02AAC07 /* MORegexFormatter.m */; settings = {ATTRIBUTES = (Optimize, ); }; };
+		B17F4EAE08AA9D8800B00329 /* MORegexpHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB15E950034E14CC02AAC07 /* MORegexpHelpers.m */; };
+		B17F4EAF08AA9D8800B00329 /* MORegularExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A9F4CFEF17203C02AAC07 /* MORegularExpression.m */; settings = {ATTRIBUTES = (Optimize, ); }; };
+		B17F4EB008AA9D8800B00329 /* MORegularExpression_Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A9F60FEF17203C02AAC07 /* MORegularExpression_Private.m */; settings = {ATTRIBUTES = (Optimize, ); }; };
+		B17F4EB108AA9D8800B00329 /* MORuntimeUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A9F61FEF17203C02AAC07 /* MORuntimeUtilities.m */; settings = {ATTRIBUTES = (Optimize, ); }; };
+		B17F4EB208AA9D8800B00329 /* MOViewListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 274B9BA6037D12DE00D60C3E /* MOViewListView.m */; };
+		B17F4EB308AA9D8800B00329 /* MOViewListViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2791778E03A528F80079D182 /* MOViewListViewItem.m */; };
+		B17F4EB408AA9D8800B00329 /* NSView_MOSizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B43A50038A30E40000F544 /* NSView_MOSizing.m */; };
+		B17F4EB508AA9D8800B00329 /* regcomp.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CB15E8B0034DECFC02AAC07 /* regcomp.c */; };
+		B17F4EB608AA9D8800B00329 /* regerror.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CB15E8E0034DECFC02AAC07 /* regerror.c */; };
+		B17F4EB708AA9D8800B00329 /* regexec.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CB15E900034DECFC02AAC07 /* regexec.c */; };
+		B17F4EB808AA9D8800B00329 /* regfree.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CB15E910034DECFC02AAC07 /* regfree.c */; };
+		B17F4EB908AA9D8800B00329 /* _MO_WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 272B723003DB54BA00F04E48 /* _MO_WindowController.m */; };
+		B17F4EBA08AA9D8800B00329 /* MOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 272B723203DB54BA00F04E48 /* MOViewController.m */; };
+		B17F4EBB08AA9D8800B00329 /* MOTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 272AC782041989A100164AC5 /* MOTabViewController.m */; };
+		B17F4EBC08AA9D8800B00329 /* MODebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 272AC7900419961C00164AC5 /* MODebug.m */; };
+		B17F4EBD08AA9D8800B00329 /* MOSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 272AC795041A658D00164AC5 /* MOSplitViewController.m */; };
+		B17F4EBE08AA9D8800B00329 /* MOViewListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27678710041BC2B100E49ED7 /* MOViewListViewController.m */; };
+		B17F4EBF08AA9D8800B00329 /* MOExtendedMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2728DC600449DCD9002AAC07 /* MOExtendedMenuItem.m */; };
+		B17F4EC008AA9D8800B00329 /* MOExtendedMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2728DC640449DCE2002AAC07 /* MOExtendedMenu.m */; };
+		B17F4EC108AA9D8800B00329 /* MOTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = B157731C04472E2E00FEE151 /* MOTabView.m */; };
+		B17F4EC208AA9D8800B00329 /* MOViewListLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EF9BA60468580B00FED98A /* MOViewListLabelView.m */; };
+		B17F4EC308AA9D8800B00329 /* MOViewControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C74509B052395A600C67446 /* MOViewControllerView.m */; };
+		B17F4EC408AA9D8800B00329 /* NSEvent_MOLocationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BB8911060B971800F403BA /* NSEvent_MOLocationAdditions.m */; };
+		B17F4EC608AA9D8800B00329 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272B725A03DB583D00F04E48 /* Cocoa.framework */; };
+		B17F4EC808AA9D8800B00329 /* RESyntax.rtf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E57CA7F00375BC0C02AAC07 /* RESyntax.rtf */; };
+		B17F4EC908AA9D8800B00329 /* MOViewController_example1.tiff in CopyFiles */ = {isa = PBXBuildFile; fileRef = B1579B1D051291A6003D99BE /* MOViewController_example1.tiff */; };
+		B17F4ECB08AA9D8800B00329 /* README.rtf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0C7A9F65FEF17203C02AAC07 /* README.rtf */; };
+		B17F4ECC08AA9D8800B00329 /* ReleaseNotes.rtf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 018D34C100388976C02AAC07 /* ReleaseNotes.rtf */; };
+		B17F4ECD08AA9D8800B00329 /* README_Installing.rtf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0C7A9F6DFEF17203C02AAC07 /* README_Installing.rtf */; };
+		B17F4ECE08AA9D8800B00329 /* FrameworkIssues.rtf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0C7A9F6EFEF17203C02AAC07 /* FrameworkIssues.rtf */; };
+		B17F4EE408AA9D8800B00329 /* MOFormatterPalette.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7A9F75FEF17203C02AAC07 /* MOFormatterPalette.h */; };
+		B17F4EE508AA9D8800B00329 /* MORegexFormatter_IBCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7A9F76FEF17203C02AAC07 /* MORegexFormatter_IBCategory.h */; };
+		B17F4EE608AA9D8800B00329 /* MORegexFormatterInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7A9F77FEF17203C02AAC07 /* MORegexFormatterInspector.h */; };
+		B17F4EE808AA9D8800B00329 /* MOFormatterPalette.nib in Resources */ = {isa = PBXBuildFile; fileRef = 0C7A9F79FEF17203C02AAC07 /* MOFormatterPalette.nib */; };
+		B17F4EE908AA9D8800B00329 /* MORegexFormatterInspector.nib in Resources */ = {isa = PBXBuildFile; fileRef = 0C7A9F7BFEF17203C02AAC07 /* MORegexFormatterInspector.nib */; };
+		B17F4EEA08AA9D8800B00329 /* MOFormatterPalette.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 0C7A9F7EFEF17203C02AAC07 /* MOFormatterPalette.tiff */; };
+		B17F4EEB08AA9D8800B00329 /* MORegexFormatter.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 0C7A9F7FFEF17203C02AAC07 /* MORegexFormatter.tiff */; };
+		B17F4EEC08AA9D8800B00329 /* palette.table in Resources */ = {isa = PBXBuildFile; fileRef = 0C7A9F81FEF17203C02AAC07 /* palette.table */; };
+		B17F4EED08AA9D8800B00329 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0237CCEAFF559947C02AAC07 /* InfoPlist.strings */; };
+		B17F4EEF08AA9D8800B00329 /* MOFormatterPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A9F71FEF17203C02AAC07 /* MOFormatterPalette.m */; settings = {ATTRIBUTES = (Optimize, ); }; };
+		B17F4EF008AA9D8800B00329 /* MORegexFormatter_IBCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A9F72FEF17203C02AAC07 /* MORegexFormatter_IBCategory.m */; settings = {ATTRIBUTES = (Optimize, ); }; };
+		B17F4EF108AA9D8800B00329 /* MORegexFormatterInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A9F73FEF17203C02AAC07 /* MORegexFormatterInspector.m */; settings = {ATTRIBUTES = (Optimize, ); }; };
+		B17F4EF308AA9D8800B00329 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272B725A03DB583D00F04E48 /* Cocoa.framework */; };
+		B17F4EF408AA9D8800B00329 /* InterfaceBuilder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7A9F9DFEF17203C02AAC07 /* InterfaceBuilder.framework */; };
+		B17F4F0C08AA9D8800B00329 /* RegexTest_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A9F8AFEF17203C02AAC07 /* RegexTest_main.m */; settings = {ATTRIBUTES = (Optimize, ); }; };
+		B17F4F0E08AA9D8800B00329 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272B725A03DB583D00F04E48 /* Cocoa.framework */; };
+		B17F4F1108AA9D8800B00329 /* RegexTestData.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0C7A9F91FEF17203C02AAC07 /* RegexTestData.plist */; };
+		B17F4F1308AA9D8800B00329 /* RegexTestData.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0C7A9F91FEF17203C02AAC07 /* RegexTestData.plist */; };
+		B17F4F2908AA9D8800B00329 /* MOAssertionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 274B9C2C037D2B1600D60C3E /* MOAssertionTest.m */; };
+		B17F4F2B08AA9D8800B00329 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272B725A03DB583D00F04E48 /* Cocoa.framework */; };
+		B17F4F4208AA9D8800B00329 /* MORuntimeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A4C9B30384F565005D0CAC /* MORuntimeTest.m */; };
+		B17F4F4408AA9D8800B00329 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272B725A03DB583D00F04E48 /* Cocoa.framework */; };
+		B17F4F5A08AA9D8800B00329 /* TestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 27FAA66D03825310004E7C91 /* TestController.h */; };
+		B17F4F5C08AA9D8800B00329 /* main.nib in Resources */ = {isa = PBXBuildFile; fileRef = 27FAA68803825890004E7C91 /* main.nib */; };
+		B17F4F5D08AA9D8800B00329 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27D8BCD7039C4E44007BF0EA /* InfoPlist.strings */; };
+		B17F4F5E08AA9D8800B00329 /* TestController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2796FC1C03A51EE2007815C8 /* TestController.nib */; };
+		B17F4F6008AA9D8800B00329 /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FAA66E03825310004E7C91 /* TestController.m */; };
+		B17F4F6108AA9D8800B00329 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FAA66F0382536E004E7C91 /* main.m */; };
+		B17F4F6308AA9D8800B00329 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272B725A03DB583D00F04E48 /* Cocoa.framework */; };
+		B17F4F7A08AA9D8900B00329 /* TestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D8BCBF039C4BF0007BF0EA /* TestController.h */; };
+		B17F4F7C08AA9D8900B00329 /* main.nib in Resources */ = {isa = PBXBuildFile; fileRef = 27D8BCBA039C4BF0007BF0EA /* main.nib */; };
+		B17F4F7D08AA9D8900B00329 /* TestController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 27D8BCBC039C4BF0007BF0EA /* TestController.nib */; };
+		B17F4F7E08AA9D8900B00329 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27D8BCDA039C4E5B007BF0EA /* InfoPlist.strings */; };
+		B17F4F8008AA9D8900B00329 /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D8BCC0039C4BF0007BF0EA /* TestController.m */; };
+		B17F4F8108AA9D8900B00329 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D8BCBE039C4BF0007BF0EA /* main.m */; };
+		B17F4F8308AA9D8900B00329 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272B725A03DB583D00F04E48 /* Cocoa.framework */; };
+		B17F4F9A08AA9D8900B00329 /* TestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 272B723F03DB551C00F04E48 /* TestController.h */; };
+		B17F4F9B08AA9D8900B00329 /* AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 272AC78A0419908400164AC5 /* AppDelegate.h */; };
+		B17F4F9D08AA9D8900B00329 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 272B723803DB551C00F04E48 /* InfoPlist.strings */; };
+		B17F4F9E08AA9D8900B00329 /* main.nib in Resources */ = {isa = PBXBuildFile; fileRef = 272B723A03DB551C00F04E48 /* main.nib */; };
+		B17F4F9F08AA9D8900B00329 /* TestController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 272B723C03DB551C00F04E48 /* TestController.nib */; };
+		B17F4FA108AA9D8900B00329 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 272B723E03DB551C00F04E48 /* main.m */; };
+		B17F4FA208AA9D8900B00329 /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 272B724003DB551C00F04E48 /* TestController.m */; };
+		B17F4FA308AA9D8900B00329 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 272AC78B0419908400164AC5 /* AppDelegate.m */; };
+		B17F4FA508AA9D8900B00329 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272B725A03DB583D00F04E48 /* Cocoa.framework */; };
+		B17F4FE408AA9D8900B00329 /* MOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17F4ED808AA9D8800B00329 /* MOKit.framework */; };
+		B17F4FE508AA9D8900B00329 /* MOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17F4ED808AA9D8800B00329 /* MOKit.framework */; };
+		B17F4FE608AA9D8900B00329 /* MOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17F4ED808AA9D8800B00329 /* MOKit.framework */; };
+		B17F4FE708AA9D8900B00329 /* MOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17F4ED808AA9D8800B00329 /* MOKit.framework */; };
+		B17F4FE808AA9D8900B00329 /* MOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17F4ED808AA9D8800B00329 /* MOKit.framework */; };
+		B17F4FE908AA9D8900B00329 /* MOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17F4ED808AA9D8800B00329 /* MOKit.framework */; };
+		B17F4FEA08AA9D8900B00329 /* MOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17F4ED808AA9D8800B00329 /* MOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		B1CDF37A08AABDAD004844F7 /* Development */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Development;
+		};
+		B1CDF37B08AABDAD004844F7 /* Deployment */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Deployment;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		B17F4FC208AA9D8900B00329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C7A9F46FEF17203C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B17F4E7A08AA9D8800B00329;
+			remoteInfo = "MOKit (Upgraded)";
+		};
+		B17F4FC408AA9D8900B00329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C7A9F46FEF17203C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B17F4EE008AA9D8800B00329;
+			remoteInfo = "MOFormatterPalette (Upgraded)";
+		};
+		B17F4FC608AA9D8900B00329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C7A9F46FEF17203C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B17F4F0708AA9D8800B00329;
+			remoteInfo = "RegexTest (Upgraded)";
+		};
+		B17F4FC808AA9D8900B00329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C7A9F46FEF17203C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B17F4F2408AA9D8800B00329;
+			remoteInfo = "AssertTest (Upgraded)";
+		};
+		B17F4FCA08AA9D8900B00329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C7A9F46FEF17203C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B17F4F3D08AA9D8800B00329;
+			remoteInfo = "RuntimeTest (Upgraded)";
+		};
+		B17F4FCC08AA9D8900B00329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C7A9F46FEF17203C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B17F4F5608AA9D8800B00329;
+			remoteInfo = "VLVTest (Upgraded)";
+		};
+		B17F4FCE08AA9D8900B00329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C7A9F46FEF17203C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B17F4F7608AA9D8900B00329;
+			remoteInfo = "TableOutlineTest (Upgraded)";
+		};
+		B17F4FD008AA9D8900B00329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C7A9F46FEF17203C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B17F4F9608AA9D8900B00329;
+			remoteInfo = "VCTest (Upgraded)";
+		};
+		B17F4FD208AA9D8900B00329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C7A9F46FEF17203C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B17F4E7A08AA9D8800B00329;
+			remoteInfo = "MOKit (Upgraded)";
+		};
+		B17F4FD408AA9D8900B00329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C7A9F46FEF17203C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B17F4E7A08AA9D8800B00329;
+			remoteInfo = "MOKit (Upgraded)";
+		};
+		B17F4FD608AA9D8900B00329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C7A9F46FEF17203C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B17F4E7A08AA9D8800B00329;
+			remoteInfo = "MOKit (Upgraded)";
+		};
+		B17F4FD808AA9D8900B00329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C7A9F46FEF17203C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B17F4E7A08AA9D8800B00329;
+			remoteInfo = "MOKit (Upgraded)";
+		};
+		B17F4FDA08AA9D8900B00329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C7A9F46FEF17203C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B17F4E7A08AA9D8800B00329;
+			remoteInfo = "MOKit (Upgraded)";
+		};
+		B17F4FDC08AA9D8900B00329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C7A9F46FEF17203C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B17F4E7A08AA9D8800B00329;
+			remoteInfo = "MOKit (Upgraded)";
+		};
+		B17F4FDE08AA9D8900B00329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C7A9F46FEF17203C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B17F4E7A08AA9D8800B00329;
+			remoteInfo = "MOKit (Upgraded)";
+		};
+		B17F4FE008AA9D8900B00329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C7A9F46FEF17203C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B17F4E5808AA9D8700B00329;
+			remoteInfo = "MOKit_2 All (Copied)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B17F4EC708AA9D8800B00329 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = DocumentationResources;
+			dstSubfolderSpec = 7;
+			files = (
+				B17F4EC808AA9D8800B00329 /* RESyntax.rtf in CopyFiles */,
+				B17F4EC908AA9D8800B00329 /* MOViewController_example1.tiff in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4ECA08AA9D8800B00329 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 0;
+			files = (
+				B17F4ECB08AA9D8800B00329 /* README.rtf in CopyFiles */,
+				B17F4ECC08AA9D8800B00329 /* ReleaseNotes.rtf in CopyFiles */,
+				B17F4ECD08AA9D8800B00329 /* README_Installing.rtf in CopyFiles */,
+				B17F4ECE08AA9D8800B00329 /* FrameworkIssues.rtf in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B17F4F1008AA9D8800B00329 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				B17F4F1108AA9D8800B00329 /* RegexTestData.plist in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4F1208AA9D8800B00329 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "$(INSTALL_PATH)";
+			dstSubfolderSpec = 0;
+			files = (
+				B17F4F1308AA9D8800B00329 /* RegexTestData.plist in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		018D34C100388976C02AAC07 /* ReleaseNotes.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = ReleaseNotes.rtf; sourceTree = "<group>"; };
+		0237CCEBFF559947C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0237CCEFFF559A80C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0237CCF8FF559DCAC02AAC07 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		0C7A9F4BFEF17203C02AAC07 /* MORegexFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MORegexFormatter.m; sourceTree = "<group>"; };
+		0C7A9F4CFEF17203C02AAC07 /* MORegularExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MORegularExpression.m; sourceTree = "<group>"; };
+		0C7A9F4DFEF17203C02AAC07 /* MORESyntaxFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MORESyntaxFormatter.m; sourceTree = "<group>"; };
+		0C7A9F4EFEF17203C02AAC07 /* MOCompletionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOCompletionManager.m; sourceTree = "<group>"; };
+		0C7A9F4FFEF17203C02AAC07 /* MOCompletionStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOCompletionStrategy.m; sourceTree = "<group>"; };
+		0C7A9F50FEF17203C02AAC07 /* MOFileCompletionStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOFileCompletionStrategy.m; sourceTree = "<group>"; };
+		0C7A9F51FEF17203C02AAC07 /* MOFoundationExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOFoundationExtras.m; sourceTree = "<group>"; };
+		0C7A9F53FEF17203C02AAC07 /* MOKitDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOKitDefines.h; sourceTree = "<group>"; };
+		0C7A9F54FEF17203C02AAC07 /* MOKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOKit.h; sourceTree = "<group>"; };
+		0C7A9F55FEF17203C02AAC07 /* MORegexFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MORegexFormatter.h; sourceTree = "<group>"; };
+		0C7A9F56FEF17203C02AAC07 /* MORegularExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MORegularExpression.h; sourceTree = "<group>"; };
+		0C7A9F57FEF17203C02AAC07 /* MORegularExpression_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MORegularExpression_Private.h; sourceTree = "<group>"; };
+		0C7A9F58FEF17203C02AAC07 /* MORESyntaxFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MORESyntaxFormatter.h; sourceTree = "<group>"; };
+		0C7A9F59FEF17203C02AAC07 /* MOCompletionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOCompletionManager.h; sourceTree = "<group>"; };
+		0C7A9F5AFEF17203C02AAC07 /* MOCompletionStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOCompletionStrategy.h; sourceTree = "<group>"; };
+		0C7A9F5BFEF17203C02AAC07 /* MOFileCompletionStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFileCompletionStrategy.h; sourceTree = "<group>"; };
+		0C7A9F5CFEF17203C02AAC07 /* MOFoundationExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFoundationExtras.h; sourceTree = "<group>"; };
+		0C7A9F5DFEF17203C02AAC07 /* MORuntimeUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MORuntimeUtilities.h; sourceTree = "<group>"; };
+		0C7A9F60FEF17203C02AAC07 /* MORegularExpression_Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MORegularExpression_Private.m; sourceTree = "<group>"; };
+		0C7A9F61FEF17203C02AAC07 /* MORuntimeUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MORuntimeUtilities.m; sourceTree = "<group>"; };
+		0C7A9F65FEF17203C02AAC07 /* README.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = "<group>"; };
+		0C7A9F6DFEF17203C02AAC07 /* README_Installing.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = README_Installing.rtf; sourceTree = "<group>"; };
+		0C7A9F6EFEF17203C02AAC07 /* FrameworkIssues.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = FrameworkIssues.rtf; sourceTree = "<group>"; };
+		0C7A9F71FEF17203C02AAC07 /* MOFormatterPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOFormatterPalette.m; sourceTree = "<group>"; };
+		0C7A9F72FEF17203C02AAC07 /* MORegexFormatter_IBCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MORegexFormatter_IBCategory.m; sourceTree = "<group>"; };
+		0C7A9F73FEF17203C02AAC07 /* MORegexFormatterInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MORegexFormatterInspector.m; sourceTree = "<group>"; };
+		0C7A9F75FEF17203C02AAC07 /* MOFormatterPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFormatterPalette.h; sourceTree = "<group>"; };
+		0C7A9F76FEF17203C02AAC07 /* MORegexFormatter_IBCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MORegexFormatter_IBCategory.h; sourceTree = "<group>"; };
+		0C7A9F77FEF17203C02AAC07 /* MORegexFormatterInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MORegexFormatterInspector.h; sourceTree = "<group>"; };
+		0C7A9F7AFEF17203C02AAC07 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MOFormatterPalette.nib; sourceTree = "<group>"; };
+		0C7A9F7CFEF17203C02AAC07 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MORegexFormatterInspector.nib; sourceTree = "<group>"; };
+		0C7A9F7EFEF17203C02AAC07 /* MOFormatterPalette.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = MOFormatterPalette.tiff; sourceTree = "<group>"; };
+		0C7A9F7FFEF17203C02AAC07 /* MORegexFormatter.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = MORegexFormatter.tiff; sourceTree = "<group>"; };
+		0C7A9F81FEF17203C02AAC07 /* palette.table */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = palette.table; sourceTree = "<group>"; };
+		0C7A9F8AFEF17203C02AAC07 /* RegexTest_main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexTest_main.m; sourceTree = "<group>"; };
+		0C7A9F91FEF17203C02AAC07 /* RegexTestData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = RegexTestData.plist; sourceTree = "<group>"; };
+		0C7A9F9BFEF17203C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0C7A9F9CFEF17203C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		0C7A9F9DFEF17203C02AAC07 /* InterfaceBuilder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InterfaceBuilder.framework; path = /System/Library/Frameworks/InterfaceBuilder.framework; sourceTree = "<absolute>"; };
+		1C74509A052395A600C67446 /* MOViewControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOViewControllerView.h; sourceTree = "<group>"; };
+		1C74509B052395A600C67446 /* MOViewControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOViewControllerView.m; sourceTree = "<group>"; };
+		1CB15E850034DECFC02AAC07 /* regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regex.h; sourceTree = "<group>"; };
+		1CB15E860034DECFC02AAC07 /* regc_color.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = regc_color.c; sourceTree = "<group>"; };
+		1CB15E870034DECFC02AAC07 /* regc_cvec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = regc_cvec.c; sourceTree = "<group>"; };
+		1CB15E880034DECFC02AAC07 /* regc_lex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = regc_lex.c; sourceTree = "<group>"; };
+		1CB15E890034DECFC02AAC07 /* regc_locale.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = regc_locale.c; sourceTree = "<group>"; };
+		1CB15E8A0034DECFC02AAC07 /* regc_nfa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = regc_nfa.c; sourceTree = "<group>"; };
+		1CB15E8B0034DECFC02AAC07 /* regcomp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = regcomp.c; sourceTree = "<group>"; };
+		1CB15E8C0034DECFC02AAC07 /* regcustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regcustom.h; sourceTree = "<group>"; };
+		1CB15E8D0034DECFC02AAC07 /* rege_dfa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rege_dfa.c; sourceTree = "<group>"; };
+		1CB15E8E0034DECFC02AAC07 /* regerror.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = regerror.c; sourceTree = "<group>"; };
+		1CB15E8F0034DECFC02AAC07 /* regerrs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regerrs.h; sourceTree = "<group>"; };
+		1CB15E900034DECFC02AAC07 /* regexec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = regexec.c; sourceTree = "<group>"; };
+		1CB15E910034DECFC02AAC07 /* regfree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = regfree.c; sourceTree = "<group>"; };
+		1CB15E930034DECFC02AAC07 /* regguts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regguts.h; sourceTree = "<group>"; };
+		1CB15E940034E14CC02AAC07 /* MORegexpHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MORegexpHelpers.h; sourceTree = "<group>"; };
+		1CB15E950034E14CC02AAC07 /* MORegexpHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MORegexpHelpers.m; sourceTree = "<group>"; };
+		1CB15EA000374F04C02AAC07 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		2728DC5F0449DCD9002AAC07 /* MOExtendedMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOExtendedMenuItem.h; sourceTree = "<group>"; };
+		2728DC600449DCD9002AAC07 /* MOExtendedMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOExtendedMenuItem.m; sourceTree = "<group>"; };
+		2728DC630449DCE2002AAC07 /* MOExtendedMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOExtendedMenu.h; sourceTree = "<group>"; };
+		2728DC640449DCE2002AAC07 /* MOExtendedMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOExtendedMenu.m; sourceTree = "<group>"; };
+		272AC781041989A100164AC5 /* MOTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOTabViewController.h; sourceTree = "<group>"; };
+		272AC782041989A100164AC5 /* MOTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOTabViewController.m; sourceTree = "<group>"; };
+		272AC78A0419908400164AC5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		272AC78B0419908400164AC5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		272AC78E041995F800164AC5 /* MODebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MODebug.h; sourceTree = "<group>"; };
+		272AC7900419961C00164AC5 /* MODebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MODebug.m; sourceTree = "<group>"; };
+		272AC794041A658D00164AC5 /* MOSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOSplitViewController.h; sourceTree = "<group>"; };
+		272AC795041A658D00164AC5 /* MOSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOSplitViewController.m; sourceTree = "<group>"; };
+		272B722F03DB54BA00F04E48 /* _MO_WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _MO_WindowController.h; sourceTree = "<group>"; };
+		272B723003DB54BA00F04E48 /* _MO_WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _MO_WindowController.m; sourceTree = "<group>"; };
+		272B723103DB54BA00F04E48 /* MOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOViewController.h; sourceTree = "<group>"; };
+		272B723203DB54BA00F04E48 /* MOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOViewController.m; sourceTree = "<group>"; };
+		272B723903DB551C00F04E48 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		272B723B03DB551C00F04E48 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/main.nib; sourceTree = "<group>"; };
+		272B723D03DB551C00F04E48 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/TestController.nib; sourceTree = "<group>"; };
+		272B723E03DB551C00F04E48 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		272B723F03DB551C00F04E48 /* TestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
+		272B724003DB551C00F04E48 /* TestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
+		272B725A03DB583D00F04E48 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		274B9BA5037D12DE00D60C3E /* MOViewListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOViewListView.h; sourceTree = "<group>"; };
+		274B9BA6037D12DE00D60C3E /* MOViewListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOViewListView.m; sourceTree = "<group>"; };
+		274B9C07037D1AD000D60C3E /* MOAssertions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOAssertions.h; sourceTree = "<group>"; };
+		274B9C08037D1AD000D60C3E /* MOAssertions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOAssertions.m; sourceTree = "<group>"; };
+		274B9C2C037D2B1600D60C3E /* MOAssertionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOAssertionTest.m; sourceTree = "<group>"; };
+		2763BD6C039EC67700A8C62B /* ToDo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ToDo; sourceTree = "<group>"; };
+		2767870F041BC2B100E49ED7 /* MOViewListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOViewListViewController.h; sourceTree = "<group>"; };
+		27678710041BC2B100E49ED7 /* MOViewListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOViewListViewController.m; sourceTree = "<group>"; };
+		27700FAD038BD1FF00B54A31 /* imageFromFolder.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = imageFromFolder.sh; sourceTree = "<group>"; };
+		2791719603AC0E6A002AAC07 /* DistributionImages.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = DistributionImages.sh; sourceTree = "<group>"; };
+		2791778D03A528F80079D182 /* MOViewListViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOViewListViewItem.h; sourceTree = "<group>"; };
+		2791778E03A528F80079D182 /* MOViewListViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOViewListViewItem.m; sourceTree = "<group>"; };
+		2791779103A52A6B0079D182 /* MOViewListViewItem_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOViewListViewItem_Private.h; sourceTree = "<group>"; };
+		2796FC1D03A51EE2007815C8 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/TestController.nib; sourceTree = "<group>"; };
+		2799D8720396873300DFA016 /* MOKit Class.pbfiletemplate */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = "MOKit Class.pbfiletemplate"; sourceTree = "<group>"; };
+		27A4C9B30384F565005D0CAC /* MORuntimeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MORuntimeTest.m; sourceTree = "<group>"; };
+		27B43A4F038A30E40000F544 /* NSView_MOSizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSView_MOSizing.h; sourceTree = "<group>"; };
+		27B43A50038A30E40000F544 /* NSView_MOSizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSView_MOSizing.m; sourceTree = "<group>"; };
+		27B5FD39036D1766002849E7 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		27B5FD3A036D1767002849E7 /* regc_color.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = regc_color.c; sourceTree = "<group>"; };
+		27B5FD3B036D1767002849E7 /* regc_cvec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = regc_cvec.c; sourceTree = "<group>"; };
+		27B5FD3C036D1767002849E7 /* regc_lex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = regc_lex.c; sourceTree = "<group>"; };
+		27B5FD3D036D1767002849E7 /* regc_locale.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = regc_locale.c; sourceTree = "<group>"; };
+		27B5FD3E036D1767002849E7 /* regc_nfa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = regc_nfa.c; sourceTree = "<group>"; };
+		27B5FD3F036D1767002849E7 /* regcomp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = regcomp.c; sourceTree = "<group>"; };
+		27B5FD40036D1767002849E7 /* regcustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regcustom.h; sourceTree = "<group>"; };
+		27B5FD41036D1767002849E7 /* rege_dfa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rege_dfa.c; sourceTree = "<group>"; };
+		27B5FD42036D1767002849E7 /* regerror.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = regerror.c; sourceTree = "<group>"; };
+		27B5FD43036D1767002849E7 /* regerrs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regerrs.h; sourceTree = "<group>"; };
+		27B5FD44036D1767002849E7 /* regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regex.h; sourceTree = "<group>"; };
+		27B5FD45036D1767002849E7 /* regexec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = regexec.c; sourceTree = "<group>"; };
+		27B5FD46036D1767002849E7 /* regfree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = regfree.c; sourceTree = "<group>"; };
+		27B5FD47036D1767002849E7 /* regfronts.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = regfronts.c; sourceTree = "<group>"; };
+		27B5FD48036D1767002849E7 /* regguts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regguts.h; sourceTree = "<group>"; };
+		27B5FD4A036D1CEB002849E7 /* MOKitPrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOKitPrefix.h; sourceTree = "<group>"; };
+		27B8F7620396890B00EB9EF2 /* MOExtendedTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOExtendedTableView.h; sourceTree = "<group>"; };
+		27B8F7630396890B00EB9EF2 /* MOExtendedTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOExtendedTableView.m; sourceTree = "<group>"; };
+		27B8F7660396891B00EB9EF2 /* MOExtendedOutlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOExtendedOutlineView.h; sourceTree = "<group>"; };
+		27B8F7670396891B00EB9EF2 /* MOExtendedOutlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOExtendedOutlineView.m; sourceTree = "<group>"; };
+		27D8BCBB039C4BF0007BF0EA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/main.nib; sourceTree = "<group>"; };
+		27D8BCBD039C4BF0007BF0EA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/TestController.nib; sourceTree = "<group>"; };
+		27D8BCBE039C4BF0007BF0EA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27D8BCBF039C4BF0007BF0EA /* TestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
+		27D8BCC0039C4BF0007BF0EA /* TestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
+		27D8BCD8039C4E44007BF0EA /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27D8BCDB039C4E5B007BF0EA /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27F9A86D039EBF49004E36D4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		27FAA66D03825310004E7C91 /* TestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
+		27FAA66E03825310004E7C91 /* TestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
+		27FAA66F0382536E004E7C91 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27FAA68903825890004E7C91 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/main.nib; sourceTree = "<group>"; };
+		2E57CA7F00375BC0C02AAC07 /* RESyntax.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = RESyntax.rtf; sourceTree = "<group>"; };
+		B157731B04472E2E00FEE151 /* MOTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOTabView.h; sourceTree = "<group>"; };
+		B157731C04472E2E00FEE151 /* MOTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOTabView.m; sourceTree = "<group>"; };
+		B1579B1D051291A6003D99BE /* MOViewController_example1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = MOViewController_example1.tiff; sourceTree = "<group>"; };
+		B17F4ED708AA9D8800B00329 /* Info-MOKit.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Info-MOKit.plist"; sourceTree = "<group>"; };
+		B17F4ED808AA9D8800B00329 /* MOKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MOKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17F4EFE08AA9D8800B00329 /* Info-MOFormatterPalette.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Info-MOFormatterPalette.plist"; sourceTree = "<group>"; };
+		B17F4EFF08AA9D8800B00329 /* MOFormatterPalette.palette */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOFormatterPalette.palette; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17F4F1B08AA9D8800B00329 /* RegexTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RegexTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17F4F3408AA9D8800B00329 /* AssertTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AssertTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17F4F4D08AA9D8800B00329 /* RuntimeTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RuntimeTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17F4F6C08AA9D8800B00329 /* Info-VLVTest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Info-VLVTest.plist"; sourceTree = "<group>"; };
+		B17F4F6D08AA9D8900B00329 /* VLVTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VLVTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17F4F8C08AA9D8900B00329 /* Info-TableOutlineTest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Info-TableOutlineTest.plist"; sourceTree = "<group>"; };
+		B17F4F8D08AA9D8900B00329 /* TableOutlineTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableOutlineTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17F4FAE08AA9D8900B00329 /* Info-VCTest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Info-VCTest.plist"; sourceTree = "<group>"; };
+		B17F4FAF08AA9D8900B00329 /* VCTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17F500E08AAA18E00B00329 /* BaseConfiguration.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = BaseConfiguration.xcconfig; sourceTree = "<group>"; };
+		B1B84388063EB7D600D206DA /* MODebug_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MODebug_Private.h; sourceTree = "<group>"; };
+		B1BB8910060B971800F403BA /* NSEvent_MOLocationAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSEvent_MOLocationAdditions.h; sourceTree = "<group>"; };
+		B1BB8911060B971800F403BA /* NSEvent_MOLocationAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSEvent_MOLocationAdditions.m; sourceTree = "<group>"; };
+		B1EF9BA50468580B00FED98A /* MOViewListLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOViewListLabelView.h; sourceTree = "<group>"; };
+		B1EF9BA60468580B00FED98A /* MOViewListLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOViewListLabelView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B17F4EC508AA9D8800B00329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F4EC608AA9D8800B00329 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4EF208AA9D8800B00329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F4EF308AA9D8800B00329 /* Cocoa.framework in Frameworks */,
+				B17F4EF408AA9D8800B00329 /* InterfaceBuilder.framework in Frameworks */,
+				B17F4FE408AA9D8900B00329 /* MOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4F0D08AA9D8800B00329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F4F0E08AA9D8800B00329 /* Cocoa.framework in Frameworks */,
+				B17F4FE508AA9D8900B00329 /* MOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4F2A08AA9D8800B00329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F4F2B08AA9D8800B00329 /* Cocoa.framework in Frameworks */,
+				B17F4FE608AA9D8900B00329 /* MOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4F4308AA9D8800B00329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F4F4408AA9D8800B00329 /* Cocoa.framework in Frameworks */,
+				B17F4FE708AA9D8900B00329 /* MOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4F6208AA9D8800B00329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F4F6308AA9D8800B00329 /* Cocoa.framework in Frameworks */,
+				B17F4FE808AA9D8900B00329 /* MOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4F8208AA9D8900B00329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F4F8308AA9D8900B00329 /* Cocoa.framework in Frameworks */,
+				B17F4FE908AA9D8900B00329 /* MOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4FA408AA9D8900B00329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F4FA508AA9D8900B00329 /* Cocoa.framework in Frameworks */,
+				B17F4FEA08AA9D8900B00329 /* MOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0237CCEDFF559A80C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B17F4ED708AA9D8800B00329 /* Info-MOKit.plist */,
+				0237CCEEFF559A80C02AAC07 /* InfoPlist.strings */,
+				B1579B1D051291A6003D99BE /* MOViewController_example1.tiff */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0C7A9F47FEF17203C02AAC07 /* MOKit_2 */ = {
+			isa = PBXGroup;
+			children = (
+				B17F500E08AAA18E00B00329 /* BaseConfiguration.xcconfig */,
+				0C7A9F49FEF17203C02AAC07 /* MOKit */,
+				0C7A9F6FFEF17203C02AAC07 /* MOFormatterPalette */,
+				0C7A9F88FEF17203C02AAC07 /* RegexTest */,
+				274B9C2B037D2AF600D60C3E /* AssertTest */,
+				27A4C9B20384F54F005D0CAC /* RuntimeTest */,
+				27FAA66C038252E4004E7C91 /* VLVTest */,
+				27D8BCB9039C4BF0007BF0EA /* TableOutlineTest */,
+				272B723703DB551C00F04E48 /* VCTest */,
+				27700FAC038BD1E400B54A31 /* Development Scripts */,
+				2799D870039686F600DFA016 /* PBTemplates */,
+				27F9A86E039EBF4D004E36D4 /* Notes */,
+				0C7A9F9AFEF17203C02AAC07 /* Frameworks and Libraries */,
+				0C7A9F92FEF17203C02AAC07 /* Products */,
+			);
+			name = MOKit_2;
+			sourceTree = "<group>";
+		};
+		0C7A9F49FEF17203C02AAC07 /* MOKit */ = {
+			isa = PBXGroup;
+			children = (
+				0C7A9F54FEF17203C02AAC07 /* MOKit.h */,
+				27B5FD4A036D1CEB002849E7 /* MOKitPrefix.h */,
+				0C7A9F53FEF17203C02AAC07 /* MOKitDefines.h */,
+				27678706041BC22900E49ED7 /* Utilities */,
+				2799D866039684A200DFA016 /* Regular Expressions */,
+				2799D867039684C500DFA016 /* Completion */,
+				27678704041BC1FC00E49ED7 /* Views & Widgets */,
+				27678705041BC20E00E49ED7 /* ViewControllers */,
+				0237CCEDFF559A80C02AAC07 /* Resources */,
+				0C7A9F63FEF17203C02AAC07 /* Readmes and Notes */,
+			);
+			path = MOKit;
+			sourceTree = "<group>";
+		};
+		0C7A9F63FEF17203C02AAC07 /* Readmes and Notes */ = {
+			isa = PBXGroup;
+			children = (
+				0C7A9F65FEF17203C02AAC07 /* README.rtf */,
+				0C7A9F6DFEF17203C02AAC07 /* README_Installing.rtf */,
+				0C7A9F6EFEF17203C02AAC07 /* FrameworkIssues.rtf */,
+				018D34C100388976C02AAC07 /* ReleaseNotes.rtf */,
+				27B5FD38036D1766002849E7 /* HSRegexp */,
+			);
+			name = "Readmes and Notes";
+			sourceTree = "<group>";
+		};
+		0C7A9F6FFEF17203C02AAC07 /* MOFormatterPalette */ = {
+			isa = PBXGroup;
+			children = (
+				0C7A9F75FEF17203C02AAC07 /* MOFormatterPalette.h */,
+				0C7A9F71FEF17203C02AAC07 /* MOFormatterPalette.m */,
+				0C7A9F76FEF17203C02AAC07 /* MORegexFormatter_IBCategory.h */,
+				0C7A9F72FEF17203C02AAC07 /* MORegexFormatter_IBCategory.m */,
+				0C7A9F77FEF17203C02AAC07 /* MORegexFormatterInspector.h */,
+				0C7A9F73FEF17203C02AAC07 /* MORegexFormatterInspector.m */,
+				0C7A9F78FEF17203C02AAC07 /* Resources */,
+			);
+			name = MOFormatterPalette;
+			path = FormatterPalette;
+			sourceTree = "<group>";
+		};
+		0C7A9F78FEF17203C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B17F4EFE08AA9D8800B00329 /* Info-MOFormatterPalette.plist */,
+				0237CCEAFF559947C02AAC07 /* InfoPlist.strings */,
+				0C7A9F79FEF17203C02AAC07 /* MOFormatterPalette.nib */,
+				0C7A9F7BFEF17203C02AAC07 /* MORegexFormatterInspector.nib */,
+				0C7A9F7EFEF17203C02AAC07 /* MOFormatterPalette.tiff */,
+				0C7A9F7FFEF17203C02AAC07 /* MORegexFormatter.tiff */,
+				0C7A9F81FEF17203C02AAC07 /* palette.table */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0C7A9F88FEF17203C02AAC07 /* RegexTest */ = {
+			isa = PBXGroup;
+			children = (
+				0C7A9F8AFEF17203C02AAC07 /* RegexTest_main.m */,
+				0C7A9F91FEF17203C02AAC07 /* RegexTestData.plist */,
+			);
+			path = RegexTest;
+			sourceTree = "<group>";
+		};
+		0C7A9F92FEF17203C02AAC07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B17F4ED808AA9D8800B00329 /* MOKit.framework */,
+				B17F4EFF08AA9D8800B00329 /* MOFormatterPalette.palette */,
+				B17F4F1B08AA9D8800B00329 /* RegexTest */,
+				B17F4F3408AA9D8800B00329 /* AssertTest */,
+				B17F4F4D08AA9D8800B00329 /* RuntimeTest */,
+				B17F4F6D08AA9D8900B00329 /* VLVTest.app */,
+				B17F4F8D08AA9D8900B00329 /* TableOutlineTest.app */,
+				B17F4FAF08AA9D8900B00329 /* VCTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C7A9F9AFEF17203C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				272B725A03DB583D00F04E48 /* Cocoa.framework */,
+				0237CCF8FF559DCAC02AAC07 /* CoreFoundation.framework */,
+				0C7A9F9BFEF17203C02AAC07 /* Foundation.framework */,
+				0C7A9F9CFEF17203C02AAC07 /* AppKit.framework */,
+				0C7A9F9DFEF17203C02AAC07 /* InterfaceBuilder.framework */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1CB15E840034DD68C02AAC07 /* MORegexp */ = {
+			isa = PBXGroup;
+			children = (
+				1CB15EA000374F04C02AAC07 /* README */,
+				2E57CA7F00375BC0C02AAC07 /* RESyntax.rtf */,
+				1CB15E940034E14CC02AAC07 /* MORegexpHelpers.h */,
+				1CB15E950034E14CC02AAC07 /* MORegexpHelpers.m */,
+				1CB15E850034DECFC02AAC07 /* regex.h */,
+				1CB15E8C0034DECFC02AAC07 /* regcustom.h */,
+				1CB15E930034DECFC02AAC07 /* regguts.h */,
+				1CB15E8B0034DECFC02AAC07 /* regcomp.c */,
+				1CB15E860034DECFC02AAC07 /* regc_color.c */,
+				1CB15E870034DECFC02AAC07 /* regc_cvec.c */,
+				1CB15E880034DECFC02AAC07 /* regc_lex.c */,
+				1CB15E890034DECFC02AAC07 /* regc_locale.c */,
+				1CB15E8A0034DECFC02AAC07 /* regc_nfa.c */,
+				1CB15E900034DECFC02AAC07 /* regexec.c */,
+				1CB15E8D0034DECFC02AAC07 /* rege_dfa.c */,
+				1CB15E8F0034DECFC02AAC07 /* regerrs.h */,
+				1CB15E8E0034DECFC02AAC07 /* regerror.c */,
+				1CB15E910034DECFC02AAC07 /* regfree.c */,
+			);
+			comments = "This is a slightly modified version of the Henry Spencer's unicode-capable regexp package.  The unmodified code is in the HSRegexp folder.\n";
+			path = MORegexp;
+			sourceTree = "<group>";
+		};
+		272B723703DB551C00F04E48 /* VCTest */ = {
+			isa = PBXGroup;
+			children = (
+				B17F4FAE08AA9D8900B00329 /* Info-VCTest.plist */,
+				272B723803DB551C00F04E48 /* InfoPlist.strings */,
+				272B723A03DB551C00F04E48 /* main.nib */,
+				272B723C03DB551C00F04E48 /* TestController.nib */,
+				272B723E03DB551C00F04E48 /* main.m */,
+				272B723F03DB551C00F04E48 /* TestController.h */,
+				272B724003DB551C00F04E48 /* TestController.m */,
+				272AC78A0419908400164AC5 /* AppDelegate.h */,
+				272AC78B0419908400164AC5 /* AppDelegate.m */,
+			);
+			path = VCTest;
+			sourceTree = "<group>";
+		};
+		274B9C2B037D2AF600D60C3E /* AssertTest */ = {
+			isa = PBXGroup;
+			children = (
+				274B9C2C037D2B1600D60C3E /* MOAssertionTest.m */,
+			);
+			path = AssertTest;
+			sourceTree = "<group>";
+		};
+		27678704041BC1FC00E49ED7 /* Views & Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				27B43A4F038A30E40000F544 /* NSView_MOSizing.h */,
+				27B43A50038A30E40000F544 /* NSView_MOSizing.m */,
+				274B9BA5037D12DE00D60C3E /* MOViewListView.h */,
+				274B9BA6037D12DE00D60C3E /* MOViewListView.m */,
+				2791778D03A528F80079D182 /* MOViewListViewItem.h */,
+				2791779103A52A6B0079D182 /* MOViewListViewItem_Private.h */,
+				2791778E03A528F80079D182 /* MOViewListViewItem.m */,
+				B1EF9BA50468580B00FED98A /* MOViewListLabelView.h */,
+				B1EF9BA60468580B00FED98A /* MOViewListLabelView.m */,
+				27B8F7620396890B00EB9EF2 /* MOExtendedTableView.h */,
+				27B8F7630396890B00EB9EF2 /* MOExtendedTableView.m */,
+				27B8F7660396891B00EB9EF2 /* MOExtendedOutlineView.h */,
+				27B8F7670396891B00EB9EF2 /* MOExtendedOutlineView.m */,
+				2728DC5F0449DCD9002AAC07 /* MOExtendedMenuItem.h */,
+				2728DC600449DCD9002AAC07 /* MOExtendedMenuItem.m */,
+				2728DC630449DCE2002AAC07 /* MOExtendedMenu.h */,
+				2728DC640449DCE2002AAC07 /* MOExtendedMenu.m */,
+				B157731B04472E2E00FEE151 /* MOTabView.h */,
+				B157731C04472E2E00FEE151 /* MOTabView.m */,
+			);
+			name = "Views & Widgets";
+			sourceTree = "<group>";
+		};
+		27678705041BC20E00E49ED7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				272B722F03DB54BA00F04E48 /* _MO_WindowController.h */,
+				272B723003DB54BA00F04E48 /* _MO_WindowController.m */,
+				1C74509A052395A600C67446 /* MOViewControllerView.h */,
+				1C74509B052395A600C67446 /* MOViewControllerView.m */,
+				272B723103DB54BA00F04E48 /* MOViewController.h */,
+				272B723203DB54BA00F04E48 /* MOViewController.m */,
+				272AC781041989A100164AC5 /* MOTabViewController.h */,
+				272AC782041989A100164AC5 /* MOTabViewController.m */,
+				272AC794041A658D00164AC5 /* MOSplitViewController.h */,
+				272AC795041A658D00164AC5 /* MOSplitViewController.m */,
+				2767870F041BC2B100E49ED7 /* MOViewListViewController.h */,
+				27678710041BC2B100E49ED7 /* MOViewListViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		27678706041BC22900E49ED7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				274B9C07037D1AD000D60C3E /* MOAssertions.h */,
+				274B9C08037D1AD000D60C3E /* MOAssertions.m */,
+				272AC78E041995F800164AC5 /* MODebug.h */,
+				B1B84388063EB7D600D206DA /* MODebug_Private.h */,
+				272AC7900419961C00164AC5 /* MODebug.m */,
+				0C7A9F5CFEF17203C02AAC07 /* MOFoundationExtras.h */,
+				0C7A9F51FEF17203C02AAC07 /* MOFoundationExtras.m */,
+				0C7A9F5DFEF17203C02AAC07 /* MORuntimeUtilities.h */,
+				0C7A9F61FEF17203C02AAC07 /* MORuntimeUtilities.m */,
+				B1BB8910060B971800F403BA /* NSEvent_MOLocationAdditions.h */,
+				B1BB8911060B971800F403BA /* NSEvent_MOLocationAdditions.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		27700FAC038BD1E400B54A31 /* Development Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				27700FAD038BD1FF00B54A31 /* imageFromFolder.sh */,
+				2791719603AC0E6A002AAC07 /* DistributionImages.sh */,
+			);
+			name = "Development Scripts";
+			sourceTree = "<group>";
+		};
+		2799D866039684A200DFA016 /* Regular Expressions */ = {
+			isa = PBXGroup;
+			children = (
+				0C7A9F56FEF17203C02AAC07 /* MORegularExpression.h */,
+				0C7A9F4CFEF17203C02AAC07 /* MORegularExpression.m */,
+				0C7A9F57FEF17203C02AAC07 /* MORegularExpression_Private.h */,
+				0C7A9F60FEF17203C02AAC07 /* MORegularExpression_Private.m */,
+				1CB15E840034DD68C02AAC07 /* MORegexp */,
+				0C7A9F55FEF17203C02AAC07 /* MORegexFormatter.h */,
+				0C7A9F4BFEF17203C02AAC07 /* MORegexFormatter.m */,
+				0C7A9F58FEF17203C02AAC07 /* MORESyntaxFormatter.h */,
+				0C7A9F4DFEF17203C02AAC07 /* MORESyntaxFormatter.m */,
+			);
+			name = "Regular Expressions";
+			sourceTree = "<group>";
+		};
+		2799D867039684C500DFA016 /* Completion */ = {
+			isa = PBXGroup;
+			children = (
+				0C7A9F59FEF17203C02AAC07 /* MOCompletionManager.h */,
+				0C7A9F4EFEF17203C02AAC07 /* MOCompletionManager.m */,
+				0C7A9F5AFEF17203C02AAC07 /* MOCompletionStrategy.h */,
+				0C7A9F4FFEF17203C02AAC07 /* MOCompletionStrategy.m */,
+				0C7A9F5BFEF17203C02AAC07 /* MOFileCompletionStrategy.h */,
+				0C7A9F50FEF17203C02AAC07 /* MOFileCompletionStrategy.m */,
+			);
+			name = Completion;
+			sourceTree = "<group>";
+		};
+		2799D870039686F600DFA016 /* PBTemplates */ = {
+			isa = PBXGroup;
+			children = (
+				2799D8720396873300DFA016 /* MOKit Class.pbfiletemplate */,
+			);
+			path = PBTemplates;
+			sourceTree = "<group>";
+		};
+		27A4C9B20384F54F005D0CAC /* RuntimeTest */ = {
+			isa = PBXGroup;
+			children = (
+				27A4C9B30384F565005D0CAC /* MORuntimeTest.m */,
+			);
+			path = RuntimeTest;
+			sourceTree = "<group>";
+		};
+		27B5FD38036D1766002849E7 /* HSRegexp */ = {
+			isa = PBXGroup;
+			children = (
+				27B5FD39036D1766002849E7 /* README */,
+				27B5FD3A036D1767002849E7 /* regc_color.c */,
+				27B5FD3B036D1767002849E7 /* regc_cvec.c */,
+				27B5FD3C036D1767002849E7 /* regc_lex.c */,
+				27B5FD3D036D1767002849E7 /* regc_locale.c */,
+				27B5FD3E036D1767002849E7 /* regc_nfa.c */,
+				27B5FD3F036D1767002849E7 /* regcomp.c */,
+				27B5FD40036D1767002849E7 /* regcustom.h */,
+				27B5FD41036D1767002849E7 /* rege_dfa.c */,
+				27B5FD42036D1767002849E7 /* regerror.c */,
+				27B5FD43036D1767002849E7 /* regerrs.h */,
+				27B5FD44036D1767002849E7 /* regex.h */,
+				27B5FD45036D1767002849E7 /* regexec.c */,
+				27B5FD46036D1767002849E7 /* regfree.c */,
+				27B5FD47036D1767002849E7 /* regfronts.c */,
+				27B5FD48036D1767002849E7 /* regguts.h */,
+			);
+			comments = "This group contains the original, unmodified version of the regexp code that MOKit uses in modified form.";
+			path = HSRegexp;
+			sourceTree = "<group>";
+		};
+		27D8BCB9039C4BF0007BF0EA /* TableOutlineTest */ = {
+			isa = PBXGroup;
+			children = (
+				B17F4F8C08AA9D8900B00329 /* Info-TableOutlineTest.plist */,
+				27D8BCDA039C4E5B007BF0EA /* InfoPlist.strings */,
+				27D8BCBF039C4BF0007BF0EA /* TestController.h */,
+				27D8BCC0039C4BF0007BF0EA /* TestController.m */,
+				27D8BCBE039C4BF0007BF0EA /* main.m */,
+				27D8BCBA039C4BF0007BF0EA /* main.nib */,
+				27D8BCBC039C4BF0007BF0EA /* TestController.nib */,
+			);
+			path = TableOutlineTest;
+			sourceTree = "<group>";
+		};
+		27F9A86E039EBF4D004E36D4 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				27F9A86D039EBF49004E36D4 /* LICENSE */,
+				2763BD6C039EC67700A8C62B /* ToDo */,
+			);
+			name = Notes;
+			sourceTree = "<group>";
+		};
+		27FAA66C038252E4004E7C91 /* VLVTest */ = {
+			isa = PBXGroup;
+			children = (
+				B17F4F6C08AA9D8800B00329 /* Info-VLVTest.plist */,
+				27D8BCD7039C4E44007BF0EA /* InfoPlist.strings */,
+				27FAA66D03825310004E7C91 /* TestController.h */,
+				27FAA66E03825310004E7C91 /* TestController.m */,
+				27FAA66F0382536E004E7C91 /* main.m */,
+				27FAA68803825890004E7C91 /* main.nib */,
+				2796FC1C03A51EE2007815C8 /* TestController.nib */,
+			);
+			path = VLVTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B17F4E7B08AA9D8800B00329 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F4E7C08AA9D8800B00329 /* MODebug_Private.h in Headers */,
+				B17F4E7D08AA9D8800B00329 /* MOAssertions.h in Headers */,
+				B17F4E7E08AA9D8800B00329 /* MOCompletionManager.h in Headers */,
+				B17F4E7F08AA9D8800B00329 /* MOCompletionStrategy.h in Headers */,
+				B17F4E8008AA9D8800B00329 /* MOExtendedOutlineView.h in Headers */,
+				B17F4E8108AA9D8800B00329 /* MOExtendedTableView.h in Headers */,
+				B17F4E8208AA9D8800B00329 /* MOFileCompletionStrategy.h in Headers */,
+				B17F4E8308AA9D8800B00329 /* MOFoundationExtras.h in Headers */,
+				B17F4E8408AA9D8800B00329 /* MOKit.h in Headers */,
+				B17F4E8508AA9D8800B00329 /* MOKitDefines.h in Headers */,
+				B17F4E8608AA9D8800B00329 /* MOKitPrefix.h in Headers */,
+				B17F4E8708AA9D8800B00329 /* MORESyntaxFormatter.h in Headers */,
+				B17F4E8808AA9D8800B00329 /* MORegexFormatter.h in Headers */,
+				B17F4E8908AA9D8800B00329 /* MORegexpHelpers.h in Headers */,
+				B17F4E8A08AA9D8800B00329 /* MORegularExpression.h in Headers */,
+				B17F4E8B08AA9D8800B00329 /* MORegularExpression_Private.h in Headers */,
+				B17F4E8C08AA9D8800B00329 /* MORuntimeUtilities.h in Headers */,
+				B17F4E8D08AA9D8800B00329 /* MOViewListView.h in Headers */,
+				B17F4E8E08AA9D8800B00329 /* MOViewListViewItem.h in Headers */,
+				B17F4E8F08AA9D8800B00329 /* NSView_MOSizing.h in Headers */,
+				B17F4E9008AA9D8800B00329 /* regcustom.h in Headers */,
+				B17F4E9108AA9D8800B00329 /* regex.h in Headers */,
+				B17F4E9208AA9D8800B00329 /* MOViewListViewItem_Private.h in Headers */,
+				B17F4E9308AA9D8800B00329 /* _MO_WindowController.h in Headers */,
+				B17F4E9408AA9D8800B00329 /* MOViewController.h in Headers */,
+				B17F4E9508AA9D8800B00329 /* MOTabViewController.h in Headers */,
+				B17F4E9608AA9D8800B00329 /* MODebug.h in Headers */,
+				B17F4E9708AA9D8800B00329 /* MOSplitViewController.h in Headers */,
+				B17F4E9808AA9D8800B00329 /* MOViewListViewController.h in Headers */,
+				B17F4E9908AA9D8800B00329 /* MOExtendedMenuItem.h in Headers */,
+				B17F4E9A08AA9D8800B00329 /* MOExtendedMenu.h in Headers */,
+				B17F4E9B08AA9D8800B00329 /* MOTabView.h in Headers */,
+				B17F4E9C08AA9D8800B00329 /* MOViewListLabelView.h in Headers */,
+				B17F4E9D08AA9D8800B00329 /* MOViewControllerView.h in Headers */,
+				B17F4E9E08AA9D8800B00329 /* NSEvent_MOLocationAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4EE308AA9D8800B00329 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F4EE408AA9D8800B00329 /* MOFormatterPalette.h in Headers */,
+				B17F4EE508AA9D8800B00329 /* MORegexFormatter_IBCategory.h in Headers */,
+				B17F4EE608AA9D8800B00329 /* MORegexFormatterInspector.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4F0A08AA9D8800B00329 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4F2708AA9D8800B00329 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4F4008AA9D8800B00329 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4F5908AA9D8800B00329 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F4F5A08AA9D8800B00329 /* TestController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4F7908AA9D8900B00329 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F4F7A08AA9D8900B00329 /* TestController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4F9908AA9D8900B00329 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F4F9A08AA9D8900B00329 /* TestController.h in Headers */,
+				B17F4F9B08AA9D8900B00329 /* AppDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXLegacyTarget section */
+		B17F4FB808AA9D8900B00329 /* DistributionImages */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "DistributionImages.sh \"${DSTROOT}\" \"${SOURCE_DISTRIBUTION_ROOT}\" \"${DISTRIBUTION_NAME}\"";
+			buildConfigurationList = B17F4FBB08AA9D8900B00329 /* Build configuration list for PBXLegacyTarget "DistributionImages" */;
+			buildPhases = (
+			);
+			buildSettings = {
+				PRODUCT_NAME = DistributionImages;
+			};
+			buildToolPath = /bin/sh;
+			dependencies = (
+				B17F4FE108AA9D8900B00329 /* PBXTargetDependency */,
+			);
+			name = DistributionImages;
+			passBuildSettingsInEnvironment = 1;
+			productName = DistributionImages;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		B17F4E7A08AA9D8800B00329 /* MOKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B17F4ED008AA9D8800B00329 /* Build configuration list for PBXNativeTarget "MOKit" */;
+			buildPhases = (
+				B17F4E7B08AA9D8800B00329 /* Headers */,
+				B17F4E9F08AA9D8800B00329 /* Resources */,
+				B17F4EA408AA9D8800B00329 /* Sources */,
+				B17F4EC508AA9D8800B00329 /* Frameworks */,
+				B17F4EC708AA9D8800B00329 /* CopyFiles */,
+				B17F4ECA08AA9D8800B00329 /* CopyFiles */,
+				B17F4ECF08AA9D8800B00329 /* ShellScript */,
+				B1E04C9F08C7C46900557F48 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				BUILD_VARIANTS = (
+					normal,
+					profile,
+					debug,
+				);
+				CURRENT_PROJECT_VERSION = 203;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 203;
+				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_VERSION = A;
+				GENERATE_HEADERDOC = YES;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(MOKIT_FRAMEWORK_INSTALL_PATH)";
+				LIBRARY_SEARCH_PATHS = "";
+				MOKIT_FRAMEWORK_INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				OTHER_CFLAGS = (
+					"$(OTHER_CFLAGS_common)",
+					"$(OTHER_CFLAGS_normal_ASSERT_FLAGS)",
+				);
+				OTHER_CFLAGS_common = "";
+				OTHER_CFLAGS_debug = "$(OTHER_CFLAGS_common) -DMO_DEBUG -UMO_BLOCK_ASSERTS";
+				OTHER_CFLAGS_normal_ASSERT_FLAGS = "";
+				OTHER_CFLAGS_profile = "$(OTHER_CFLAGS_common) -pg";
+				OTHER_LDFLAGS = "-headerpad_max_install_names";
+				PFE_FILE_C_DIALECTS = "objective-c c";
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = MOKit/MOKitPrefix.h;
+				PRODUCT_NAME = MOKit;
+				SECTORDER_FLAGS = "";
+				USE_GCC3_PFE_SUPPORT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = MO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = framework;
+			};
+			dependencies = (
+			);
+			name = MOKit;
+			productInstallPath = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+			productName = MOKit;
+			productReference = B17F4ED808AA9D8800B00329 /* MOKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B17F4EE008AA9D8800B00329 /* MOFormatterPalette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B17F4EF708AA9D8800B00329 /* Build configuration list for PBXNativeTarget "MOFormatterPalette" */;
+			buildPhases = (
+				B17F4EE308AA9D8800B00329 /* Headers */,
+				B17F4EE708AA9D8800B00329 /* Resources */,
+				B17F4EEE08AA9D8800B00329 /* Sources */,
+				B17F4EF208AA9D8800B00329 /* Frameworks */,
+				B17F4EF608AA9D8800B00329 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 203;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Palettes";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-headerpad_max_install_names";
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = MOKit/MOKitPrefix.h;
+				PRODUCT_NAME = MOFormatterPalette;
+				SECTORDER_FLAGS = "";
+				USE_GCC3_PFE_SUPPORT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = MO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = palette;
+			};
+			dependencies = (
+				B17F4FD308AA9D8900B00329 /* PBXTargetDependency */,
+			);
+			name = MOFormatterPalette;
+			productInstallPath = "$(LOCAL_DEVELOPER_DIR)/Palettes";
+			productName = MOFormatterPalette;
+			productReference = B17F4EFF08AA9D8800B00329 /* MOFormatterPalette.palette */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B17F4F0708AA9D8800B00329 /* RegexTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B17F4F1408AA9D8800B00329 /* Build configuration list for PBXNativeTarget "RegexTest" */;
+			buildPhases = (
+				B17F4F0A08AA9D8800B00329 /* Headers */,
+				B17F4F0B08AA9D8800B00329 /* Sources */,
+				B17F4F0D08AA9D8800B00329 /* Frameworks */,
+				B17F4F1008AA9D8800B00329 /* CopyFiles */,
+				B17F4F1208AA9D8800B00329 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 203;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-headerpad_max_install_names";
+				PREBINDING = NO;
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = MOKit/MOKitPrefix.h;
+				PRODUCT_NAME = RegexTest;
+				SECTORDER_FLAGS = "";
+				USE_GCC3_PFE_SUPPORT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = MO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			dependencies = (
+				B17F4FD508AA9D8900B00329 /* PBXTargetDependency */,
+			);
+			name = RegexTest;
+			productInstallPath = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+			productName = RegexTest;
+			productReference = B17F4F1B08AA9D8800B00329 /* RegexTest */;
+			productType = "com.apple.product-type.tool";
+		};
+		B17F4F2408AA9D8800B00329 /* AssertTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B17F4F2D08AA9D8800B00329 /* Build configuration list for PBXNativeTarget "AssertTest" */;
+			buildPhases = (
+				B17F4F2708AA9D8800B00329 /* Headers */,
+				B17F4F2808AA9D8800B00329 /* Sources */,
+				B17F4F2A08AA9D8800B00329 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 203;
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-headerpad_max_install_names";
+				PREBINDING = NO;
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = MOKit/MOKitPrefix.h;
+				PRODUCT_NAME = AssertTest;
+				SECTORDER_FLAGS = "";
+				USE_GCC3_PFE_SUPPORT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = MO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			dependencies = (
+				B17F4FD708AA9D8900B00329 /* PBXTargetDependency */,
+			);
+			name = AssertTest;
+			productInstallPath = /usr/local/bin;
+			productName = AssertTest;
+			productReference = B17F4F3408AA9D8800B00329 /* AssertTest */;
+			productType = "com.apple.product-type.tool";
+		};
+		B17F4F3D08AA9D8800B00329 /* RuntimeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B17F4F4608AA9D8800B00329 /* Build configuration list for PBXNativeTarget "RuntimeTest" */;
+			buildPhases = (
+				B17F4F4008AA9D8800B00329 /* Headers */,
+				B17F4F4108AA9D8800B00329 /* Sources */,
+				B17F4F4308AA9D8800B00329 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 203;
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-headerpad_max_install_names";
+				PREBINDING = NO;
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = MOKit/MOKitPrefix.h;
+				PRODUCT_NAME = RuntimeTest;
+				SECTORDER_FLAGS = "";
+				USE_GCC3_PFE_SUPPORT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = MO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			dependencies = (
+				B17F4FD908AA9D8900B00329 /* PBXTargetDependency */,
+			);
+			name = RuntimeTest;
+			productInstallPath = /usr/local/bin;
+			productName = RuntimeTest;
+			productReference = B17F4F4D08AA9D8800B00329 /* RuntimeTest */;
+			productType = "com.apple.product-type.tool";
+		};
+		B17F4F5608AA9D8800B00329 /* VLVTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B17F4F6508AA9D8800B00329 /* Build configuration list for PBXNativeTarget "VLVTest" */;
+			buildPhases = (
+				B17F4F5908AA9D8800B00329 /* Headers */,
+				B17F4F5B08AA9D8800B00329 /* Resources */,
+				B17F4F5F08AA9D8800B00329 /* Sources */,
+				B17F4F6208AA9D8800B00329 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 203;
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-headerpad_max_install_names";
+				PREBINDING = NO;
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = MOKit/MOKitPrefix.h;
+				PRODUCT_NAME = VLVTest;
+				SECTORDER_FLAGS = "";
+				USE_GCC3_PFE_SUPPORT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = MO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+				B17F4FDB08AA9D8900B00329 /* PBXTargetDependency */,
+			);
+			name = VLVTest;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = DSVTest;
+			productReference = B17F4F6D08AA9D8900B00329 /* VLVTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B17F4F7608AA9D8900B00329 /* TableOutlineTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B17F4F8508AA9D8900B00329 /* Build configuration list for PBXNativeTarget "TableOutlineTest" */;
+			buildPhases = (
+				B17F4F7908AA9D8900B00329 /* Headers */,
+				B17F4F7B08AA9D8900B00329 /* Resources */,
+				B17F4F7F08AA9D8900B00329 /* Sources */,
+				B17F4F8208AA9D8900B00329 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 203;
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-headerpad_max_install_names";
+				PREBINDING = NO;
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = MOKit/MOKitPrefix.h;
+				PRODUCT_NAME = TableOutlineTest;
+				SECTORDER_FLAGS = "";
+				USE_GCC3_PFE_SUPPORT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = MO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+				B17F4FDD08AA9D8900B00329 /* PBXTargetDependency */,
+			);
+			name = TableOutlineTest;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = DSVTest;
+			productReference = B17F4F8D08AA9D8900B00329 /* TableOutlineTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B17F4F9608AA9D8900B00329 /* VCTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B17F4FA708AA9D8900B00329 /* Build configuration list for PBXNativeTarget "VCTest" */;
+			buildPhases = (
+				B17F4F9908AA9D8900B00329 /* Headers */,
+				B17F4F9C08AA9D8900B00329 /* Resources */,
+				B17F4FA008AA9D8900B00329 /* Sources */,
+				B17F4FA408AA9D8900B00329 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 203;
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-headerpad_max_install_names";
+				PREBINDING = NO;
+				PRECOMPILE_PREFIX_HEADER = YES;
+				PREFIX_HEADER = MOKit/MOKitPrefix.h;
+				PRODUCT_NAME = VCTest;
+				SECTORDER_FLAGS = "";
+				USE_GCC3_PFE_SUPPORT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = MO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+				B17F4FDF08AA9D8900B00329 /* PBXTargetDependency */,
+			);
+			name = VCTest;
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = VCTest;
+			productReference = B17F4FAF08AA9D8900B00329 /* VCTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C7A9F46FEF17203C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B17F4FF008AA9D8C00B00329 /* Build configuration list for PBXProject "MOKit" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				B1CDF37A08AABDAD004844F7 /* Development */,
+				B1CDF37B08AABDAD004844F7 /* Deployment */,
+			);
+			hasScannedForEncodings = 1;
+			mainGroup = 0C7A9F47FEF17203C02AAC07 /* MOKit_2 */;
+			productRefGroup = 0C7A9F92FEF17203C02AAC07 /* Products */;
+			projectDirPath = "";
+			targets = (
+				B17F4E5808AA9D8700B00329 /* MOKit_2 All */,
+				B17F4E7A08AA9D8800B00329 /* MOKit */,
+				B17F4EE008AA9D8800B00329 /* MOFormatterPalette */,
+				B17F4F0708AA9D8800B00329 /* RegexTest */,
+				B17F4F2408AA9D8800B00329 /* AssertTest */,
+				B17F4F3D08AA9D8800B00329 /* RuntimeTest */,
+				B17F4F5608AA9D8800B00329 /* VLVTest */,
+				B17F4F7608AA9D8900B00329 /* TableOutlineTest */,
+				B17F4F9608AA9D8900B00329 /* VCTest */,
+				B17F4FB808AA9D8900B00329 /* DistributionImages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B17F4E9F08AA9D8800B00329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F4EA008AA9D8800B00329 /* InfoPlist.strings in Resources */,
+				B17F4EA108AA9D8800B00329 /* README.rtf in Resources */,
+				B17F4EA208AA9D8800B00329 /* ReleaseNotes.rtf in Resources */,
+				B17F4EA308AA9D8800B00329 /* DistributionImages.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4EE708AA9D8800B00329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F4EE808AA9D8800B00329 /* MOFormatterPalette.nib in Resources */,
+				B17F4EE908AA9D8800B00329 /* MORegexFormatterInspector.nib in Resources */,
+				B17F4EEA08AA9D8800B00329 /* MOFormatterPalette.tiff in Resources */,
+				B17F4EEB08AA9D8800B00329 /* MORegexFormatter.tiff in Resources */,
+				B17F4EEC08AA9D8800B00329 /* palette.table in Resources */,
+				B17F4EED08AA9D8800B00329 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4F5B08AA9D8800B00329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F4F5C08AA9D8800B00329 /* main.nib in Resources */,
+				B17F4F5D08AA9D8800B00329 /* InfoPlist.strings in Resources */,
+				B17F4F5E08AA9D8800B00329 /* TestController.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4F7B08AA9D8900B00329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F4F7C08AA9D8900B00329 /* main.nib in Resources */,
+				B17F4F7D08AA9D8900B00329 /* TestController.nib in Resources */,
+				B17F4F7E08AA9D8900B00329 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4F9C08AA9D8900B00329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F4F9D08AA9D8900B00329 /* InfoPlist.strings in Resources */,
+				B17F4F9E08AA9D8900B00329 /* main.nib in Resources */,
+				B17F4F9F08AA9D8900B00329 /* TestController.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B17F4ECF08AA9D8800B00329 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Auto-generate English strings files for MOKit framework\n\necho -n \"Generating strings file...\"\nmkdir -p \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.${WRAPPER_EXTENSION}/Versions/${FRAMEWORK_VERSION}/Resources/English.lproj\"\nPROJ_DIR=`pwd`\ncd \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.${WRAPPER_EXTENSION}/Versions/${FRAMEWORK_VERSION}/Resources/English.lproj\"\ngenstrings \"${PROJ_DIR}/MOKit\"/*.[hm]\necho \"Done.\"\n";
+		};
+		B17F4EF608AA9D8800B00329 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Auto-generate English strings files for MOFormatterPalette\n\necho -n \"Generating strings file...\"\nmkdir -p \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.${WRAPPER_EXTENSION}/Contents/Resources/English.lproj\"\nPROJ_DIR=`pwd`\ncd \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.${WRAPPER_EXTENSION}/Contents/Resources/English.lproj\"\ngenstrings \"${PROJ_DIR}/FormatterPalette\"/*.[hm]\necho \"Done.\"\n";
+		};
+		B1E04C9F08C7C46900557F48 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Generate documentation for MOKit framework\n\nIFS=\"\n\"\n\techo -n \"Generating documentation...\"\n\tDOC_DIR=\"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.${WRAPPER_EXTENSION}/Versions/${FRAMEWORK_VERSION}/Resources/Documentation\"\n\tHEADER_DIR=\"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.${WRAPPER_EXTENSION}/Versions/${FRAMEWORK_VERSION}/Headers\"\n\tmkdir -p \"${DOC_DIR}\"\n\tHEADERS=`ls \"${HEADER_DIR}\"`\n\tfor i in ${HEADERS} ; do\n\t\theaderdoc2html -o \"${DOC_DIR}\" \"${HEADER_DIR}/${i}\"\n\tdone\n\tgatherheaderdoc \"${DOC_DIR}\"\n\techo \"Done.\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B17F4EA408AA9D8800B00329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F4EA508AA9D8800B00329 /* MOAssertions.m in Sources */,
+				B17F4EA608AA9D8800B00329 /* MOCompletionManager.m in Sources */,
+				B17F4EA708AA9D8800B00329 /* MOCompletionStrategy.m in Sources */,
+				B17F4EA808AA9D8800B00329 /* MOExtendedOutlineView.m in Sources */,
+				B17F4EA908AA9D8800B00329 /* MOExtendedTableView.m in Sources */,
+				B17F4EAA08AA9D8800B00329 /* MOFileCompletionStrategy.m in Sources */,
+				B17F4EAB08AA9D8800B00329 /* MOFoundationExtras.m in Sources */,
+				B17F4EAC08AA9D8800B00329 /* MORESyntaxFormatter.m in Sources */,
+				B17F4EAD08AA9D8800B00329 /* MORegexFormatter.m in Sources */,
+				B17F4EAE08AA9D8800B00329 /* MORegexpHelpers.m in Sources */,
+				B17F4EAF08AA9D8800B00329 /* MORegularExpression.m in Sources */,
+				B17F4EB008AA9D8800B00329 /* MORegularExpression_Private.m in Sources */,
+				B17F4EB108AA9D8800B00329 /* MORuntimeUtilities.m in Sources */,
+				B17F4EB208AA9D8800B00329 /* MOViewListView.m in Sources */,
+				B17F4EB308AA9D8800B00329 /* MOViewListViewItem.m in Sources */,
+				B17F4EB408AA9D8800B00329 /* NSView_MOSizing.m in Sources */,
+				B17F4EB508AA9D8800B00329 /* regcomp.c in Sources */,
+				B17F4EB608AA9D8800B00329 /* regerror.c in Sources */,
+				B17F4EB708AA9D8800B00329 /* regexec.c in Sources */,
+				B17F4EB808AA9D8800B00329 /* regfree.c in Sources */,
+				B17F4EB908AA9D8800B00329 /* _MO_WindowController.m in Sources */,
+				B17F4EBA08AA9D8800B00329 /* MOViewController.m in Sources */,
+				B17F4EBB08AA9D8800B00329 /* MOTabViewController.m in Sources */,
+				B17F4EBC08AA9D8800B00329 /* MODebug.m in Sources */,
+				B17F4EBD08AA9D8800B00329 /* MOSplitViewController.m in Sources */,
+				B17F4EBE08AA9D8800B00329 /* MOViewListViewController.m in Sources */,
+				B17F4EBF08AA9D8800B00329 /* MOExtendedMenuItem.m in Sources */,
+				B17F4EC008AA9D8800B00329 /* MOExtendedMenu.m in Sources */,
+				B17F4EC108AA9D8800B00329 /* MOTabView.m in Sources */,
+				B17F4EC208AA9D8800B00329 /* MOViewListLabelView.m in Sources */,
+				B17F4EC308AA9D8800B00329 /* MOViewControllerView.m in Sources */,
+				B17F4EC408AA9D8800B00329 /* NSEvent_MOLocationAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4EEE08AA9D8800B00329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F4EEF08AA9D8800B00329 /* MOFormatterPalette.m in Sources */,
+				B17F4EF008AA9D8800B00329 /* MORegexFormatter_IBCategory.m in Sources */,
+				B17F4EF108AA9D8800B00329 /* MORegexFormatterInspector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4F0B08AA9D8800B00329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F4F0C08AA9D8800B00329 /* RegexTest_main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4F2808AA9D8800B00329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F4F2908AA9D8800B00329 /* MOAssertionTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4F4108AA9D8800B00329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F4F4208AA9D8800B00329 /* MORuntimeTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4F5F08AA9D8800B00329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F4F6008AA9D8800B00329 /* TestController.m in Sources */,
+				B17F4F6108AA9D8800B00329 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4F7F08AA9D8900B00329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F4F8008AA9D8900B00329 /* TestController.m in Sources */,
+				B17F4F8108AA9D8900B00329 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17F4FA008AA9D8900B00329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17F4FA108AA9D8900B00329 /* main.m in Sources */,
+				B17F4FA208AA9D8900B00329 /* TestController.m in Sources */,
+				B17F4FA308AA9D8900B00329 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B17F4FC308AA9D8900B00329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B17F4E7A08AA9D8800B00329 /* MOKit */;
+			targetProxy = B17F4FC208AA9D8900B00329 /* PBXContainerItemProxy */;
+		};
+		B17F4FC508AA9D8900B00329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B17F4EE008AA9D8800B00329 /* MOFormatterPalette */;
+			targetProxy = B17F4FC408AA9D8900B00329 /* PBXContainerItemProxy */;
+		};
+		B17F4FC708AA9D8900B00329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B17F4F0708AA9D8800B00329 /* RegexTest */;
+			targetProxy = B17F4FC608AA9D8900B00329 /* PBXContainerItemProxy */;
+		};
+		B17F4FC908AA9D8900B00329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B17F4F2408AA9D8800B00329 /* AssertTest */;
+			targetProxy = B17F4FC808AA9D8900B00329 /* PBXContainerItemProxy */;
+		};
+		B17F4FCB08AA9D8900B00329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B17F4F3D08AA9D8800B00329 /* RuntimeTest */;
+			targetProxy = B17F4FCA08AA9D8900B00329 /* PBXContainerItemProxy */;
+		};
+		B17F4FCD08AA9D8900B00329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B17F4F5608AA9D8800B00329 /* VLVTest */;
+			targetProxy = B17F4FCC08AA9D8900B00329 /* PBXContainerItemProxy */;
+		};
+		B17F4FCF08AA9D8900B00329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B17F4F7608AA9D8900B00329 /* TableOutlineTest */;
+			targetProxy = B17F4FCE08AA9D8900B00329 /* PBXContainerItemProxy */;
+		};
+		B17F4FD108AA9D8900B00329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B17F4F9608AA9D8900B00329 /* VCTest */;
+			targetProxy = B17F4FD008AA9D8900B00329 /* PBXContainerItemProxy */;
+		};
+		B17F4FD308AA9D8900B00329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B17F4E7A08AA9D8800B00329 /* MOKit */;
+			targetProxy = B17F4FD208AA9D8900B00329 /* PBXContainerItemProxy */;
+		};
+		B17F4FD508AA9D8900B00329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B17F4E7A08AA9D8800B00329 /* MOKit */;
+			targetProxy = B17F4FD408AA9D8900B00329 /* PBXContainerItemProxy */;
+		};
+		B17F4FD708AA9D8900B00329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B17F4E7A08AA9D8800B00329 /* MOKit */;
+			targetProxy = B17F4FD608AA9D8900B00329 /* PBXContainerItemProxy */;
+		};
+		B17F4FD908AA9D8900B00329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B17F4E7A08AA9D8800B00329 /* MOKit */;
+			targetProxy = B17F4FD808AA9D8900B00329 /* PBXContainerItemProxy */;
+		};
+		B17F4FDB08AA9D8900B00329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B17F4E7A08AA9D8800B00329 /* MOKit */;
+			targetProxy = B17F4FDA08AA9D8900B00329 /* PBXContainerItemProxy */;
+		};
+		B17F4FDD08AA9D8900B00329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B17F4E7A08AA9D8800B00329 /* MOKit */;
+			targetProxy = B17F4FDC08AA9D8900B00329 /* PBXContainerItemProxy */;
+		};
+		B17F4FDF08AA9D8900B00329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B17F4E7A08AA9D8800B00329 /* MOKit */;
+			targetProxy = B17F4FDE08AA9D8900B00329 /* PBXContainerItemProxy */;
+		};
+		B17F4FE108AA9D8900B00329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B17F4E5808AA9D8700B00329 /* MOKit_2 All */;
+			targetProxy = B17F4FE008AA9D8900B00329 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0237CCEAFF559947C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0237CCEBFF559947C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0237CCEEFF559A80C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0237CCEFFF559A80C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0C7A9F79FEF17203C02AAC07 /* MOFormatterPalette.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C7A9F7AFEF17203C02AAC07 /* English */,
+			);
+			name = MOFormatterPalette.nib;
+			sourceTree = "<group>";
+		};
+		0C7A9F7BFEF17203C02AAC07 /* MORegexFormatterInspector.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C7A9F7CFEF17203C02AAC07 /* English */,
+			);
+			name = MORegexFormatterInspector.nib;
+			sourceTree = "<group>";
+		};
+		272B723803DB551C00F04E48 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				272B723903DB551C00F04E48 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		272B723A03DB551C00F04E48 /* main.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				272B723B03DB551C00F04E48 /* English */,
+			);
+			name = main.nib;
+			sourceTree = "<group>";
+		};
+		272B723C03DB551C00F04E48 /* TestController.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				272B723D03DB551C00F04E48 /* English */,
+			);
+			name = TestController.nib;
+			sourceTree = "<group>";
+		};
+		2796FC1C03A51EE2007815C8 /* TestController.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2796FC1D03A51EE2007815C8 /* English */,
+			);
+			name = TestController.nib;
+			sourceTree = "<group>";
+		};
+		27D8BCBA039C4BF0007BF0EA /* main.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27D8BCBB039C4BF0007BF0EA /* English */,
+			);
+			name = main.nib;
+			sourceTree = "<group>";
+		};
+		27D8BCBC039C4BF0007BF0EA /* TestController.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27D8BCBD039C4BF0007BF0EA /* English */,
+			);
+			name = TestController.nib;
+			sourceTree = "<group>";
+		};
+		27D8BCD7039C4E44007BF0EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27D8BCD8039C4E44007BF0EA /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27D8BCDA039C4E5B007BF0EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27D8BCDB039C4E5B007BF0EA /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27FAA68803825890004E7C91 /* main.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27FAA68903825890004E7C91 /* English */,
+			);
+			name = main.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B17F4E6D08AA9D8700B00329 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "MOKit_2 All";
+			};
+			name = Development;
+		};
+		B17F4E6F08AA9D8700B00329 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "MOKit_2 All";
+			};
+			name = Deployment;
+		};
+		B17F4ED108AA9D8800B00329 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "MOKit/Info-MOKit.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				PRODUCT_NAME = MOKit;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Development;
+		};
+		B17F4ED308AA9D8800B00329 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "MOKit/Info-MOKit.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				PRODUCT_NAME = MOKit;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Deployment;
+		};
+		B17F4EF808AA9D8800B00329 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FormatterPalette/Info-MOFormatterPalette.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Palettes";
+				PRODUCT_NAME = MOFormatterPalette;
+				WRAPPER_EXTENSION = palette;
+			};
+			name = Development;
+		};
+		B17F4EFA08AA9D8800B00329 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FormatterPalette/Info-MOFormatterPalette.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Palettes";
+				PRODUCT_NAME = MOFormatterPalette;
+				WRAPPER_EXTENSION = palette;
+			};
+			name = Deployment;
+		};
+		B17F4F1508AA9D8800B00329 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = RegexTest;
+			};
+			name = Development;
+		};
+		B17F4F1708AA9D8800B00329 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = RegexTest;
+			};
+			name = Deployment;
+		};
+		B17F4F2E08AA9D8800B00329 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = AssertTest;
+			};
+			name = Development;
+		};
+		B17F4F3008AA9D8800B00329 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = AssertTest;
+			};
+			name = Deployment;
+		};
+		B17F4F4708AA9D8800B00329 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = RuntimeTest;
+			};
+			name = Development;
+		};
+		B17F4F4908AA9D8800B00329 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = RuntimeTest;
+			};
+			name = Deployment;
+		};
+		B17F4F6608AA9D8800B00329 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "VLVTest/Info-VLVTest.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = VLVTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Development;
+		};
+		B17F4F6808AA9D8800B00329 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "VLVTest/Info-VLVTest.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = VLVTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Deployment;
+		};
+		B17F4F8608AA9D8900B00329 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TableOutlineTest/Info-TableOutlineTest.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = TableOutlineTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Development;
+		};
+		B17F4F8808AA9D8900B00329 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TableOutlineTest/Info-TableOutlineTest.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = TableOutlineTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Deployment;
+		};
+		B17F4FA808AA9D8900B00329 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "VCTest/Info-VCTest.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = VCTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Development;
+		};
+		B17F4FAA08AA9D8900B00329 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "VCTest/Info-VCTest.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = VCTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Deployment;
+		};
+		B17F4FBC08AA9D8900B00329 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		B17F4FBE08AA9D8900B00329 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		B17F4FF108AA9D8C00B00329 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B17F500E08AAA18E00B00329 /* BaseConfiguration.xcconfig */;
+			buildSettings = {
+				BUILD_VARIANTS = normal;
+				DEPLOYMENT_LOCATION = NO;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GENERATE_HEADERDOC = NO;
+			};
+			name = Development;
+		};
+		B17F4FF308AA9D8C00B00329 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B17F500E08AAA18E00B00329 /* BaseConfiguration.xcconfig */;
+			buildSettings = {
+				BUILD_VARIANTS = (
+					normal,
+					profile,
+					debug,
+				);
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GENERATE_HEADERDOC = YES;
+			};
+			name = Deployment;
+		};
+		B181AE9A08AAC797001FC323 /* PixarDeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "MOKit/Info-MOKit.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				PRODUCT_NAME = MOKit;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = PixarDeployment;
+		};
+		B181AE9B08AAC797001FC323 /* PixarDeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FormatterPalette/Info-MOFormatterPalette.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Palettes";
+				PRODUCT_NAME = MOFormatterPalette;
+				WRAPPER_EXTENSION = palette;
+			};
+			name = PixarDeployment;
+		};
+		B181AE9C08AAC797001FC323 /* PixarDeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = RegexTest;
+			};
+			name = PixarDeployment;
+		};
+		B181AE9D08AAC797001FC323 /* PixarDeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = AssertTest;
+			};
+			name = PixarDeployment;
+		};
+		B181AE9E08AAC797001FC323 /* PixarDeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = RuntimeTest;
+			};
+			name = PixarDeployment;
+		};
+		B181AE9F08AAC797001FC323 /* PixarDeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "VLVTest/Info-VLVTest.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = VLVTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = PixarDeployment;
+		};
+		B181AEA008AAC797001FC323 /* PixarDeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TableOutlineTest/Info-TableOutlineTest.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = TableOutlineTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = PixarDeployment;
+		};
+		B181AEA108AAC797001FC323 /* PixarDeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "VCTest/Info-VCTest.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = VCTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = PixarDeployment;
+		};
+		B181AEA208AAC797001FC323 /* PixarDeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "MOKit_2 All";
+			};
+			name = PixarDeployment;
+		};
+		B181AEA308AAC797001FC323 /* PixarDeployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = PixarDeployment;
+		};
+		B181AEA408AAC797001FC323 /* PixarDeployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B17F500E08AAA18E00B00329 /* BaseConfiguration.xcconfig */;
+			buildSettings = {
+				BUILD_VARIANTS = (
+					normal,
+					profile,
+					debug,
+				);
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GENERATE_HEADERDOC = YES;
+				LOCAL_DEVELOPER_DIR = "/pixar/d2/sets/tools-30";
+				LOCAL_LIBRARY_DIR = "/pixar/d2/sets/tools-30";
+			};
+			name = PixarDeployment;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B17F4E6C08AA9D8700B00329 /* Build configuration list for PBXAggregateTarget "MOKit_2 All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17F4E6D08AA9D8700B00329 /* Development */,
+				B17F4E6F08AA9D8700B00329 /* Deployment */,
+				B181AEA208AAC797001FC323 /* PixarDeployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		B17F4ED008AA9D8800B00329 /* Build configuration list for PBXNativeTarget "MOKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17F4ED108AA9D8800B00329 /* Development */,
+				B17F4ED308AA9D8800B00329 /* Deployment */,
+				B181AE9A08AAC797001FC323 /* PixarDeployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		B17F4EF708AA9D8800B00329 /* Build configuration list for PBXNativeTarget "MOFormatterPalette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17F4EF808AA9D8800B00329 /* Development */,
+				B17F4EFA08AA9D8800B00329 /* Deployment */,
+				B181AE9B08AAC797001FC323 /* PixarDeployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		B17F4F1408AA9D8800B00329 /* Build configuration list for PBXNativeTarget "RegexTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17F4F1508AA9D8800B00329 /* Development */,
+				B17F4F1708AA9D8800B00329 /* Deployment */,
+				B181AE9C08AAC797001FC323 /* PixarDeployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		B17F4F2D08AA9D8800B00329 /* Build configuration list for PBXNativeTarget "AssertTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17F4F2E08AA9D8800B00329 /* Development */,
+				B17F4F3008AA9D8800B00329 /* Deployment */,
+				B181AE9D08AAC797001FC323 /* PixarDeployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		B17F4F4608AA9D8800B00329 /* Build configuration list for PBXNativeTarget "RuntimeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17F4F4708AA9D8800B00329 /* Development */,
+				B17F4F4908AA9D8800B00329 /* Deployment */,
+				B181AE9E08AAC797001FC323 /* PixarDeployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		B17F4F6508AA9D8800B00329 /* Build configuration list for PBXNativeTarget "VLVTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17F4F6608AA9D8800B00329 /* Development */,
+				B17F4F6808AA9D8800B00329 /* Deployment */,
+				B181AE9F08AAC797001FC323 /* PixarDeployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		B17F4F8508AA9D8900B00329 /* Build configuration list for PBXNativeTarget "TableOutlineTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17F4F8608AA9D8900B00329 /* Development */,
+				B17F4F8808AA9D8900B00329 /* Deployment */,
+				B181AEA008AAC797001FC323 /* PixarDeployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		B17F4FA708AA9D8900B00329 /* Build configuration list for PBXNativeTarget "VCTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17F4FA808AA9D8900B00329 /* Development */,
+				B17F4FAA08AA9D8900B00329 /* Deployment */,
+				B181AEA108AAC797001FC323 /* PixarDeployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		B17F4FBB08AA9D8900B00329 /* Build configuration list for PBXLegacyTarget "DistributionImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17F4FBC08AA9D8900B00329 /* Development */,
+				B17F4FBE08AA9D8900B00329 /* Deployment */,
+				B181AEA308AAC797001FC323 /* PixarDeployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		B17F4FF008AA9D8C00B00329 /* Build configuration list for PBXProject "MOKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17F4FF108AA9D8C00B00329 /* Development */,
+				B17F4FF308AA9D8C00B00329 /* Deployment */,
+				B181AEA408AAC797001FC323 /* PixarDeployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C7A9F46FEF17203C02AAC07 /* Project object */;
+}
