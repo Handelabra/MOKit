@@ -117,7 +117,12 @@
     for (i=0; i<c; i++) {
         [[[columns objectAtIndex:i] dataCell] setFont:font];
     }
-    [self setRowHeight:[font defaultLineHeightForFont]];
+    
+    NSLayoutManager *layoutManager = [[NSLayoutManager alloc] init];
+    float height = [layoutManager defaultLineHeightForFont:font];
+    [self setRowHeight:height];
+    [layoutManager release];
+    
     [self setNeedsDisplay:YES];
 }
 

@@ -45,7 +45,12 @@ static const float _LabelBarTextHeightPad = 2.0;
 }
 
 + (float)labelHeightForFont:(NSFont *)labelFont {
-    return [labelFont defaultLineHeightForFont] + (_LabelBarTextHeightPad * 2.0);
+    
+    NSLayoutManager *layoutManager = [[NSLayoutManager alloc] init];
+    float height = [layoutManager defaultLineHeightForFont:labelFont];
+    [layoutManager release];
+    
+    return height + (_LabelBarTextHeightPad * 2.0);
 }
 
 - (NSRect)frameForLabelText {
@@ -53,7 +58,11 @@ static const float _LabelBarTextHeightPad = 2.0;
     NSRect rect = [self bounds];
     float dim = (([_viewListView controlSize] == NSRegularControlSize) ? _RegularDisclosureTriangleDimension : _SmallDisclosureTriangleDimension);
     float extraSpace = _DisclosureTrianglePad + dim + _DisclosureTrianglePad;
-    float lineHeight = [[_viewListView labelFont] defaultLineHeightForFont];
+    
+    NSLayoutManager *layoutManager = [[NSLayoutManager alloc] init];
+    float lineHeight = [layoutManager defaultLineHeightForFont:[_viewListView labelFont]];
+    [layoutManager release];
+    
     rect = NSMakeRect(NSMinX(rect) + extraSpace, NSMinY(rect) + ((NSHeight(rect) - lineHeight) / 2.0), NSWidth(rect) - extraSpace, lineHeight);
     return rect;
 }

@@ -12,8 +12,6 @@
 			buildConfigurationList = B17F4E6C08AA9D8700B00329 /* Build configuration list for PBXAggregateTarget "MOKit_2 All" */;
 			buildPhases = (
 			);
-			buildSettings = {
-			};
 			dependencies = (
 				B17F4FC308AA9D8900B00329 /* PBXTargetDependency */,
 				B17F4FC508AA9D8900B00329 /* PBXTargetDependency */,
@@ -161,23 +159,6 @@
 		B17F4FE908AA9D8900B00329 /* MOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17F4ED808AA9D8800B00329 /* MOKit.framework */; };
 		B17F4FEA08AA9D8900B00329 /* MOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17F4ED808AA9D8800B00329 /* MOKit.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXBuildStyle section */
-		B1CDF37A08AABDAD004844F7 /* Development */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Development;
-		};
-		B1CDF37B08AABDAD004844F7 /* Deployment */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-			};
-			name = Deployment;
-		};
-/* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
 		B17F4FC208AA9D8900B00329 /* PBXContainerItemProxy */ = {
@@ -482,18 +463,18 @@
 		B157731B04472E2E00FEE151 /* MOTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOTabView.h; sourceTree = "<group>"; };
 		B157731C04472E2E00FEE151 /* MOTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOTabView.m; sourceTree = "<group>"; };
 		B1579B1D051291A6003D99BE /* MOViewController_example1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = MOViewController_example1.tiff; sourceTree = "<group>"; };
-		B17F4ED708AA9D8800B00329 /* Info-MOKit.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Info-MOKit.plist"; sourceTree = "<group>"; };
+		B17F4ED708AA9D8800B00329 /* Info-MOKit.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-MOKit.plist"; sourceTree = "<group>"; };
 		B17F4ED808AA9D8800B00329 /* MOKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MOKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B17F4EFE08AA9D8800B00329 /* Info-MOFormatterPalette.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Info-MOFormatterPalette.plist"; sourceTree = "<group>"; };
+		B17F4EFE08AA9D8800B00329 /* Info-MOFormatterPalette.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-MOFormatterPalette.plist"; sourceTree = "<group>"; };
 		B17F4EFF08AA9D8800B00329 /* MOFormatterPalette.palette */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOFormatterPalette.palette; sourceTree = BUILT_PRODUCTS_DIR; };
 		B17F4F1B08AA9D8800B00329 /* RegexTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RegexTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B17F4F3408AA9D8800B00329 /* AssertTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AssertTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B17F4F4D08AA9D8800B00329 /* RuntimeTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RuntimeTest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B17F4F6C08AA9D8800B00329 /* Info-VLVTest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Info-VLVTest.plist"; sourceTree = "<group>"; };
+		B17F4F6C08AA9D8800B00329 /* Info-VLVTest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-VLVTest.plist"; sourceTree = "<group>"; };
 		B17F4F6D08AA9D8900B00329 /* VLVTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VLVTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B17F4F8C08AA9D8900B00329 /* Info-TableOutlineTest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Info-TableOutlineTest.plist"; sourceTree = "<group>"; };
+		B17F4F8C08AA9D8900B00329 /* Info-TableOutlineTest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-TableOutlineTest.plist"; sourceTree = "<group>"; };
 		B17F4F8D08AA9D8900B00329 /* TableOutlineTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableOutlineTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B17F4FAE08AA9D8900B00329 /* Info-VCTest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Info-VCTest.plist"; sourceTree = "<group>"; };
+		B17F4FAE08AA9D8900B00329 /* Info-VCTest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-VCTest.plist"; sourceTree = "<group>"; };
 		B17F4FAF08AA9D8900B00329 /* VCTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B17F500E08AAA18E00B00329 /* BaseConfiguration.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = BaseConfiguration.xcconfig; sourceTree = "<group>"; };
 		B1B84388063EB7D600D206DA /* MODebug_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MODebug_Private.h; sourceTree = "<group>"; };
@@ -1042,9 +1023,6 @@
 			buildConfigurationList = B17F4FBB08AA9D8900B00329 /* Build configuration list for PBXLegacyTarget "DistributionImages" */;
 			buildPhases = (
 			);
-			buildSettings = {
-				PRODUCT_NAME = DistributionImages;
-			};
 			buildToolPath = /bin/sh;
 			dependencies = (
 				B17F4FE108AA9D8900B00329 /* PBXTargetDependency */,
@@ -1071,46 +1049,6 @@
 			);
 			buildRules = (
 			);
-			buildSettings = {
-				BUILD_VARIANTS = (
-					normal,
-					profile,
-					debug,
-				);
-				CURRENT_PROJECT_VERSION = 203;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 203;
-				FRAMEWORK_SEARCH_PATHS = "";
-				FRAMEWORK_VERSION = A;
-				GENERATE_HEADERDOC = YES;
-				HEADER_SEARCH_PATHS = "";
-				INSTALL_PATH = "$(MOKIT_FRAMEWORK_INSTALL_PATH)";
-				LIBRARY_SEARCH_PATHS = "";
-				MOKIT_FRAMEWORK_INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				OTHER_CFLAGS = (
-					"$(OTHER_CFLAGS_common)",
-					"$(OTHER_CFLAGS_normal_ASSERT_FLAGS)",
-				);
-				OTHER_CFLAGS_common = "";
-				OTHER_CFLAGS_debug = "$(OTHER_CFLAGS_common) -DMO_DEBUG -UMO_BLOCK_ASSERTS";
-				OTHER_CFLAGS_normal_ASSERT_FLAGS = "";
-				OTHER_CFLAGS_profile = "$(OTHER_CFLAGS_common) -pg";
-				OTHER_LDFLAGS = "-headerpad_max_install_names";
-				PFE_FILE_C_DIALECTS = "objective-c c";
-				PRECOMPILE_PREFIX_HEADER = YES;
-				PREFIX_HEADER = MOKit/MOKitPrefix.h;
-				PRODUCT_NAME = MOKit;
-				SECTORDER_FLAGS = "";
-				USE_GCC3_PFE_SUPPORT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = MO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = framework;
-			};
 			dependencies = (
 			);
 			name = MOKit;
@@ -1131,28 +1069,6 @@
 			);
 			buildRules = (
 			);
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 203;
-				FRAMEWORK_SEARCH_PATHS = "";
-				HEADER_SEARCH_PATHS = "";
-				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Palettes";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "-headerpad_max_install_names";
-				PRECOMPILE_PREFIX_HEADER = YES;
-				PREFIX_HEADER = MOKit/MOKitPrefix.h;
-				PRODUCT_NAME = MOFormatterPalette;
-				SECTORDER_FLAGS = "";
-				USE_GCC3_PFE_SUPPORT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = MO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = palette;
-			};
 			dependencies = (
 				B17F4FD308AA9D8900B00329 /* PBXTargetDependency */,
 			);
@@ -1174,28 +1090,6 @@
 			);
 			buildRules = (
 			);
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 203;
-				FRAMEWORK_SEARCH_PATHS = "";
-				HEADER_SEARCH_PATHS = "";
-				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "-headerpad_max_install_names";
-				PREBINDING = NO;
-				PRECOMPILE_PREFIX_HEADER = YES;
-				PREFIX_HEADER = MOKit/MOKitPrefix.h;
-				PRODUCT_NAME = RegexTest;
-				SECTORDER_FLAGS = "";
-				USE_GCC3_PFE_SUPPORT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = MO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
 			dependencies = (
 				B17F4FD508AA9D8900B00329 /* PBXTargetDependency */,
 			);
@@ -1215,25 +1109,6 @@
 			);
 			buildRules = (
 			);
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 203;
-				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "-headerpad_max_install_names";
-				PREBINDING = NO;
-				PRECOMPILE_PREFIX_HEADER = YES;
-				PREFIX_HEADER = MOKit/MOKitPrefix.h;
-				PRODUCT_NAME = AssertTest;
-				SECTORDER_FLAGS = "";
-				USE_GCC3_PFE_SUPPORT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = MO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
 			dependencies = (
 				B17F4FD708AA9D8900B00329 /* PBXTargetDependency */,
 			);
@@ -1253,25 +1128,6 @@
 			);
 			buildRules = (
 			);
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 203;
-				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "-headerpad_max_install_names";
-				PREBINDING = NO;
-				PRECOMPILE_PREFIX_HEADER = YES;
-				PREFIX_HEADER = MOKit/MOKitPrefix.h;
-				PRODUCT_NAME = RuntimeTest;
-				SECTORDER_FLAGS = "";
-				USE_GCC3_PFE_SUPPORT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = MO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
 			dependencies = (
 				B17F4FD908AA9D8900B00329 /* PBXTargetDependency */,
 			);
@@ -1292,26 +1148,6 @@
 			);
 			buildRules = (
 			);
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 203;
-				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "-headerpad_max_install_names";
-				PREBINDING = NO;
-				PRECOMPILE_PREFIX_HEADER = YES;
-				PREFIX_HEADER = MOKit/MOKitPrefix.h;
-				PRODUCT_NAME = VLVTest;
-				SECTORDER_FLAGS = "";
-				USE_GCC3_PFE_SUPPORT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = MO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = app;
-			};
 			dependencies = (
 				B17F4FDB08AA9D8900B00329 /* PBXTargetDependency */,
 			);
@@ -1332,26 +1168,6 @@
 			);
 			buildRules = (
 			);
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 203;
-				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "-headerpad_max_install_names";
-				PREBINDING = NO;
-				PRECOMPILE_PREFIX_HEADER = YES;
-				PREFIX_HEADER = MOKit/MOKitPrefix.h;
-				PRODUCT_NAME = TableOutlineTest;
-				SECTORDER_FLAGS = "";
-				USE_GCC3_PFE_SUPPORT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = MO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = app;
-			};
 			dependencies = (
 				B17F4FDD08AA9D8900B00329 /* PBXTargetDependency */,
 			);
@@ -1372,26 +1188,6 @@
 			);
 			buildRules = (
 			);
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 203;
-				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "-headerpad_max_install_names";
-				PREBINDING = NO;
-				PRECOMPILE_PREFIX_HEADER = YES;
-				PREFIX_HEADER = MOKit/MOKitPrefix.h;
-				PRODUCT_NAME = VCTest;
-				SECTORDER_FLAGS = "";
-				USE_GCC3_PFE_SUPPORT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = MO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = app;
-			};
 			dependencies = (
 				B17F4FDF08AA9D8900B00329 /* PBXTargetDependency */,
 			);
@@ -1407,16 +1203,16 @@
 		0C7A9F46FEF17203C02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = B17F4FF008AA9D8C00B00329 /* Build configuration list for PBXProject "MOKit" */;
-			buildSettings = {
-			};
-			buildStyles = (
-				B1CDF37A08AABDAD004844F7 /* Development */,
-				B1CDF37B08AABDAD004844F7 /* Deployment */,
-			);
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 0C7A9F47FEF17203C02AAC07 /* MOKit_2 */;
 			productRefGroup = 0C7A9F92FEF17203C02AAC07 /* Products */;
 			projectDirPath = "";
+			projectRoot = "";
 			targets = (
 				B17F4E5808AA9D8700B00329 /* MOKit_2 All */,
 				B17F4E7A08AA9D8800B00329 /* MOKit */,
@@ -1998,6 +1794,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B17F500E08AAA18E00B00329 /* BaseConfiguration.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
 				BUILD_VARIANTS = normal;
 				DEPLOYMENT_LOCATION = NO;
 				DEPLOYMENT_POSTPROCESSING = NO;
@@ -2011,6 +1809,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B17F500E08AAA18E00B00329 /* BaseConfiguration.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
 				BUILD_VARIANTS = (
 					normal,
 					profile,
@@ -2116,6 +1916,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B17F500E08AAA18E00B00329 /* BaseConfiguration.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
 				BUILD_VARIANTS = (
 					normal,
 					profile,

@@ -16,7 +16,7 @@ static BOOL _MO_ClassInheritsFromClass(Class descendent, Class ancestor) {
         if (curClass == ancestor) {
             return YES;
         }
-        curClass = curClass->super_class;
+        curClass = class_getSuperclass(curClass);
     }
     return NO;
 }
@@ -68,7 +68,7 @@ static BOOL _MOSubclassOfClass(Class theClass, void *ancestorPtr, void *deepPtr)
     if ((unsigned)deepPtr) {
         return _MO_ClassInheritsFromClass(theClass, (Class)ancestorPtr);
     } else {
-        return ((theClass->super_class == ancestor) ? YES : NO);
+        return ((class_getSuperclass(theClass) == ancestor) ? YES : NO);
     }
 }
 
@@ -86,11 +86,17 @@ static BOOL _MOSubclassOfClass(Class theClass, void *ancestorPtr, void *deepPtr)
     MOAssert((newMethod != NULL), @"%@ - newSel must be implemented in order to replace another selector with it, but class %@ does not implement selector %s", (factoryFlag ? @"MO_replaceFactorySelector:withMethodForSelector:" : @"MO_replaceInstanceSelector:withMethodForSelector:"), self, newSel);
     // !!!:mferris:20030825 This fails on Panther.  It seems that the Obj-C method signatures have changed.  I suspect maybe Cocoa was built with an earlier (pre-3.3) compiler in the seeds I have been using.  Maybe when Panther is released, this can be re-enabled.  For now, I am simply turning off this test.
     //MOAssert((strcmp(newMethod->method_types, origMethod->method_types) == 0), @"%@ - replaceSel and newSel must have the same signature, but the selectors %s and %s in class %@ have different signatures (%s and %s respectively)", (factoryFlag ? @"MO_replaceFactorySelector:withMethodForSelector:" : @"MO_replaceInstanceSelector:withMethodForSelector:"), replaceSel, newSel, self, origMethod->method_types, newMethod->method_types);
+    
+    IMP originalImp = NULL;
 
     if (origMethod && newMethod) {
+        
+        originalImp = class_replaceMethod([self class], replaceSel, method_getImplementation(newMethod), method_getTypeEncoding(newMethod));
+        
+/*
         // Construct a new method list
         struct objc_method_list *newMethodList = NSZoneMalloc(NULL, sizeof(struct objc_method_list));
-
+        
         newMethodList->method_count = 1;
         newMethodList->method_list[0].method_name = replaceSel;
         newMethodList->method_list[0].method_types = origMethod->method_types;
@@ -98,9 +104,11 @@ static BOOL _MOSubclassOfClass(Class theClass, void *ancestorPtr, void *deepPtr)
 
         // Add the new method list (to the meta-class if we're adding factory methods, else to the class itself)
         class_addMethods((factoryFlag ? ((Class)self)->isa : self), newMethodList);
+ */
     }
 
-    return (origMethod ? origMethod->method_imp : NULL);
+    //return (origMethod ? origMethod->method_imp : NULL);
+    return (origMethod ? originalImp : NULL);
 }
 
 + (IMP)MO_replaceInstanceSelector:(SEL)replaceSel withMethodForSelector:(SEL)newSel {
