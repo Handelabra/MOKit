@@ -1,0 +1,22 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                allowsEmptyStringAction = id; 
+                newExpressionAction = id; 
+                removeExpressionAction = id; 
+            }; 
+            CLASS = MORegexFormatterInspector; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                allowsEmptyStringCheckbox = id; 
+                expressionButtons = id; 
+                expressionTableView = id; 
+                formatPatternTextField = id; 
+            }; 
+            SUPERCLASS = IBInspector; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,18 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = TestController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                contentView1 = NSView; 
+                contentView2 = NSView; 
+                contentView3 = NSView; 
+                contentView4 = NSView; 
+                dsView = MODisclosableStackView; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

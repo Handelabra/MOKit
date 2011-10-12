@@ -1,0 +1,3 @@
+This is Henry Spencer's Unicode based Regular Expression library as I got it (from the Tcl 8.3.2 distribution).  I am distributing his original source code with MOKit because I use a variant of his package which is largely the same as this, but which has some modifications (none in how the package actually works), and I figured people might want the original code.  The modified version is in the MORegexp folder.
+
+- Mike Ferris
