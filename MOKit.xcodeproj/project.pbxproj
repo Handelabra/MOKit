@@ -1614,12 +1614,12 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B17F4E6D08AA9D8700B00329 /* Development */ = {
+		B17F4E6D08AA9D8700B00329 /* Development2 */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "MOKit_2 All";
 			};
-			name = Development;
+			name = Development2;
 		};
 		B17F4E6F08AA9D8700B00329 /* Deployment */ = {
 			isa = XCBuildConfiguration;
@@ -1628,7 +1628,7 @@
 			};
 			name = Deployment;
 		};
-		B17F4ED108AA9D8800B00329 /* Development */ = {
+		B17F4ED108AA9D8800B00329 /* Development2 */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_VERSION = A;
@@ -1637,7 +1637,7 @@
 				PRODUCT_NAME = MOKit;
 				WRAPPER_EXTENSION = framework;
 			};
-			name = Development;
+			name = Development2;
 		};
 		B17F4ED308AA9D8800B00329 /* Deployment */ = {
 			isa = XCBuildConfiguration;
@@ -1650,7 +1650,7 @@
 			};
 			name = Deployment;
 		};
-		B17F4EF808AA9D8800B00329 /* Development */ = {
+		B17F4EF808AA9D8800B00329 /* Development2 */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "FormatterPalette/Info-MOFormatterPalette.plist";
@@ -1658,7 +1658,7 @@
 				PRODUCT_NAME = MOFormatterPalette;
 				WRAPPER_EXTENSION = palette;
 			};
-			name = Development;
+			name = Development2;
 		};
 		B17F4EFA08AA9D8800B00329 /* Deployment */ = {
 			isa = XCBuildConfiguration;
@@ -1670,13 +1670,13 @@
 			};
 			name = Deployment;
 		};
-		B17F4F1508AA9D8800B00329 /* Development */ = {
+		B17F4F1508AA9D8800B00329 /* Development2 */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
 				PRODUCT_NAME = RegexTest;
 			};
-			name = Development;
+			name = Development2;
 		};
 		B17F4F1708AA9D8800B00329 /* Deployment */ = {
 			isa = XCBuildConfiguration;
@@ -1686,13 +1686,13 @@
 			};
 			name = Deployment;
 		};
-		B17F4F2E08AA9D8800B00329 /* Development */ = {
+		B17F4F2E08AA9D8800B00329 /* Development2 */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
 				PRODUCT_NAME = AssertTest;
 			};
-			name = Development;
+			name = Development2;
 		};
 		B17F4F3008AA9D8800B00329 /* Deployment */ = {
 			isa = XCBuildConfiguration;
@@ -1702,13 +1702,13 @@
 			};
 			name = Deployment;
 		};
-		B17F4F4708AA9D8800B00329 /* Development */ = {
+		B17F4F4708AA9D8800B00329 /* Development2 */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
 				PRODUCT_NAME = RuntimeTest;
 			};
-			name = Development;
+			name = Development2;
 		};
 		B17F4F4908AA9D8800B00329 /* Deployment */ = {
 			isa = XCBuildConfiguration;
@@ -1718,7 +1718,7 @@
 			};
 			name = Deployment;
 		};
-		B17F4F6608AA9D8800B00329 /* Development */ = {
+		B17F4F6608AA9D8800B00329 /* Development2 */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "VLVTest/Info-VLVTest.plist";
@@ -1726,7 +1726,7 @@
 				PRODUCT_NAME = VLVTest;
 				WRAPPER_EXTENSION = app;
 			};
-			name = Development;
+			name = Development2;
 		};
 		B17F4F6808AA9D8800B00329 /* Deployment */ = {
 			isa = XCBuildConfiguration;
@@ -1738,7 +1738,7 @@
 			};
 			name = Deployment;
 		};
-		B17F4F8608AA9D8900B00329 /* Development */ = {
+		B17F4F8608AA9D8900B00329 /* Development2 */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "TableOutlineTest/Info-TableOutlineTest.plist";
@@ -1746,7 +1746,7 @@
 				PRODUCT_NAME = TableOutlineTest;
 				WRAPPER_EXTENSION = app;
 			};
-			name = Development;
+			name = Development2;
 		};
 		B17F4F8808AA9D8900B00329 /* Deployment */ = {
 			isa = XCBuildConfiguration;
@@ -1758,7 +1758,7 @@
 			};
 			name = Deployment;
 		};
-		B17F4FA808AA9D8900B00329 /* Development */ = {
+		B17F4FA808AA9D8900B00329 /* Development2 */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "VCTest/Info-VCTest.plist";
@@ -1766,7 +1766,7 @@
 				PRODUCT_NAME = VCTest;
 				WRAPPER_EXTENSION = app;
 			};
-			name = Development;
+			name = Development2;
 		};
 		B17F4FAA08AA9D8900B00329 /* Deployment */ = {
 			isa = XCBuildConfiguration;
@@ -1778,11 +1778,11 @@
 			};
 			name = Deployment;
 		};
-		B17F4FBC08AA9D8900B00329 /* Development */ = {
+		B17F4FBC08AA9D8900B00329 /* Development2 */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
-			name = Development;
+			name = Development2;
 		};
 		B17F4FBE08AA9D8900B00329 /* Deployment */ = {
 			isa = XCBuildConfiguration;
@@ -1790,7 +1790,7 @@
 			};
 			name = Deployment;
 		};
-		B17F4FF108AA9D8C00B00329 /* Development */ = {
+		B17F4FF108AA9D8C00B00329 /* Development2 */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B17F500E08AAA18E00B00329 /* BaseConfiguration.xcconfig */;
 			buildSettings = {
@@ -1803,7 +1803,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GENERATE_HEADERDOC = NO;
 			};
-			name = Development;
+			name = Development2;
 		};
 		B17F4FF308AA9D8C00B00329 /* Deployment */ = {
 			isa = XCBuildConfiguration;
@@ -1933,118 +1933,232 @@
 			};
 			name = PixarDeployment;
 		};
+		FDD1D365144614A20062A824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B17F500E08AAA18E00B00329 /* BaseConfiguration.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				BUILD_VARIANTS = normal;
+				DEPLOYMENT_LOCATION = NO;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GENERATE_HEADERDOC = NO;
+			};
+			name = Debug;
+		};
+		FDD1D366144614A20062A824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "MOKit_2 All";
+			};
+			name = Debug;
+		};
+		FDD1D367144614A20062A824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "MOKit/Info-MOKit.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				PRODUCT_NAME = MOKit;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		FDD1D368144614A20062A824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FormatterPalette/Info-MOFormatterPalette.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Palettes";
+				PRODUCT_NAME = MOFormatterPalette;
+				WRAPPER_EXTENSION = palette;
+			};
+			name = Debug;
+		};
+		FDD1D369144614A20062A824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = RegexTest;
+			};
+			name = Debug;
+		};
+		FDD1D36A144614A20062A824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = AssertTest;
+			};
+			name = Debug;
+		};
+		FDD1D36B144614A20062A824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = RuntimeTest;
+			};
+			name = Debug;
+		};
+		FDD1D36C144614A20062A824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "VLVTest/Info-VLVTest.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = VLVTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDD1D36D144614A20062A824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TableOutlineTest/Info-TableOutlineTest.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = TableOutlineTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDD1D36E144614A20062A824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "VCTest/Info-VCTest.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = VCTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDD1D36F144614A20062A824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		B17F4E6C08AA9D8700B00329 /* Build configuration list for PBXAggregateTarget "MOKit_2 All" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B17F4E6D08AA9D8700B00329 /* Development */,
+				B17F4E6D08AA9D8700B00329 /* Development2 */,
+				FDD1D366144614A20062A824 /* Debug */,
 				B17F4E6F08AA9D8700B00329 /* Deployment */,
 				B181AEA208AAC797001FC323 /* PixarDeployment */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Development;
+			defaultConfigurationName = Debug;
 		};
 		B17F4ED008AA9D8800B00329 /* Build configuration list for PBXNativeTarget "MOKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B17F4ED108AA9D8800B00329 /* Development */,
+				B17F4ED108AA9D8800B00329 /* Development2 */,
+				FDD1D367144614A20062A824 /* Debug */,
 				B17F4ED308AA9D8800B00329 /* Deployment */,
 				B181AE9A08AAC797001FC323 /* PixarDeployment */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Development;
+			defaultConfigurationName = Debug;
 		};
 		B17F4EF708AA9D8800B00329 /* Build configuration list for PBXNativeTarget "MOFormatterPalette" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B17F4EF808AA9D8800B00329 /* Development */,
+				B17F4EF808AA9D8800B00329 /* Development2 */,
+				FDD1D368144614A20062A824 /* Debug */,
 				B17F4EFA08AA9D8800B00329 /* Deployment */,
 				B181AE9B08AAC797001FC323 /* PixarDeployment */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Development;
+			defaultConfigurationName = Debug;
 		};
 		B17F4F1408AA9D8800B00329 /* Build configuration list for PBXNativeTarget "RegexTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B17F4F1508AA9D8800B00329 /* Development */,
+				B17F4F1508AA9D8800B00329 /* Development2 */,
+				FDD1D369144614A20062A824 /* Debug */,
 				B17F4F1708AA9D8800B00329 /* Deployment */,
 				B181AE9C08AAC797001FC323 /* PixarDeployment */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Development;
+			defaultConfigurationName = Debug;
 		};
 		B17F4F2D08AA9D8800B00329 /* Build configuration list for PBXNativeTarget "AssertTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B17F4F2E08AA9D8800B00329 /* Development */,
+				B17F4F2E08AA9D8800B00329 /* Development2 */,
+				FDD1D36A144614A20062A824 /* Debug */,
 				B17F4F3008AA9D8800B00329 /* Deployment */,
 				B181AE9D08AAC797001FC323 /* PixarDeployment */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Development;
+			defaultConfigurationName = Debug;
 		};
 		B17F4F4608AA9D8800B00329 /* Build configuration list for PBXNativeTarget "RuntimeTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B17F4F4708AA9D8800B00329 /* Development */,
+				B17F4F4708AA9D8800B00329 /* Development2 */,
+				FDD1D36B144614A20062A824 /* Debug */,
 				B17F4F4908AA9D8800B00329 /* Deployment */,
 				B181AE9E08AAC797001FC323 /* PixarDeployment */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Development;
+			defaultConfigurationName = Debug;
 		};
 		B17F4F6508AA9D8800B00329 /* Build configuration list for PBXNativeTarget "VLVTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B17F4F6608AA9D8800B00329 /* Development */,
+				B17F4F6608AA9D8800B00329 /* Development2 */,
+				FDD1D36C144614A20062A824 /* Debug */,
 				B17F4F6808AA9D8800B00329 /* Deployment */,
 				B181AE9F08AAC797001FC323 /* PixarDeployment */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Development;
+			defaultConfigurationName = Debug;
 		};
 		B17F4F8508AA9D8900B00329 /* Build configuration list for PBXNativeTarget "TableOutlineTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B17F4F8608AA9D8900B00329 /* Development */,
+				B17F4F8608AA9D8900B00329 /* Development2 */,
+				FDD1D36D144614A20062A824 /* Debug */,
 				B17F4F8808AA9D8900B00329 /* Deployment */,
 				B181AEA008AAC797001FC323 /* PixarDeployment */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Development;
+			defaultConfigurationName = Debug;
 		};
 		B17F4FA708AA9D8900B00329 /* Build configuration list for PBXNativeTarget "VCTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B17F4FA808AA9D8900B00329 /* Development */,
+				B17F4FA808AA9D8900B00329 /* Development2 */,
+				FDD1D36E144614A20062A824 /* Debug */,
 				B17F4FAA08AA9D8900B00329 /* Deployment */,
 				B181AEA108AAC797001FC323 /* PixarDeployment */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Development;
+			defaultConfigurationName = Debug;
 		};
 		B17F4FBB08AA9D8900B00329 /* Build configuration list for PBXLegacyTarget "DistributionImages" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B17F4FBC08AA9D8900B00329 /* Development */,
+				B17F4FBC08AA9D8900B00329 /* Development2 */,
+				FDD1D36F144614A20062A824 /* Debug */,
 				B17F4FBE08AA9D8900B00329 /* Deployment */,
 				B181AEA308AAC797001FC323 /* PixarDeployment */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Development;
+			defaultConfigurationName = Debug;
 		};
 		B17F4FF008AA9D8C00B00329 /* Build configuration list for PBXProject "MOKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B17F4FF108AA9D8C00B00329 /* Development */,
+				B17F4FF108AA9D8C00B00329 /* Development2 */,
+				FDD1D365144614A20062A824 /* Debug */,
 				B17F4FF308AA9D8C00B00329 /* Deployment */,
 				B181AEA408AAC797001FC323 /* PixarDeployment */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Development;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
