@@ -1933,6 +1933,112 @@
 			};
 			name = PixarDeployment;
 		};
+		FD7A082D144F9BC800B0C341 /* Cupcakes */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B17F500E08AAA18E00B00329 /* BaseConfiguration.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				BUILD_VARIANTS = (
+					debug,
+					profile,
+					normal,
+				);
+				DEPLOYMENT_LOCATION = NO;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GENERATE_HEADERDOC = NO;
+			};
+			name = Cupcakes;
+		};
+		FD7A082E144F9BC800B0C341 /* Cupcakes */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "MOKit_2 All";
+			};
+			name = Cupcakes;
+		};
+		FD7A082F144F9BC800B0C341 /* Cupcakes */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "MOKit/Info-MOKit.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				PRODUCT_NAME = MOKit;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Cupcakes;
+		};
+		FD7A0830144F9BC800B0C341 /* Cupcakes */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FormatterPalette/Info-MOFormatterPalette.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Palettes";
+				PRODUCT_NAME = MOFormatterPalette;
+				WRAPPER_EXTENSION = palette;
+			};
+			name = Cupcakes;
+		};
+		FD7A0831144F9BC800B0C341 /* Cupcakes */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = RegexTest;
+			};
+			name = Cupcakes;
+		};
+		FD7A0832144F9BC800B0C341 /* Cupcakes */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = AssertTest;
+			};
+			name = Cupcakes;
+		};
+		FD7A0833144F9BC800B0C341 /* Cupcakes */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = RuntimeTest;
+			};
+			name = Cupcakes;
+		};
+		FD7A0834144F9BC800B0C341 /* Cupcakes */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "VLVTest/Info-VLVTest.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = VLVTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Cupcakes;
+		};
+		FD7A0835144F9BC800B0C341 /* Cupcakes */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TableOutlineTest/Info-TableOutlineTest.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = TableOutlineTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Cupcakes;
+		};
+		FD7A0836144F9BC800B0C341 /* Cupcakes */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "VCTest/Info-VCTest.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Tests/MOKit";
+				PRODUCT_NAME = VCTest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Cupcakes;
+		};
+		FD7A0837144F9BC800B0C341 /* Cupcakes */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Cupcakes;
+		};
 		FDD1D365144614A20062A824 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B17F500E08AAA18E00B00329 /* BaseConfiguration.xcconfig */;
@@ -2042,6 +2148,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B17F4E6D08AA9D8700B00329 /* Development2 */,
+				FD7A082E144F9BC800B0C341 /* Cupcakes */,
 				FDD1D366144614A20062A824 /* Debug */,
 				B17F4E6F08AA9D8700B00329 /* Deployment */,
 				B181AEA208AAC797001FC323 /* PixarDeployment */,
@@ -2053,6 +2160,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B17F4ED108AA9D8800B00329 /* Development2 */,
+				FD7A082F144F9BC800B0C341 /* Cupcakes */,
 				FDD1D367144614A20062A824 /* Debug */,
 				B17F4ED308AA9D8800B00329 /* Deployment */,
 				B181AE9A08AAC797001FC323 /* PixarDeployment */,
@@ -2064,6 +2172,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B17F4EF808AA9D8800B00329 /* Development2 */,
+				FD7A0830144F9BC800B0C341 /* Cupcakes */,
 				FDD1D368144614A20062A824 /* Debug */,
 				B17F4EFA08AA9D8800B00329 /* Deployment */,
 				B181AE9B08AAC797001FC323 /* PixarDeployment */,
@@ -2075,6 +2184,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B17F4F1508AA9D8800B00329 /* Development2 */,
+				FD7A0831144F9BC800B0C341 /* Cupcakes */,
 				FDD1D369144614A20062A824 /* Debug */,
 				B17F4F1708AA9D8800B00329 /* Deployment */,
 				B181AE9C08AAC797001FC323 /* PixarDeployment */,
@@ -2086,6 +2196,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B17F4F2E08AA9D8800B00329 /* Development2 */,
+				FD7A0832144F9BC800B0C341 /* Cupcakes */,
 				FDD1D36A144614A20062A824 /* Debug */,
 				B17F4F3008AA9D8800B00329 /* Deployment */,
 				B181AE9D08AAC797001FC323 /* PixarDeployment */,
@@ -2097,6 +2208,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B17F4F4708AA9D8800B00329 /* Development2 */,
+				FD7A0833144F9BC800B0C341 /* Cupcakes */,
 				FDD1D36B144614A20062A824 /* Debug */,
 				B17F4F4908AA9D8800B00329 /* Deployment */,
 				B181AE9E08AAC797001FC323 /* PixarDeployment */,
@@ -2108,6 +2220,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B17F4F6608AA9D8800B00329 /* Development2 */,
+				FD7A0834144F9BC800B0C341 /* Cupcakes */,
 				FDD1D36C144614A20062A824 /* Debug */,
 				B17F4F6808AA9D8800B00329 /* Deployment */,
 				B181AE9F08AAC797001FC323 /* PixarDeployment */,
@@ -2119,6 +2232,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B17F4F8608AA9D8900B00329 /* Development2 */,
+				FD7A0835144F9BC800B0C341 /* Cupcakes */,
 				FDD1D36D144614A20062A824 /* Debug */,
 				B17F4F8808AA9D8900B00329 /* Deployment */,
 				B181AEA008AAC797001FC323 /* PixarDeployment */,
@@ -2130,6 +2244,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B17F4FA808AA9D8900B00329 /* Development2 */,
+				FD7A0836144F9BC800B0C341 /* Cupcakes */,
 				FDD1D36E144614A20062A824 /* Debug */,
 				B17F4FAA08AA9D8900B00329 /* Deployment */,
 				B181AEA108AAC797001FC323 /* PixarDeployment */,
@@ -2141,6 +2256,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B17F4FBC08AA9D8900B00329 /* Development2 */,
+				FD7A0837144F9BC800B0C341 /* Cupcakes */,
 				FDD1D36F144614A20062A824 /* Debug */,
 				B17F4FBE08AA9D8900B00329 /* Deployment */,
 				B181AEA308AAC797001FC323 /* PixarDeployment */,
@@ -2152,6 +2268,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B17F4FF108AA9D8C00B00329 /* Development2 */,
+				FD7A082D144F9BC800B0C341 /* Cupcakes */,
 				FDD1D365144614A20062A824 /* Debug */,
 				B17F4FF308AA9D8C00B00329 /* Deployment */,
 				B181AEA408AAC797001FC323 /* PixarDeployment */,
